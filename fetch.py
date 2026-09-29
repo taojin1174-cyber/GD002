@@ -8,26 +8,23 @@ UA = "Mozilla/5.0 (food-hot bot)"
 def gn(q):  # Google 新闻 RSS，近 7 天
     return f"https://news.google.com/rss/search?q={quote(q + ' when:7d')}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
 
-def bing(q):  # 必应新闻 RSS
-    return f"https://www.bing.com/news/search?q={quote(q)}&format=rss&setmkt=zh-CN"
-
 KW = re.compile(r"预制菜|食品|餐饮|外卖|饮料|零食|调味|冷链|中央厨房|农产品|茶饮|咖啡")
 # (分类, 榜单名, RSS 地址, 关键词过滤)  —— 想加榜单就往这里加一行
 SOURCES = [
-    ("预制菜", "预制菜 · 最新", [gn("预制菜"), bing("预制菜")], None),
-    ("预制菜", "融资 · 企业 · 财报", [gn("预制菜 融资 OR 上市 OR 财报 OR 工厂 OR 布局"), bing("预制菜 融资 上市 财报")], None),
-    ("预制菜", "争议与舆情", [gn("预制菜 争议 OR 投诉 OR 添加剂 OR 进校园 OR 消费者"), bing("预制菜 争议 添加剂 进校园")], None),
-    ("政策标准", "国家标准与规范", [gn("预制菜 国家标准 OR 行业标准 OR 团体标准 OR 规范"), bing("预制菜 国家标准 团体标准")], None),
-    ("政策标准", "监管与法规", [gn("预制菜 监管 OR 市场监管总局 OR 食品安全法 OR 明示 OR 通知"), bing("预制菜 监管 市场监管总局 明示")], None),
-    ("政策标准", "地方政策与产业", [gn("预制菜 产业园 OR 补贴 OR 政策 OR 行动方案 OR 扶持"), bing("预制菜 产业园 补贴 行动方案")], None),
+    ("预制菜", "预制菜 · 最新", gn("预制菜"), None),
+    ("预制菜", "融资 · 企业 · 财报", gn("预制菜 融资 OR 上市 OR 财报 OR 工厂 OR 布局"), None),
+    ("预制菜", "争议与舆情", gn("预制菜 争议 OR 投诉 OR 添加剂 OR 进校园 OR 消费者"), None),
+    ("政策标准", "国家标准与规范", gn("预制菜 国家标准 OR 行业标准 OR 团体标准 OR 规范"), None),
+    ("政策标准", "监管与法规", gn("预制菜 监管 OR 市场监管总局 OR 食品安全法 OR 明示 OR 通知"), None),
+    ("政策标准", "地方政策与产业", gn("预制菜 产业园 OR 补贴 OR 政策 OR 行动方案 OR 扶持"), None),
     ("行业垂直", "食品伙伴网", gn("site:foodmate.net 预制菜"), None),
-    ("行业垂直", "餐饮老板内参", gn("餐饮老板内参 预制菜"), None),
+    ("行业垂直", "餐饮老板内参", gn("餐饮老板内参"), None),
     ("行业垂直", "红餐网", gn("红餐网 预制菜"), None),
     ("食品新闻", "食品行业动态", gn("食品行业 新品 OR 消费趋势 OR 品牌"), None),
     ("食品新闻", "食品安全", gn("食品安全 通报 OR 抽检 OR 召回 OR 曝光"), None),
     ("食品新闻", "餐饮与供应链", gn("餐饮 供应链 中央厨房 OR 团餐 OR 连锁 OR 冷链"), None),
-    ("科技商业媒体", "36氪 · 食品相关", "https://36kr.com/feed", KW),
-    ("科技商业媒体", "虎嗅 · 食品相关", "https://www.huxiu.com/rss/0.xml", KW),
+    ("科技商业媒体", "36氪 · 预制菜与食品", gn("site:36kr.com 预制菜 OR 食品 OR 餐饮"), None),
+    ("科技商业媒体", "虎嗅 · 预制菜与食品", gn("site:huxiu.com 预制菜 OR 食品 OR 餐饮"), None),
 ]
 TREND_CATS = ("预制菜", "政策标准", "行业垂直")   # 这些分类参与趋势和日报
 TOPICS = ["政策", "标准", "监管", "融资", "上市", "出海", "团餐", "零售", "餐饮", "争议",
