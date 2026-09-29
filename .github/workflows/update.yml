@@ -1,6 +1,6 @@
 name: update
 on:
-  schedule: [{ cron: "*/30 * * * *" }]
+  schedule: [{ cron: "17 * * * *" }]
   workflow_dispatch:
 permissions: { contents: write }
 jobs:
