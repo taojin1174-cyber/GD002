@@ -34,6 +34,11 @@ a{color:inherit;text-decoration:none}a:hover{color:var(--acc)}
 li a small{display:block;color:var(--mute);font-size:12px}
 .empty{color:var(--mute);padding:40px 0;text-align:center}
 a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+
+.top{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:14px}.top .card{margin:0;flex:1 1 320px}
+.dg{padding:8px 14px 10px}.dg p{margin:0 0 4px;color:var(--mute)}
+.st{border:0;background:none;cursor:pointer;color:var(--line);font-size:15px;padding:0 0 0 4px;flex:none;align-self:flex-start}.st.on{color:var(--acc)}
+.tr{padding:6px 10px 10px}.tr svg{width:100%;height:auto}.lg{display:flex;flex-wrap:wrap;gap:8px;font-size:12px;color:var(--mute);padding:0 6px}.lg b{display:inline-block;width:10px;height:3px;margin-right:4px;vertical-align:middle}
 </style></head><body>
 <header><div class="row">
 <h1>食品热榜<b>·</b>预制菜观察</h1>
@@ -41,29 +46,43 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 <input id="q" type="search" placeholder="搜索标题或来源"><span id="upd"></span>
 <button id="theme" title="切换日夜模式">◐</button>
 </div></header>
-<main><div id="topics"></div><div id="grid"></div></main>
+<main><div id="top" class="top"></div><div id="grid"></div></main>
 <script>
 let D=null,cat="全部",kw="";const $=s=>document.querySelector(s);
 const ago=t=>{if(!t)return"";const m=(Date.now()/1e3-t)/60;return m<60?Math.max(1,~~m)+"分钟前":m<1440?~~(m/60)+"小时前":~~(m/1440)+"天前"};
-const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const FK="food-hot-fav",fav=()=>{try{return JSON.parse(localStorage.getItem(FK)||"[]")}catch(e){return[]}};
+const setFav=a=>{try{localStorage.setItem(FK,JSON.stringify(a))}catch(e){}};
+const li=(i,n,f)=>`<li><em>${n}</em><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}<small>${esc(i.s||"")} ${ago(i.ts)}</small></a><button class="st${f.has(i.u)?" on":""}" data-u="${esc(i.u)}" title="收藏 / 取消收藏">★</button></li>`;
+const card=(name,tag,items,f)=>`<section class="card"><h2>${esc(name)}<small>${tag}</small></h2><ol>${items.map((i,n)=>li(i,n+1,f)).join("")}</ol></section>`;
+function digest(){const g=D.digest;if(!g)return"";
+  const l=a=>a.map(i=>`<li><em>•</em><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a></li>`).join("");
+  return`<section class="card"><h2>预制菜日报 ${g.date}<button class="chip" id="cp">复制日报</button></h2><div class="dg"><p>${esc(g.summary)}</p></div><ol>${l(g.head)}</ol><h2 style="border-top:1px solid var(--line)">政策动向</h2><ol>${l(g.pol)||"<li>暂无</li>"}</ol></section>`}
+function trend(){const T=D.trend,ks=T?Object.keys(T.series):[];if(!ks.length)return"";
+  const W=560,H=170,p=30,C=["#b8341f","#2a7f62","#c98a12","#3a63b8","#8a4fb0","#6d7872"],n=T.weeks.length;
+  const mx=Math.max(1,...ks.flatMap(k=>T.series[k])),x=i=>p+i*(W-2*p)/(n-1),y=v=>H-p-v/mx*(H-2*p);
+  const g=ks.map((k,j)=>{const v=T.series[k];return`<polyline fill="none" stroke="${C[j]}" stroke-width="2" points="${v.map((a,i)=>x(i)+","+y(a)).join(" ")}"/>`+v.map((a,i)=>`<circle cx="${x(i)}" cy="${y(a)}" r="2.5" fill="${C[j]}"><title>${k} ${T.weeks[i]}：${a}</title></circle>`).join("")}).join("");
+  const xs=T.weeks.map((w,i)=>`<text x="${x(i)}" y="${H-8}" font-size="10" text-anchor="middle" fill="currentColor" opacity=".6">${w}</text>`).join("");
+  return`<section class="card"><h2>话题周趋势<small>每周被提及次数</small></h2><div class="tr"><svg viewBox="0 0 ${W} ${H}"><line x1="${p}" x2="${W-p}" y1="${H-p}" y2="${H-p}" stroke="currentColor" opacity=".2"/>${g}${xs}</svg><div class="lg">${ks.map((k,j)=>`<span><b style="background:${C[j]}"></b>${k}</span>`).join("")}</div><div class="lg" style="margin-top:4px">数据每天累积，运行几周后趋势会更清晰</div></div></section>`}
 function render(){
-  if(!D){$("#grid").innerHTML='<p class="empty">还没有数据：先运行一次 python fetch.py，或在 GitHub Actions 里手动触发 update。</p>';return}
-  const cats=["全部",...new Set(D.boards.map(b=>b.cat))];
+  const f=new Set(fav().map(i=>i.u));
+  if(!D){$("#grid").innerHTML='<p class="empty">还没有数据：请先在 GitHub Actions 里手动运行一次 update。</p>';return}
+  const cats=["全部",...new Set(D.boards.map(b=>b.cat)),"收藏"];
   $("#tabs").innerHTML=cats.map(c=>`<button class="${c==cat?"on":""}" data-c="${c}">${c}</button>`).join("");
   $("#upd").textContent="更新于 "+ago(Date.parse(D.updated)/1e3);
-  $("#topics").innerHTML=D.topics.length?"<span>预制菜热词</span>"+D.topics.map(([k,n])=>`<button class="chip" data-k="${k}">${k}<i>${n}</i></button>`).join(""):"";
-  const k=kw.trim().toLowerCase();
-  const html=D.boards.filter(b=>cat=="全部"||b.cat==cat).map(b=>{
-    const it=b.items.filter(i=>!k||(i.t+i.s).toLowerCase().includes(k));
-    if(!it.length)return"";
-    return`<section class="card"><h2>${esc(b.name)}<small>${b.cat}</small></h2><ol>${it.map((i,n)=>`<li><em>${n+1}</em><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}<small>${esc(i.s)} ${ago(i.ts)}</small></a></li>`).join("")}</ol></section>`}).join("");
+  const k=kw.trim().toLowerCase(),ok=i=>!k||((i.t||"")+(i.s||"")).toLowerCase().includes(k);
+  $("#top").innerHTML=(!k&&(cat=="全部"||cat=="预制菜"))?digest()+trend():"";
+  let html;
+  if(cat=="收藏"){const a=fav().filter(ok);html=a.length?card("我的收藏","保存在本浏览器",a,f):'<p class="empty">还没有收藏。点文章右侧的 ★ 就能收藏。</p>'}
+  else html=D.boards.filter(b=>cat=="全部"||b.cat==cat).map(b=>{const it=b.items.filter(ok);return it.length?card(b.name,b.cat,it,f):""}).join("");
   $("#grid").innerHTML=html||'<p class="empty">没有匹配的内容，换个关键词试试。</p>';
 }
 async function load(){try{D=await(await fetch("data.json?"+Date.now())).json()}catch(e){D=null}render()}
-$("#tabs").onclick=e=>{if(e.target.dataset.c){cat=e.target.dataset.c;render()}};
-$("#topics").onclick=e=>{const k=e.target.closest("[data-k]");if(k){$("#q").value=kw=k.dataset.k;render()}};
+document.addEventListener("click",e=>{
+  const c=e.target.dataset.c;if(c){cat=c;render();return}
+  if(e.target.id=="cp"){navigator.clipboard.writeText(D.digest.text);e.target.textContent="已复制";return}
+  const u=e.target.dataset.u;if(u){let a=fav();if(a.some(i=>i.u==u))a=a.filter(i=>i.u!=u);else{const it=D.boards.flatMap(b=>b.items).find(i=>i.u==u);if(it)a.push(it)}setFav(a);render()}});
 $("#q").oninput=e=>{kw=e.target.value;render()};
-$("#theme").onclick=()=>{const r=document.documentElement,d=matchMedia("(prefers-color-scheme:dark)").matches;
-  r.dataset.theme=(r.dataset.theme||(d?"dark":"light"))=="dark"?"light":"dark"};
-load();setInterval(load,5*60*1000);  // 页面开着时每 5 分钟自动刷新
+$("#theme").onclick=()=>{const r=document.documentElement,d=matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=(r.dataset.theme||(d?"dark":"light"))=="dark"?"light":"dark"};
+load();setInterval(load,5*60*1000);
 </script></body></html>
