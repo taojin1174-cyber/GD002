@@ -51,12 +51,39 @@ def pull(urls, kw):
     out.sort(key=lambda x: -x["ts"])
     return out[:20]
 
+# ---- 把 Google 新闻的跳转链接换成原文直链（国内不翻墙也能直接打开）----
+def resolve_links(boards, limit=120, budget=240):
+    try:
+        from googlenewsdecoder import gnewsdecoder
+    except Exception as ex:
+        print("链接解码库不可用，保留原链接:", ex); return
+    try: cache = json.load(open("links.json", encoding="utf-8"))
+    except Exception: cache = {}
+    items = [it for b in boards for it in b["items"]]
+    cur = {it["u"] for it in items}
+    todo = list(dict.fromkeys(u for u in cur if "news.google.com" in u and u not in cache))[:limit]
+    t0 = time.time()
+    for i in range(0, len(todo), 10):      # 每次最多解 10 条，总耗时不超过 budget 秒
+        if time.time() - t0 > budget: break
+        chunk = todo[i:i + 10]
+        try: res = gnewsdecoder(chunk, interval=1)
+        except Exception as ex: print("解码失败:", ex); continue
+        for u, r in zip(chunk, res):
+            if (r.get("success") or r.get("status")) and r.get("decoded_url"): cache[u] = r["decoded_url"]
+    cache = {u: v for u, v in cache.items() if u in cur}   # 只保留榜单里还在用的
+    n = 0
+    for it in items:
+        if it["u"] in cache: it["u"] = cache[it["u"]]; n += 1
+    json.dump(cache, open("links.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    print(f"直链 {n}/{len(items)} 条")
+
 boards = []
 for cat, name, url, kw in SOURCES:
     try: items = pull(url, kw)
     except Exception as ex: print("失败", name, ex); items = []
     boards.append({"cat": cat, "name": name, "items": items}); print(name, len(items))
 
+resolve_links(boards)
 now = int(time.time())
 # ---- 历史累积（每周趋势）：按标题去重，保留 90 天 ----
 try: arch = json.load(open("archive.json", encoding="utf-8"))
