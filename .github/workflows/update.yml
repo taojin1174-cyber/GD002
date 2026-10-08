@@ -16,5 +16,13 @@ jobs:
       - run: pip install feedparser googlenewsdecoder "selectolax<1" && python fetch.py
       - run: |
           git config user.name "bot" && git config user.email "bot@users.noreply.github.com"
-          git add data.json archive.json links.json
-          git diff --cached --quiet || (git commit -m "update data" && git pull --rebase -X theirs && git push)
+          touch links.json
+          for i in 1 2 3; do
+            cp data.json archive.json links.json /tmp/
+            git fetch origin main && git reset --hard origin/main
+            cp /tmp/data.json /tmp/archive.json /tmp/links.json .
+            git add data.json archive.json links.json
+            git diff --cached --quiet && break
+            git commit -m "update data" && git push && break
+            sleep 5
+          done
