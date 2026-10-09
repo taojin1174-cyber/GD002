@@ -13,15 +13,16 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install feedparser googlenewsdecoder "selectolax<1" && python fetch.py
+      - run: pip install feedparser googlenewsdecoder "selectolax<1" && python fetch.py && python extra.py
       - run: |
           git config user.name "bot" && git config user.email "bot@users.noreply.github.com"
-          touch links.json
+          touch links.json links2.json archive2.json
+          F="data.json archive.json links.json archive2.json links2.json"
           for i in 1 2 3; do
-            cp data.json archive.json links.json /tmp/
+            cp $F /tmp/
             git fetch origin main && git reset --hard origin/main
-            cp /tmp/data.json /tmp/archive.json /tmp/links.json .
-            git add data.json archive.json links.json
+            for f in $F; do cp /tmp/$f .; done
+            git add $F
             git diff --cached --quiet && break
             git commit -m "update data" && git push && break
             sleep 5
