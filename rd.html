@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研发工作台 · 食品热榜</title>
+<style>
+:root{--bg:#f3f5f2;--card:#fff;--ink:#1c2420;--mute:#6d7872;--line:#dfe5e0;--acc:#b8341f}
+@media(prefers-color-scheme:dark){:root{--bg:#141a17;--card:#1d2521;--ink:#e6ece8;--mute:#8d9993;--line:#2b3630;--acc:#f0735c}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+header,main{max-width:1100px;margin:auto;padding:12px 16px}header{display:flex;gap:10px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+h1{font-size:18px;margin:0 8px 0 0}a{color:inherit}button,input,select,textarea{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+button{cursor:pointer}.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:0 0 10px}
+.m{color:var(--mute);font-size:12px}.tag{display:inline-block;padding:0 8px;border-radius:10px;background:var(--line);font-size:12px;margin-right:4px}.warn{color:var(--acc)}
+summary{cursor:pointer}ul{margin:6px 0 0;padding-left:18px}.f{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.f input[type=number]{width:70px}
+</style></head><body>
+<header><h1>研发工作台</h1><button id="b1" class="on">研发线索</button><button id="b2">研发跟踪</button><a href="./">← 返回首页</a><span class="m" id="st"></span></header>
+<main id="v"></main>
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const RAW={猪肉:/猪|排骨|五花|火腿|香肠|腊肠|培根/,鸡肉:/鸡(?!蛋)|凤爪/,鸡蛋:/蛋(?!糕)/};
+const CAT={肉丸肉饼:/肉丸|狮子头|肉饼|丸子/,肉肠火腿:/香肠|腊肠|火腿|培根|肉肠/,调理肉:/调理|腌制|鸡排|鸡块|鸡胸|排骨|红烧肉|扣肉|盐焗|卤肉|鸡翅|鸡腿|炸鸡/,蛋制品:/卤蛋|溏心|茶叶蛋|蛋饺|蛋羹|蒸蛋|蛋挞|蛋卷|液态蛋|皮蛋|咸蛋|蛋黄/,馅料包点:/馅|饺子|包子|馄饨|烧麦/,早餐即热:/早餐|即热|即食|便当|盖浇|料理包/};
+const EV={新品:/新品|上市|发布|推出|首发|新款/,价格:/价格|涨价|降价|行情|批发价|蛋价|猪价|鸡价/,风险:/禽流感|非洲猪瘟|召回|抽检|通报|投诉|不合格|疫/,政策:/标准|规范|政策|监管|法规|补贴/,资本:/融资|IPO|财报|并购|营收|布局/};
+const keys=(R,t)=>Object.keys(R).filter(k=>R[k].test(t));
+const bg=s=>{s=s.replace(/[\s\p{P}]/gu,"");const r=new Set();for(let i=0;i<s.length-1;i++)r.add(s.slice(i,i+2));return r};
+const sim=(a,b)=>{let n=0;a.forEach(x=>b.has(x)&&n++);return n/(a.size+b.size-n||1)};
+const ago=t=>{const m=(Date.now()/1e3-t)/60;return m<60?"刚刚":m<1440?~~(m/60)+"小时前":~~(m/1440)+"天前"};
+let D=null,view=1;
+function build(){ // 去重成「事件」：不同媒体改写的同一件事合并
+  const all=D.boards.flatMap(b=>b.items.filter(i=>i.ts>0&&i.ts>Date.now()/1e3-14*864e2)).sort((a,b)=>b.ts-a.ts),ev=[];
+  for(const i of all){const g=bg(i.t),e=ev.find(e=>sim(e.g,g)>=.5);
+    if(e){e.items.push(i);i.s&&e.src.add(i.s)}else ev.push({g,t:i.t,u:i.u,ts:i.ts,items:[i],src:new Set(i.s?[i.s]:[])})}
+  ev.forEach(e=>{e.m=keys(RAW,e.t);e.c=keys(CAT,e.t);e.e=keys(EV,e.t)});return{ev,n:all.length}}
+function clues(){const{ev,n}=build(),R={};
+  ev.forEach(e=>e.m.forEach(m=>(e.c.length?e.c:["其他"]).forEach(c=>{const r=R[m+"·"+c]??={k:m+"·"+c,ev:[],src:new Set};r.ev.push(e);e.src.forEach(s=>r.src.add(s))})));
+  const rows=Object.values(R).sort((a,b)=>b.ev.length-a.ev.length),cnt=(r,k)=>r.ev.filter(e=>e.e.includes(k)).length;
+  const bad=D.boards.filter(b=>b.cat!="品类热度"&&!b.items.length).map(b=>b.name);
+  $("#st").textContent=`数据更新于 ${ago(Date.parse(D.updated)/1e3)} · ${n} 条新闻合并为 ${ev.length} 个事件（近14天）`;
+  return(bad.length?`<p class="card warn">疑似抓取失败的榜单（0 条）：${bad.map(esc).join("、")}</p>`:"")+
+  rows.map(r=>{const ok=r.ev.length>=3&&r.src.size>=2;
+    return`<details class="card"><summary><b>${r.k}</b> <span class="tag ${ok?"":"warn"}">${ok?"值得调查":"信号不足"}</span><span class="m">事件 ${r.ev.length} · 来源 ${r.src.size} · 新品 ${cnt(r,"新品")} · 价格 ${cnt(r,"价格")} · 风险 ${cnt(r,"风险")} · 政策 ${cnt(r,"政策")} · 资本 ${cnt(r,"资本")}</span></summary><ul>${r.ev.map(e=>`<li><a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(e.t)}</a> <span class="m">${e.src.size||1} 家 · ${ago(e.ts)}</span> ${e.e.map(x=>`<span class="tag">${x}</span>`).join("")}</li>`).join("")}</ul></details>`}).join("")+
+  `<p class="m">说明：线索只统计新闻标题，没有销量、复购、成交价和消费者反馈，所以系统最高只给「值得调查」，不判断「爆品」或「高优先级立项」。判断需求请回到平台和门店核实后，在「研发跟踪」里记录。</p>`}
+const K="food-hot-rd",load=()=>{try{return JSON.parse(localStorage.getItem(K)||"[]")}catch(e){return[]}},save=a=>{try{localStorage.setItem(K,JSON.stringify(a))}catch(e){}};
+const DIM=[["需求证据",30],["原料适配",25],["差异化",20],["商业可行",15],["证据可靠",10]],ST=["待评估","待打样","测试中","已立项","已放弃"];
+const total=p=>Math.round(p.s.reduce((a,v,i)=>a+v*DIM[i][1],0)/100);
+function track(){const L=load();
+  return`<div class="card"><div class="f"><input id="n" placeholder="项目名，如：低温溏心蛋"><select id="m">${["猪肉","鸡肉","鸡蛋","多种"].map(x=>`<option>${x}</option>`).join("")}</select><select id="s">${ST.map(x=>`<option>${x}</option>`).join("")}</select></div>
+  <div class="f" style="margin-top:6px">${DIM.map(([n,w],i)=>`${n}(${w}分)<input type="number" min="0" max="100" value="0" class="d">`).join(" ")}</div>
+  <div class="f" style="margin-top:6px"><textarea id="t" rows="2" style="flex:1;min-width:240px" placeholder="证据链接、目标成本、打样与测试记录"></textarea><button id="add">添加</button></div>
+  <p class="m">五项分数由你根据证据填写（0–100），系统按权重折算总分；需求证据或证据可靠低于 40 时，无论总分多少都提示「证据不足」。数据只保存在本浏览器。</p></div>`+
+  L.map((p,i)=>`<div class="card"><b>${esc(p.n)}</b> <span class="tag">${p.m}</span> 总分 <b>${total(p)}</b> ${p.s[0]<40||p.s[4]<40?'<span class="tag warn">证据不足，暂不建议立项</span>':""}
+  <select data-i="${i}" class="st">${ST.map(x=>`<option${x==p.st?" selected":""}>${x}</option>`).join("")}</select> <button data-del="${i}">删除</button>
+  <div class="m">${DIM.map(([n],j)=>n+" "+p.s[j]).join(" · ")}</div><div>${esc(p.t||"")}</div></div>`).join("")+
+  `<div class="f"><button id="ex">导出（复制到剪贴板）</button><button id="im">导入</button></div>`}
+function render(){$("#b1").className=view==1?"on":"";$("#b2").className=view==2?"on":"";$("#v").innerHTML=!D?'<p class="card">还没有数据，请先运行一次 update。</p>':view==1?clues():track()}
+document.addEventListener("click",e=>{const t=e.target;
+  if(t.id=="b1"||t.id=="b2"){view=t.id=="b1"?1:2;render()}
+  else if(t.id=="add"&&$("#n").value.trim()){const L=load();L.unshift({n:$("#n").value.trim(),m:$("#m").value,st:$("#s").value,s:[...document.querySelectorAll(".d")].map(x=>Math.min(100,Math.max(0,+x.value||0))),t:$("#t").value});save(L);render()}
+  else if(t.dataset.del){const L=load();L.splice(+t.dataset.del,1);save(L);render()}
+  else if(t.id=="ex"){navigator.clipboard.writeText(JSON.stringify(load()));t.textContent="已复制"}
+  else if(t.id=="im"){const s=prompt("粘贴之前导出的内容（会覆盖现有项目）");try{const a=JSON.parse(s);if(Array.isArray(a)){save(a);render()}}catch(x){}}});
+document.addEventListener("change",e=>{if(e.target.classList.contains("st")){const L=load();L[+e.target.dataset.i].st=e.target.value;save(L)}});
+fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{D=d;render()}).catch(()=>render());
+</script></body></html>
