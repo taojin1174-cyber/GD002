@@ -77,7 +77,7 @@ function render(){
   else html=D.boards.filter(b=>cat=="全部"||b.cat==cat).map(b=>{const it=b.items.filter(ok);return it.length?card(b.name,b.cat,it,f):""}).join("");
   $("#grid").innerHTML=html||'<p class="empty">没有匹配的内容，换个关键词试试。</p>';
 }
-async function load(){try{D=await(await fetch("data.json?"+Date.now())).json()}catch(e){D=null}render()}
+async function load(){try{const f=(new URLSearchParams(location.search).get("d")||"data").replace(/[^a-z0-9]/gi,"");D=await(await fetch(f+".json?"+Date.now())).json();if(D.title){document.title=D.title;document.querySelector("h1").textContent=D.title}}catch(e){D=null}render()}
 document.addEventListener("click",e=>{
   const c=e.target.dataset.c;if(c){cat=c;render();return}
   if(e.target.id=="cp"){navigator.clipboard.writeText(D.digest.text);e.target.textContent="已复制";return}
