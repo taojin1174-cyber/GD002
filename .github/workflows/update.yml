@@ -13,11 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install feedparser googlenewsdecoder "selectolax<1" && python fetch.py && python extra.py
+      - run: pip install feedparser googlenewsdecoder "selectolax<1" && python fetch.py && python extra.py && (python ai.py || echo "ai 频道本次失败，不影响食品站")
       - run: |
           git config user.name "bot" && git config user.email "bot@users.noreply.github.com"
-          touch links.json links2.json archive2.json
-          F="data.json archive.json links.json archive2.json links2.json"
+          touch links.json links2.json links3.json archive2.json ai.json
+          F="data.json archive.json links.json archive2.json links2.json links3.json ai.json"
           for i in 1 2 3; do
             cp $F /tmp/
             git fetch origin main && git reset --hard origin/main
