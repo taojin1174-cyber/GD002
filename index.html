@@ -43,7 +43,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 <header><div class="row">
 <h1>食品热榜<b>·</b>预制菜观察</h1><a class="ch f" href="./">🍱 食品频道</a><a class="ch a" href="?d=ai">🤖 AI频道</a><style>.ch{padding:3px 14px;border-radius:14px;color:#fff;font-weight:600;text-decoration:none;opacity:.5}.ch.on{opacity:1;outline:2px solid var(--ink);outline-offset:1px}.ch.f{background:#d9822b}.ch.a{background:#4a6cf7}</style><script>document.querySelectorAll(".ch").forEach(a=>{if((a.getAttribute("href")=="?d=ai")==location.search.includes("d=ai"))a.classList.add("on")})</script><nav id="tabs"></nav><span class="sp"></span>
 <input id="q" type="search" placeholder="搜索标题或来源"><span id="upd"></span>
-<button id="theme" title="切换日夜模式">◐</button>
+<button id="theme" title="切换日夜模式">◐</button><button id="cfg" title="设置（需密码）">⚙ 设置</button>
 </div></header>
 <main><div id="top" class="top"></div><div id="grid"></div></main>
 <script>
@@ -84,4 +84,26 @@ document.addEventListener("click",e=>{
 $("#q").oninput=e=>{kw=e.target.value;render()};
 $("#theme").onclick=()=>{const r=document.documentElement,d=matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=(r.dataset.theme||(d?"dark":"light"))=="dark"?"light":"dark"};
 load();setInterval(load,5*60*1000);
+</script><style>
+#cfg{margin-left:6px;border:1px solid var(--line);background:var(--card);border-radius:14px;padding:2px 10px;cursor:pointer}
+#cfgm{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:center;justify-content:center;z-index:50}
+#cfgm.on{display:flex}#cfgm .bx{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:16px 20px;width:min(92vw,420px)}
+#cfgm input{width:100%;margin:8px 0;padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}
+#cfgm p{margin:6px 0}#cfgm small{color:var(--mute)}
+#cfgm button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:3px 12px;cursor:pointer}
+</style>
+<div id="cfgm"><div class="bx" id="cfgb"></div></div>
+<script>
+const STAT_ID="f4ffc09fbf0a364891ba64aafd2377b3",STAT_URL="https://tongji.baidu.com",H="4e19b66bc0ad84930d57b6c4333cc5992a81c39e7bd38ff2b31e15d841a4a32d";
+if(STAT_ID){var _hmt=_hmt||[];(function(){var h=document.createElement("script");h.src="https://hm.baidu.com/hm.js?"+STAT_ID;var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(h,s)})()}
+const sha=async s=>[...new Uint8Array(await crypto.subtle.digest("SHA-256",new TextEncoder().encode(s)))].map(b=>b.toString(16).padStart(2,"0")).join("");
+const box=document.getElementById("cfgb"),modal=document.getElementById("cfgm");
+function lock(){box.innerHTML='<b>设置</b><p><small>请输入密码</small></p><input id="pw" type="password" autocomplete="off" placeholder="密码"><p id="er" style="color:var(--acc)"></p><button id="ok">确定</button> <button id="no">取消</button>';document.getElementById("pw").focus()}
+function panel(){box.innerHTML='<b>设置 · 访问统计</b><p>'+(STAT_ID?"统计代码已接入。点下面按钮，登录后可查看访问人数、来源地区等。":"尚未接入访问统计，接入后这里才会有数据。")+'</p><p><a href="'+STAT_URL+'" target="_blank" rel="noopener"><button>打开统计后台</button></a></p><p><small>访客的详细数据保存在统计服务里，需要登录那边的账号才能查看。</small></p><button id="lk">退出</button> <button id="no">关闭</button>'}
+document.getElementById("cfg").onclick=()=>{modal.classList.add("on");sessionStorage.getItem("cfgok")=="1"?panel():lock()};
+modal.addEventListener("click",async e=>{const t=e.target;
+ if(t===modal||t.id=="no")modal.classList.remove("on");
+ else if(t.id=="lk"){sessionStorage.removeItem("cfgok");modal.classList.remove("on")}
+ else if(t.id=="ok"){if(await sha("gd002|"+document.getElementById("pw").value)==H){sessionStorage.setItem("cfgok","1");panel()}else document.getElementById("er").textContent="密码不对"}});
+document.addEventListener("keydown",e=>{if(e.key=="Enter"&&document.getElementById("ok")&&modal.classList.contains("on"))document.getElementById("ok").click()});
 </script></body></html>
