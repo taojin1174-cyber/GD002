@@ -39,15 +39,30 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .dg{padding:8px 14px 10px}.dg p{margin:0 0 4px;color:var(--mute)}
 .st{border:0;background:none;cursor:pointer;color:var(--line);font-size:15px;padding:0 0 0 4px;flex:none;align-self:flex-start}.st.on{color:var(--acc)}
 .tr{padding:6px 10px 10px}.tr svg{width:100%;height:auto}.lg{display:flex;flex-wrap:wrap;gap:8px;font-size:12px;color:var(--mute);padding:0 6px}.lg b{display:inline-block;width:10px;height:3px;margin-right:4px;vertical-align:middle}
+.ch{padding:3px 14px;border-radius:14px;color:#fff;font-weight:600;text-decoration:none;opacity:.5}
+.ch.on{opacity:1;outline:2px solid var(--ink);outline-offset:1px}
+.ch.f{background:#d9822b}
+.ch.a{background:#4a6cf7}
+.ch.e{background:#2e9e6b}
 </style></head><body>
 <header><div class="row">
-<h1>食品热榜<b>·</b>预制菜观察</h1><a class="ch f" href="./">🍱 食品频道</a><a class="ch a" href="?d=ai">🤖 AI频道</a><style>.ch{padding:3px 14px;border-radius:14px;color:#fff;font-weight:600;text-decoration:none;opacity:.5}.ch.on{opacity:1;outline:2px solid var(--ink);outline-offset:1px}.ch.f{background:#d9822b}.ch.a{background:#4a6cf7}</style><script>document.querySelectorAll(".ch").forEach(a=>{if((a.getAttribute("href")=="?d=ai")==location.search.includes("d=ai"))a.classList.add("on")})</script><nav id="tabs"></nav><span class="sp"></span>
+<h1>食品热榜<b>·</b>预制菜观察</h1><a class="ch f" href="./">🍱 食品频道</a><a class="ch a" href="?d=ai">🤖 AI频道</a><a class="ch e" href="?d=eco">🌐 经济频道</a><nav id="tabs"></nav><span class="sp"></span>
 <input id="q" type="search" placeholder="搜索标题或来源"><span id="upd"></span>
 <button id="theme" title="切换日夜模式">◐</button><button id="cfg" title="设置（需密码）">⚙ 设置</button>
 </div></header>
 <main><div id="top" class="top"></div><div id="grid"></div></main>
 <script>
 let D=null,cat="全部",kw="";const $=s=>document.querySelector(s);
+
+(function(){
+  const d=new URLSearchParams(location.search).get("d")||"";
+  document.querySelectorAll(".ch").forEach(function(a){
+    const href=a.getAttribute("href")||"";
+    const x=href.includes("d=")?href.split("d=")[1]:"";
+    if(x===d)a.classList.add("on");
+  });
+})();
+
 const ago=t=>{if(!t)return"";const m=(Date.now()/1e3-t)/60;return m<60?Math.max(1,~~m)+"分钟前":m<1440?~~(m/60)+"小时前":~~(m/1440)+"天前"};
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const FK="food-hot-fav",fav=()=>{try{return JSON.parse(localStorage.getItem(FK)||"[]")}catch(e){return[]}};
