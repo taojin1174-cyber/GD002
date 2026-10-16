@@ -14,11 +14,18 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install feedparser googlenewsdecoder "selectolax<1" && python fetch.py && python extra.py && (python ai.py || echo "ai 频道本次失败，不影响食品站") && (python focus.py || echo "重点来源本次失败，不影响其他") && (python eco.py || echo "经济频道本次失败，不影响其他")
-      - name: 清洗 + 翻译 + 今日要点
+      - name: 清洗
         run: python clean.py || echo "清洗步骤本次失败，不影响其他"
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - run: |
           git config user.name "bot" && git config user.email "bot@users.noreply.github.com"
-          touch links.json links2.json links3.json links4.json links5.json archive2.json ai.json eco.json translate_cache.json highlights.json meta.json
-          F="data.json archive.json links.json archive2.json links2.json links3.json links4.json
+          touch links.json links2.json links3.json links4.json links5.json archive2.json ai.json eco.json meta.json
+          set -- data.json archive.json links.json archive2.json links2.json links3.json links4.json links5.json ai.json eco.json meta.json
+          for i in 1 2 3; do
+            cp $@ /tmp/
+            git fetch origin main && git reset --hard origin/main
+            for f in $@; do cp /tmp/$f .; done
+            git add $@
+            git diff --cached --quiet && break
+            git commit -m "update data" && git push && break
+            sleep 5
+          done
