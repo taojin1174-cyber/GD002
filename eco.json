@@ -1,11 +1,29 @@
 {
- "updated": "2026-10-16T09:50:04.675317+00:00",
+ "updated": "2026-10-16T14:53:09.603589+00:00",
  "title": "经济观察 · 政策与国际",
  "boards": [
   {
    "cat": "国家政策",
    "name": "国家政策",
    "items": [
+    {
+     "t": "活力中国调研行丨广西北海：振兴主导产业 聚力向海经济",
+     "u": "http://www.xinhuanet.com/photo/20261016/8ab28b2495b84811a3b11556994d8bf3/c.html",
+     "s": "新华网 · 国内 · 官方发布",
+     "ts": 1792157319
+    },
+    {
+     "t": "新闻分析丨德国财政“松绑”能否提振经济",
+     "u": "https://www.xinhuanet.com/20261016/ced5fee04e0145ab8b5a04ecbd6dacdb/c.html",
+     "s": "新华网 · 国际 · 官方发布",
+     "ts": 1792152069
+    },
+    {
+     "t": "三部门发文首次明确普惠养老收费政策",
+     "u": "http://society.people.com.cn/n1/2026/1016/c1008-40816271.html",
+     "s": "人民网 · 地区未标注 · 官方发布 · 2家报道",
+     "ts": 1792147080
+    },
     {
      "t": "永州市零陵区：发展生态经济 促进群众增收",
      "u": "http://www.hn.xinhuanet.com/20261016/0a2c429b4f294c01bd69e756e7ad0b81/c.html",
@@ -14,7 +32,7 @@
     },
     {
      "t": "“中巴经济走廊大学联盟”交流机制第六次会议在哈尔滨举行--国际",
-     "u": "http://world.people.com.cn/n1/2026/1016/c1002-40816233.html",
+     "u": "https://world.people.com.cn/n1/2026/1016/c1002-40816233.html",
      "s": "人民网 · 地区未标注 · 官方发布",
      "ts": 1792138260
     },
@@ -29,12 +47,6 @@
      "u": "http://kpzg.people.com.cn/n1/2026/1016/c404214-40816213.html",
      "s": "人民网 · 地区未标注 · 官方发布",
      "ts": 1792136100
-    },
-    {
-     "t": "三部门发文首次明确普惠养老收费政策",
-     "u": "https://www.xinhuanet.com/politics/20261016/3a7be775ba1945258044272b311a10d6/c.html",
-     "s": "新华网 · 地区未标注 · 官方发布",
-     "ts": 1792132789
     },
     {
      "t": "国家发展改革委等三部门完善养老服务价格政策",
@@ -59,12 +71,6 @@
      "u": "http://www.sx.xinhuanet.com/20261016/2b33605a26c54dc38aa6569e8978c1f3/c.html",
      "s": "新华网山西 · 地区未标注 · 官方发布",
      "ts": 1792119621
-    },
-    {
-     "t": "河北蔚县：蝴蝶兰错峰上市 “芬芳经济”助农增收",
-     "u": "http://www.he.xinhuanet.com/20261016/d3469244987b4ddfb0146e77d23ddfc7/c.html",
-     "s": "新华网河北频道 · 地区未标注 · 官方发布",
-     "ts": 1792117088
     },
     {
      "t": "扩大高水平对外开放 建设开放型世界经济",
@@ -98,8 +104,8 @@
     },
     {
      "t": "活力中国调研行丨广西钦州：推动向海经济高质量发展",
-     "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOX0Jsa2tGM0U3ajQ5NTVodU9ocnp6eENrZ0wxNGRabU9YRG45YTdYMEZrWVJteGRPaVdjVXIxVHI4b0dDbHk3ZjYzdk44QUVZOVpMQ2xwTWVwS2JHMzdvbmlpR1RHb09NbW1WdHFxNDVLclJUM0hVU3dTZmwzSE81Y0l5aWFCUQ?oc=5",
-     "s": "新华网 · 国内 · 官方发布 · 3家报道",
+     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQnMxMnZFN2Y2Y0FScVdNWnUteGtHS21xaFdicFU1U1RsTl9ZcTJzejQ5UWxQUU90U2dnejBnVGNMZ3JtTmxINFpFeXpTT3FYYS00d3dnTGVJVDNFNzFUODNSaWNiaER5UjB0c0stQnlhUzF0dmdvZS1EVVBqSU10bUhGOERPZFNjdGxQbWVjVQ?oc=5",
+     "s": "新华网 · 国内 · 官方发布 · 2家报道",
      "ts": 1792073686
     },
     {
@@ -129,56 +135,8 @@
     {
      "t": "掘金再生资源 循环经济站上新风口",
      "u": "https://app.xinhuanet.com/news/article.html?articleId=202610153b53787bab264c20bf0b30bb1919e3f0",
-     "s": "新华网客户端 · 地区未标注 · 官方发布 · 3家报道",
+     "s": "新华网客户端 · 地区未标注 · 官方发布 · 2家报道",
      "ts": 1792033574
-    },
-    {
-     "t": "全球经济增长动力更不均衡",
-     "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tRmE4b05KaFZnUk1rSm9uVTUtVVctaVN0SEtCOFRidjY2SFAxZjFIOU9GMVJFU1lXR0hNRWdFWm1OY3A3SVE1dk0wcElvaDRiYTV6amhDWjM3aVZ0OFJVam9nLVA?oc=5",
-     "s": "光明网 · 地区未标注 · 权威媒体",
-     "ts": 1792028400
-    },
-    {
-     "t": "河北省后奥运经济现场会在正定召开",
-     "u": "http://he.people.com.cn/n2/2026/1015/c192235-41722513.html",
-     "s": "人民网－河北频道 · 地区未标注 · 官方发布",
-     "ts": 1792028160
-    },
-    {
-     "t": "让平台经济更添百姓“烟火气”（专题深思）",
-     "u": "http://gd.people.com.cn/n2/2026/1015/c123932-41722476.html",
-     "s": "人民网 · 地区未标注 · 官方发布",
-     "ts": 1792027500
-    },
-    {
-     "t": "2026循环经济产业创新发展大会在丰城举行",
-     "u": "http://jx.xinhuanet.com/20261015/13167f9518d5465f8a43c8b7b7941e70/c.html",
-     "s": "新华网 · 地区未标注 · 官方发布",
-     "ts": 1792026310
-    },
-    {
-     "t": "坚定信心实干笃行推动经济社会高质量发展",
-     "u": "http://jx.people.com.cn/n2/2026/1015/c186330-41722182.html",
-     "s": "人民网－江西频道 · 地区未标注 · 官方发布",
-     "ts": 1792024080
-    },
-    {
-     "t": "聚焦“找”和“用” 感受低空经济脉动",
-     "u": "http://sc.people.com.cn/n2/2026/1015/c345167-41722084.html",
-     "s": "人民网－四川频道 · 地区未标注 · 官方发布",
-     "ts": 1792022400
-    },
-    {
-     "t": "从外贸上扬曲线看中国经济稳中有进",
-     "u": "http://finance.people.com.cn/n1/2026/1015/c1004-40815023.html",
-     "s": "人民网 · 国内 · 官方发布",
-     "ts": 1792021980
-    },
-    {
-     "t": "跳出流量思维 展现民生温度 让平台经济更添百姓“烟火气”",
-     "u": "http://www.xinhuanet.com/fortune/20261015/3e5f2404d6e744eab1bc1793b8883001/c.html",
-     "s": "新华网 · 地区未标注 · 官方发布",
-     "ts": 1792021258
     }
    ]
   },
@@ -200,9 +158,9 @@
     },
     {
      "t": "9月物价数据出炉，从中读出哪些信息？|国家统计局|能源价格|CPI|新华社|何晓",
-     "u": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxOSzMxT1YtaWw0eERVZFFHUHZFSk9jeTFpSzJDY3p4Vk01Rm5MVHRKQ2ZYM0VyVkJRS1hzZG1XaXV6X05OaDBLMUJKdzBGOHZadlAxLTVSMTJybWhGUHJXcEpBNTRsM0F6aFBvcVBfaXJKN3lNVmNVY1BlYkc4dzFXSzFyazhEZ1FtNGFlbjk3SEVYa2pLekd1alRJOHdLZlNGdnhYNlpjUlQ0a3c1MnNLODE3NFBBLUp6Zzg3dmN6TVR5SFNJUmlKSGt6SFBYMzZ4UE93SU51Sk1ZRjRac2w5ektnd3dleV9KZ200Wm1SWVV1M01pOHpuNmlvSGlLWlNGeV85bHpvZnlic0NUeFUtRHVKc2JMc1FBZEJaS284QTBoX29WNlVSVWJ5d1oxNENvYmlPV3NZR1NSNDBxbWlYV1QtNDFXamxGRzhqa1dIcVhGaEt2UmZDUFV4dFVsVGlOMEJidHNvRWY4V0tNbUZFX09WQl80UUU5Y1lnb1BpdFJDUEVZRTQ2dWY5clBJdEl2MWgzWWU3TWdtb2NnQ1VOSU9fVFpySTZvSGZwY0tJSEpnNEx6MkhRbGRnUnlPXzN1bVF4N28wdkF0b01KclQ0Wlg1ZU1WeGxZVzdhcTh1VElhdw?oc=5",
+     "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSEVFSmtWRFhseG13TWlOQ2VFbFBlZE9iVFFiVWc0TzNQNEloWWlxNERMRk1yOEc1ZVRoWDhKU1Jxbk5WejBwdnIxLWVnLVJzZlMzVmZWU2FtenE2TGVpZEt0c1lNb3pBX0NKZDJNeXBOblYxd1JSOHpvMUlmQ0RTTzhIdzc3R3dMUFdFX2NmQlFIYS0yVmFfSw?oc=5",
      "s": "finance.sina.com.cn · 国内 · 其他来源",
-     "ts": 1792062623
+     "ts": 1792061025
     },
     {
      "t": "国家统计局江西调查总队发布数据：9月江西CPI同比上涨0.9%",
@@ -217,6 +175,12 @@
      "ts": 1792054672
     },
     {
+     "t": "CPI环比转正、PPI涨幅扩大 8月物价数据释放哪些信号",
+     "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xTjV1WWpnZm0yUjRPbTVON3BIU2hPSjZNczBTTTZGUjJNNVNkUnBhUmRSSFRjWGpzT1J5Q2dCRjFYSXdGZm4yY0V1OEc1S1BDWExz?oc=5",
+     "s": "搜狐网 · 地区未标注 · 其他来源",
+     "ts": 1792052120
+    },
+    {
      "t": "英国国家统计局数据显示，英国年度GDP增长2.1%，为2022年10月以来最强劲表现。_外汇动态报道",
      "u": "https://www.fx678.com/C/20261015/202610151410032461.html",
      "s": "汇通网 Fx678 · 国内+国际 · 其他来源",
@@ -227,18 +191,6 @@
      "u": "https://finance.sina.cn/2026-10-15/detail-inivfmze4525390.d.html?oid=%E7%9A%87%E5%86%A0%E8%B6%B3%E7%90%83%E7%B3%BB%E7%BB%9F%E6%BA%90%E7%A0%81%E7%A7%9F%E7%94%A8%E3%80%8A%E7%94%B5%E8%AF%9D16762944448%E3%80%8BY8Ul&vt=4",
      "s": "新浪财经 · 国内 · 其他来源",
      "ts": 1792039511
-    },
-    {
-     "t": "就业政策宣传暨“社保服务进万家”活动启动",
-     "u": "http://nm.people.com.cn/n2/2026/1015/c192247-41722261.html",
-     "s": "人民网 · 地区未标注 · 官方发布",
-     "ts": 1792024500
-    },
-    {
-     "t": "基金组织上调2026年全球经济增速预期",
-     "u": "https://cn.inform.kz/amp/shang2026nianquanjing-935ad6b8/",
-     "s": "哈通社 · 地区未标注 · 其他来源",
-     "ts": 1792001697
     }
    ]
   },
@@ -247,22 +199,70 @@
    "name": "金融与货币",
    "items": [
     {
-     "t": "加拿大央行没加息为何固定房贷利率反而上涨？",
-     "u": "https://info.vanpeople.com/1911270.html",
-     "s": "VanPeople · 国内 · 其他来源",
-     "ts": 1792143715
+     "t": "央行官员警告：AI投资热潮推高全球利率 中性利率上升 高负债政府面临财政挑战",
+     "u": "https://original.ifeng.com/c/8xHI0knKg3c",
+     "s": "凤凰网 · 国内 · 其他来源",
+     "ts": 1792159235
+    },
+    {
+     "t": "印度卢比：印度央行出手捍卫汇率，限制兑美元跌幅 - 星展银行",
+     "u": "https://www.tmgm.com/zh-hans/analysis/market-news/article/indian-rupee-rbi-defence-limits-losses-against-us-dollar-dbs-202610161318",
+     "s": "www.tmgm.com · 国内+国际 · 其他来源",
+     "ts": 1792157365
+    },
+    {
+     "t": "美联储主席对话IMF总裁：AI对经济影响复杂，央行如何应对尾部风险",
+     "u": "https://economy.caixin.com/2026-10-16/102494133.html",
+     "s": "财新 · 国内+国际 · 权威媒体",
+     "ts": 1792156440
+    },
+    {
+     "t": "人民银行系统阐述人民币汇率立场 | 宏观与政策周报",
+     "u": "https://finance.sina.cn/bond/zsyw/2026-10-16/detail-inivmazf6984256.d.html?vt=4",
+     "s": "finance.sina.com.cn · 国内 · 其他来源",
+     "ts": 1792153350
+    },
+    {
+     "t": "日本央行行长植田和男：货币政策已进入新阶段，将继续加息",
+     "u": "https://tw.tradingview.com/news/panews:382b695d4acdf:0/",
+     "s": "TradingView · 国内+国际 · 其他来源",
+     "ts": 1792152670
+    },
+    {
+     "t": "花旗：以色列央行预计下周维持利率不变 提供者 Investing.com",
+     "u": "https://cn.investing.com/news/stock-market-news/article-93CH-3612522",
+     "s": "英为财情 Investing.com · 国内 · 其他来源",
+     "ts": 1792152300
+    },
+    {
+     "t": "央行行长潘功胜最新发声 全球失衡不能依靠汇率调节，中国将继续实施适度宽松货币政策",
+     "u": "https://c.m.163.com/news/a/L9CSU2S40512B07B.html?spss=backflow-index-hotlist",
+     "s": "网易新闻客户端 · 国内 · 其他来源",
+     "ts": 1792151160
+    },
+    {
+     "t": "日本央行：通胀上升加强了日本收紧货币政策的可能性",
+     "u": "https://www.idnfinancials.com/cn/news/70369/%E6%97%A5%E6%9C%AC%E5%A4%AE%E8%A1%8C%E9%80%9A%E8%83%80%E4%B8%8A%E5%8D%87%E5%8A%A0%E5%BC%BA%E4%BA%86%E6%97%A5%E6%9C%AC%E6%94%B6%E7%B4%A7%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7",
+     "s": "IDNFinancials · 国内+国际 · 其他来源",
+     "ts": 1792143600
+    },
+    {
+     "t": "加拿大央行继续按兵不动，未来降息或加息皆有可能-市场参考",
+     "u": "https://xnews.jin10.com/details/221617",
+     "s": "金十数据 · 国内 · 其他来源",
+     "ts": 1792140936
+    },
+    {
+     "t": "印尼央行“严阵以待” 维护印尼盾汇率稳定",
+     "u": "https://www.metrotvnews.com/cn/read/2026/10/16/51444",
+     "s": "MetroTVNews.com · 国内 · 其他来源",
+     "ts": 1792134261
     },
     {
      "t": "日本央行行长植田和男：央行将继续上调政策利率",
      "u": "https://www.tmgm.com/zh-hans/analysis/market-news/article/bojs-ueda-central-bank-will-continue-to-raise-policy-rates-202610160644",
      "s": "www.tmgm.com · 国内+国际 · 其他来源",
      "ts": 1792134254
-    },
-    {
-     "t": "人民银行系统阐述人民币汇率立场 | 宏观与政策周报",
-     "u": "https://www.sohu.com/a/1088576004_122014422?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
-     "s": "搜狐网 · 国内 · 其他来源",
-     "ts": 1792133670
     },
     {
      "t": "美财政部副部长：日本不再面临通缩 货币政策须相应改变",
@@ -283,6 +283,12 @@
      "ts": 1792122420
     },
     {
+     "t": "加息25个基点已被买完，日本央行下一关：植田敢不敢更鹰？-市场参考",
+     "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45TkdkSFI3a3ZOQ001U3FKc1JNMlFIVDBOUFNLVndJc1k5VThpMFNKLUlHRkFDS291YkJJOTZkSDIzMzdYczhkQ3hhcTdyNms?oc=5",
+     "s": "金十数据 · 国内+国际 · 其他来源",
+     "ts": 1792118188
+    },
+    {
      "t": "英国央行首席经济学家：未来加息不意味着开启连续紧缩周期|国际货币基金组织|休·皮尔|皮尔|通胀|中性",
      "u": "https://finance.sina.cn/usstock/mggd/2026-10-15/detail-inivhyaf7330242.d.html?oid=%E9%9F%B6%E5%85%B3%E6%9F%A5%E8%AF%A2%E5%A5%B3%E6%9C%8B%E5%8F%8B%E7%94%B7%E6%9C%8B%E5%8F%8B%E5%87%BA%E8%BD%A8%E8%AE%B0%E5%BD%95%EF%BC%88%E5%AE%98%E6%96%B9%E5%BE%AE%E4%BF%A149811007%EF%BC%89%E5%A6%82%E4%BD%95%E6%9F%A5%E5%AF%B9%E6%96%B9%E7%9A%84%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E7%BA%AA%E5%BD%95&vt=4&cid=76601&node_id=76601",
      "s": "finance.sina.com.cn · 国内+国际 · 其他来源",
@@ -293,6 +299,12 @@
      "u": "http://finance.people.com.cn/n1/2026/1016/c1004-40815701.html",
      "s": "人民网 · 地区未标注 · 官方发布",
      "ts": 1792108800
+    },
+    {
+     "t": "加拿大央行未调利率而房贷利率上涨 固定房贷受国债收益率影响",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfUE16b1YyNmlibUtDbFdIS0V6TkVtZW9Banh5ZEZBX2t2aDBhR1RxU2NFUUNrWjBLRVl0MF9oYmlkN1l1cGh4c0lNd00yNnNX?oc=5",
+     "s": "VanPeople · 国内 · 其他来源",
+     "ts": 1792107817
     },
     {
      "t": "日元走势再添变数！日本央行官员警告通胀上行，加息步伐或加快 美日USDJPY走势 2026-10-16 技术分析",
@@ -307,16 +319,16 @@
      "ts": 1792094844
     },
     {
-     "t": "美联储加息预期升温下 人民币汇率稳守6.70一线",
-     "u": "https://huacheng.gz-cmc.com/pages/2026/10/15/97e6aa2360954b009156d34bf59c75a5.html",
-     "s": "广州日报新花城 · 国内+国际 · 其他来源",
-     "ts": 1792077326
-    },
-    {
      "t": "央行行长：全球失衡不能依靠汇率调节",
      "u": "https://jingji.cctv.com/2026/10/15/ARTIMSdOfKradwMl1RStqi2H261015.shtml",
      "s": "经济频道 · 国内 · 其他来源",
      "ts": 1792076100
+    },
+    {
+     "t": "菲律宾比索对美元汇率首次跌破63关口|菲律宾央行|中东局势|外汇储备|马尼拉|美国",
+     "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1CUlZyVER0UGVSVnJlSUJJVlNGLW5pLUMzdE9tZG1KeUlWLXJBS1prMVBFdjFVZWp2LVN5YnhEaTJqbzlpaE94QVlVWG5ubXFVZXBheHUxNXNNdnNDWG5sR3UtaHpyVkpNRUNiaWxCNnh2QkNPSVl0Ng?oc=5",
+     "s": "finance.sina.com.cn · 国内+国际 · 其他来源",
+     "ts": 1792072269
     },
     {
      "t": "美国通胀高于预期 印尼央行称将持续稳定盾币汇率",
@@ -329,12 +341,6 @@
      "u": "https://es.tradingview.com/news/reuters.com,2026:newsml_L6S4610TD:0/",
      "s": "TradingView · 国内+国际 · 其他来源",
      "ts": 1792064710
-    },
-    {
-     "t": "什么信号？经济学家接连警告12月或加息50基点，FED官员“放鹰”暗示！",
-     "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5rTGZhR2U2LVVRS1dhMHl3UUlLS1ppNkhzQUtBem5rdFc1S2xJSmhrcUFyQkhxajk2SjBNNUhrcE5lODdUcEE?oc=5",
-     "s": "财联社电报 · 地区未标注 · 其他来源",
-     "ts": 1792054740
     },
     {
      "t": "欧洲央行管委卡扎克斯：通胀上行风险仍占主导 加息方向明确但无需急于行动",
@@ -365,42 +371,6 @@
      "u": "https://timeline.sohu.com/news/nRHY8Pnr1K",
      "s": "搜狐网 · 国内+国际 · 其他来源",
      "ts": 1792038432
-    },
-    {
-     "t": "央行开展450亿元七天期逆回购操作 利率1.40%持平上次",
-     "u": "https://www.guandian.cn/article/20261015/613533.html",
-     "s": "观点网 · 国内 · 其他来源",
-     "ts": 1792033548
-    },
-    {
-     "t": "潘功胜：央行将继续实施好适度宽松的货币政策，为中国经济稳定增长和金融市场的平稳运行营造良好的货币金融环境",
-     "u": "https://www.cls.cn/detail/2505984",
-     "s": "财联社 · 国内 · 其他来源",
-     "ts": 1792031640
-    },
-    {
-     "t": "尼日利亚央行行长卡多索解释降息至23%的原因——Premium Times Nigeria",
-     "u": "https://ua.news/cn/world/glava-tsentrobanku-nigeriyi-kardoso-poiasniv-znizhennia-stavki-do-23-premium-times-nigeria",
-     "s": "UA.NEWS · 国内 · 其他来源",
-     "ts": 1792029060
-    },
-    {
-     "t": "央行发布前三季度金融统计数据 社融增量超27万亿元 直接融资占比上升",
-     "u": "https://www.xinhuanet.com/20261015/e2514d88df8f4f2a93326c1506b9c52f/c.html",
-     "s": "新华网 · 国内 · 官方发布",
-     "ts": 1792027546
-    },
-    {
-     "t": "通胀压力压倒增长担忧，欧洲央行近三年来首次加息",
-     "u": "https://www.yicai.com/news/103226523.html",
-     "s": "第一财经 · 国内+国际 · 权威媒体",
-     "ts": 1792014990
-    },
-    {
-     "t": "董事会成员小枝敦子呼吁日本央行不要拖延利率调整——Channel NewsAsia",
-     "u": "https://ua.news/cn/finansi/chlenkinia-pravlinnia-koeda-zaklikala-bank-iaponiyi-ne-zvolikati-zi-stavkami-channel-newsasia",
-     "s": "UA.NEWS · 国内+国际 · 其他来源",
-     "ts": 1792011900
     }
    ]
   },
@@ -408,6 +378,42 @@
    "cat": "食品农业与民生",
    "name": "食品农业与民生",
    "items": [
+    {
+     "t": "宁夏吴忠市市场监管局开展集体聚餐食品安全专项检查",
+     "u": "https://finance.sina.cn/2026-10-16/detail-inivmprk1659909.d.html?vt=4&cid=76675&node_id=76675",
+     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
+     "ts": 1792153646
+    },
+    {
+     "t": "食品价格降了1.2个百分点！9月青岛市CPI出炉|国家统计局|山东省|上涨|价格同比|环比",
+     "u": "https://finance.sina.cn/2026-10-16/detail-inivmiif7716407.d.html?vt=4&cid=76675&node_id=76675",
+     "s": "finance.sina.com.cn · 国内 · 其他来源",
+     "ts": 1792145571
+    },
+    {
+     "t": "海口市市场监管局龙泉所开展校园食品安全专项检查",
+     "u": "https://finance.sina.cn/2026-10-16/detail-inivmiic6947568.d.html?vt=4&cid=76675&node_id=76675",
+     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
+     "ts": 1792144630
+    },
+    {
+     "t": "内蒙古额济纳旗市场监管局开展入网餐饮服务提供者冷库食品安全专项排查整治工作",
+     "u": "https://finance.sina.cn/2026-10-16/detail-inivmazr8460637.d.html?vt=4&cid=76675&node_id=76675",
+     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
+     "ts": 1792140351
+    },
+    {
+     "t": "内蒙古通辽市举办2026年食品安全宣传周主场活动",
+     "u": "https://finance.sina.cn/2026-10-16/detail-inivmazr8339808.d.html?vt=4&cid=76675&node_id=76675",
+     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
+     "ts": 1792137295
+    },
+    {
+     "t": "泰安市2027-2030年度政策性农业保险承保项目中选结果公示",
+     "u": "https://czj.taian.gov.cn/art/2026/10/16/art_48413_10321341.html",
+     "s": "泰安市财政局 · 地区未标注 · 其他来源",
+     "ts": 1792130880
+    },
     {
      "t": "陕西省渭南市市场监管局高新分局开展食品安全专项检查",
      "u": "https://finance.sina.cn/2026-10-16/detail-inivksmm7072535.d.html?vt=4&cid=76675&node_id=76675",
@@ -433,6 +439,12 @@
      "ts": 1792108693
     },
     {
+     "t": "猪肉价格环比小幅上涨|国家统计局|四川省|CPI|中秋节|开学季",
+     "u": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxPX3pIa0w4TkhaZ3FJUFRGT0E5cmZyUXVFcVNrdlF4bEhaYnhtNEFMeUJHcy16N2lkRFlyNjNJRlhHb1dXUkxYUWNkWUJ5b0NzXy0yX0dLZ1RHdFhWMVgwTlJURTVtam96N1hZS182ZUNXV3dBaG5fbHNvOFNPVTR5WGVIXzhja2oyYjRGdVItWDdSZHRNSlVQbVlsMWZtZmZrTjAyOWZRUWFaNmJCZW04d1ljYmxjM0N2NDFPUzdieFdsaU5oeENkTlJxT3FiT01nUDRScW5mRUlzQUdVTUxnS3FQeHRuVVFXNi1TelkzNHgxWUdSZkJqMmVEME5aWUFtS0lFd0t5c2otZXNGSXdQdmg4a0hlbkRleUMxcl93MEZlWnZHTGtXZUtUSHNLSXNKLUJzZkY5VUJsejJ3Rk9OdFp5SmZMQmNVNHJVR3BSZVZWTnNWSGkydW9pb055R3RER0swTVBXZG1MOFo2aThzTk54RFQtY2FEcG5qSkg0TTRlX2hSbVlOT182aW1KcG10ck9uM3I4bTMweGxtUHNILWNsS1lBemRrQnRzSXNwM2tFQzcxZm9iRkdUbHdaNHpKSXNQMmxlMTJlRl9QdmFfdlNpN3lIZFFsN1ZRSV84OU5IZw?oc=5",
+     "s": "finance.sina.com.cn · 国内 · 其他来源",
+     "ts": 1792108340
+    },
+    {
      "t": "甘肃省临泽县市场监管局全力护航秋季学校食品安全",
      "u": "https://finance.sina.cn/2026-10-15/detail-inivhtus1351331.d.html?vt=4",
      "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
@@ -449,24 +461,6 @@
      "u": "https://finance.sina.cn/2026-10-15/detail-inivhpnm7454820.d.html?vt=4&cid=76675&node_id=76675",
      "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
      "ts": 1792092197
-    },
-    {
-     "t": "内蒙古乌兰察布市市场监管局开展食品安全专项检查",
-     "u": "https://finance.sina.cn/2026-10-15/detail-inivhpnp8107217.d.html?vt=4&cid=76675&node_id=76675",
-     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
-     "ts": 1792035736
-    },
-    {
-     "t": "专访丨协调与创新对增强农业粮食体系韧性至关重要——访联合国粮农组织首席经济学家托雷罗",
-     "u": "http://www.xinhuanet.com/20261015/74abbb67b4ae4a188db205ffa955ba9d/c.html",
-     "s": "新华网 · 地区未标注 · 官方发布",
-     "ts": 1792029314
-    },
-    {
-     "t": "24家糕点企业进“透明工厂”观摩 江津区市场监管局压实食品安全责任",
-     "u": "https://finance.sina.cn/2026-10-15/detail-inivfmzh1284850.d.html?vt=4&cid=76675&node_id=76675",
-     "s": "新浪财经 · 地区未标注 · 其他来源",
-     "ts": 1791997559
     }
    ]
   },
@@ -475,9 +469,15 @@
    "name": "政治与外交动态",
    "items": [
     {
+     "t": "丁薛祥出席2026年世界职业技术教育发展大会开幕式并会见与会外国政要",
+     "u": "https://www.xinhuanet.com/politics/20261016/ee9ff1e396274c7796fad669739b1f77/c.html",
+     "s": "新华网 · 地区未标注 · 官方发布",
+     "ts": 1792146700
+    },
+    {
      "t": "王毅会见以色列总统赫尔佐格",
      "u": "https://www.xinhuanet.com/20261016/984c83bf1ad641db817bff9982b005ba/c.html",
-     "s": "新华网 · 地区未标注 · 官方发布 · 3家报道",
+     "s": "新华网 · 地区未标注 · 官方发布 · 4家报道",
      "ts": 1792134226
     },
     {
@@ -493,16 +493,16 @@
      "ts": 1792116197
     },
     {
-     "t": "从“造机器”到“懂场景” 工博会见证AI重塑制造业",
-     "u": "http://www.xinhuanet.com/fortune/20261016/b89404d2973c4ba3a0c8a43aa3986f20/c.html",
-     "s": "新华网 · 地区未标注 · 官方发布",
-     "ts": 1792115946
-    },
-    {
      "t": "欧盟峰会聚焦经济竞争力与能源议题--国际",
-     "u": "http://world.people.com.cn/n1/2026/1016/c1002-40815999.html",
+     "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vc3NuRUpSV2ROZldaeGdxalVFTk55TUJ3X0RnM2dRdUh5OWdwOXNEd3BMN0RnVVgtY0VCQm1IZmFRWE1KNXcybmhaRkotaUxlUmFhWEIxUXdKYVdiUXZtOHhtelFTQXNCc3NoTQ?oc=5",
      "s": "人民网 · 国际 · 官方发布 · 2家报道",
      "ts": 1792113420
+    },
+    {
+     "t": "李强将访问乌兹别克斯坦、塔吉克斯坦并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议、赴俄罗斯举行中俄总理第三十一次定期会晤",
+     "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYQTBKcFJ6VHJKbzJwVFd3QmFFUDVWblY2N0FoZTZTVDV0dnk4eXNOZlVqMVUtRWx0eHNOWUlaeHZ2am9FUy1zTmJLQ29IaHljaFFZejFGNEhEMVhpa2E2RV83MDBnckQ1WXpsdQ?oc=5",
+     "s": "中国经济网 · 国际 · 权威媒体 · 2家报道",
+     "ts": 1792105385
     },
     {
      "t": "《亚信第七次峰会宣言》（全文）",
@@ -515,18 +515,6 @@
      "u": "https://www.news.cn/politics/leaders/20261015/cc146de8efcb4593959a6dbd23ed679f/c.html",
      "s": "新华网 · 地区未标注 · 官方发布",
      "ts": 1792076665
-    },
-    {
-     "t": "李强将访问乌兹别克斯坦、塔吉克斯坦并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议、赴俄罗斯举行中俄总理第三十一次定期会晤",
-     "u": "https://www.chinanews.com.cn/gn/2026/10-15/10715059.shtml",
-     "s": "中国新闻网 · 国际 · 权威媒体 · 2家报道",
-     "ts": 1792050749
-    },
-    {
-     "t": "王毅会见俄罗斯外长拉夫罗夫",
-     "u": "https://www.mfa.gov.cn/wjbzhd/202610/t20261015_12040564.shtml",
-     "s": "中华人民共和国外交部 · 国际 · 官方发布",
-     "ts": 1792025100
     }
    ]
   },
@@ -535,28 +523,172 @@
    "name": "国际经济",
    "items": [
     {
+     "t": "Why Asia Shapes the Future of the Global Economy: The Decline of LVMH and Kering Has Highlighted the Vulnerability of the Luxury Market",
+     "u": "https://ua.news/en/money/chomu-aziia-viznachaie-maibutnie-svitovoyi-ekonomiki-padinnia-lvmh-i-kering-pokazalo-vrazlivist-liuksovogo-rinku",
+     "s": "UA.NEWS · 地区未标注 · 其他来源",
+     "ts": 1792161501
+    },
+    {
+     "t": "Warsh Vows to Tame Inflation as A.I. Delivers ‘Shock’ to Economy",
+     "u": "https://www.nytimes.com/2026/10/16/business/warsh-fed-imf-bangkok.html",
+     "s": "The New York Times · 地区未标注 · 其他来源",
+     "ts": 1792157708
+    },
+    {
+     "t": "Egypt becomes last original signatory to ratify D-8 trade pact",
+     "u": "https://en.yenisafak.com/economy/egypt-becomes-last-original-signatory-to-ratify-d-8-trade-pact-3724511",
+     "s": "Yeni Şafak English · 地区未标注 · 其他来源",
+     "ts": 1792156806
+    },
+    {
+     "t": "【环球财经】欧元区8月对外货物贸易逆差为161亿欧元- 中国金融信息网",
+     "u": "https://www.cnfin.com/hs-lb/detail/20261016/4482370_1.html",
+     "s": "中国金融信息网 · 国内+国际 · 其他来源",
+     "ts": 1792156800
+    },
+    {
+     "t": "【环球财经】欧元区9月通胀率终值为3.8% 与初值一致",
+     "u": "http://www.eeo.com.cn/2026/1016/1067289.shtml",
+     "s": "经济观察网 · 国际 · 其他来源 · 2家报道",
+     "ts": 1792156550
+    },
+    {
+     "t": "调查：逾八成经济学家预计美联储本周加息 明年3月底前有望再出手！",
+     "u": "https://www.cls.cn/detail/2483155",
+     "s": "财联社 · 国际 · 其他来源",
+     "ts": 1792154944
+    },
+    {
+     "t": "沃什曼谷发言“偏鸽”，市场押注美联储10月按兵不动，加息概率跌破15%",
+     "u": "https://wallstreetcn.com/articles/3783799",
+     "s": "华尔街见闻 · 国际 · 其他来源",
+     "ts": 1792154243
+    },
+    {
+     "t": "综述丨IMF与世行秋季年会呼吁合作应对经济挑战",
+     "u": "http://www.xinhuanet.com/20261016/2c3c941db3274ac7bceaad3995481654/c.html",
+     "s": "新华网 · 国际 · 官方发布",
+     "ts": 1792154043
+    },
+    {
+     "t": "Watch: Did Tesla really just unveil a flying car?",
+     "u": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss",
+     "s": "feeds.bbci.co.uk · 地区未标注 · 权威媒体",
+     "ts": 1792153951
+    },
+    {
+     "t": "Wall Street’s Praise for AI Amid Inflation Concerns: Will the Fed Pause Interest Rate Hikes in October?",
+     "u": "https://eu.36kr.com/en/p/4028271594525063",
+     "s": "36Kr · 国际 · 其他来源",
+     "ts": 1792152762
+    },
+    {
+     "t": "China ready to cooperate with EU on global economic imbalances",
+     "u": "https://www.thenews.com.pk/latest/1420175-china-ready-to-cooperate-with-eu-on-global-economic-imbalances",
+     "s": "The News International · 国际 · 其他来源",
+     "ts": 1792150440
+    },
+    {
+     "t": "加息大消息！美联储主席，重磅发声！",
+     "u": "https://wap.stockstar.com/detail/IG2026101600034562",
+     "s": "证券之星 · 国际 · 其他来源",
+     "ts": 1792148280
+    },
+    {
+     "t": "IMF与世行年会｜凯文·沃什：美联储不能照搬过去经验",
+     "u": "https://www.21jingji.com/article/20261016/herald/dd29618ad68f66c0a76aa80751e19e24.html",
+     "s": "21财经 · 国际 · 其他来源",
+     "ts": 1792147380
+    },
+    {
+     "t": "美联储按兵不动但释放鹰派信号 年内利率变化预期由降息变加息",
+     "u": "https://www.cls.cn/detail/2402931",
+     "s": "财联社 · 国际 · 其他来源",
+     "ts": 1792147060
+    },
+    {
+     "t": "Market Movers blog: Chip stocks and global indices continue to slide following US inflation jump",
+     "u": "https://www.investmentweek.co.uk/blog/4080428/market-movers-blog",
+     "s": "Investment Week · 地区未标注 · 其他来源",
+     "ts": 1792146425
+    },
+    {
+     "t": "Banks expect to be hit with higher taxes in Budget",
+     "u": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
+     "s": "feeds.bbci.co.uk · 地区未标注 · 权威媒体",
+     "ts": 1792145787
+    },
+    {
+     "t": "Warsh signals steady Fed outlook despite inflation jump",
+     "u": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
+     "s": "Axios · 国际 · 其他来源",
+     "ts": 1792145728
+    },
+    {
+     "t": "Thailand targets trade and tourism gains at IMF–World Bank meetings",
+     "u": "https://www.nationthailand.com/business/economy/40072375",
+     "s": "Nation Thailand · 国际 · 其他来源",
+     "ts": 1792145160
+    },
+    {
+     "t": "Fed's Warsh surprised by world economy's 'resilience'",
+     "u": "https://sg.finance.yahoo.com/news/feds-warsh-surprised-world-economys-053322871.html",
+     "s": "Yahoo Finance Singapore · 国际 · 其他来源 · 3家报道",
+     "ts": 1792144877
+    },
+    {
+     "t": "美联储褐皮书释放复杂信号：通胀难降、消费分化，AI投资仍火热",
+     "u": "https://www.cls.cn/detail/2472527",
+     "s": "财联社 · 国际 · 其他来源",
+     "ts": 1792144772
+    },
+    {
+     "t": "美联储会议纪要：部分官员支持6月加息 分歧表征实为“等数据”",
+     "u": "https://www.cls.cn/detail/2420995",
+     "s": "财联社 · 国际 · 其他来源",
+     "ts": 1792143522
+    },
+    {
      "t": "ADB chief warns of high inflation in Asia amid uncertainty",
      "u": "https://www.japantimes.co.jp/business/2026/10/16/adb-chief-interview/",
      "s": "The Japan Times · 地区未标注 · 其他来源",
      "ts": 1792142220
     },
     {
-     "t": "Banks expect to be hit with higher taxes in Budget",
-     "u": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
-     "s": "feeds.bbci.co.uk · 地区未标注 · 权威媒体",
-     "ts": 1792140883
+     "t": "时隔三年多！美联储重启加息25个基点 内部预计年内还会升息一次",
+     "u": "https://www.cls.cn/detail/2485507",
+     "s": "财联社 · 国际 · 其他来源",
+     "ts": 1792142166
     },
     {
-     "t": "Asian stocks rise as tech bounces from rout, Fed boss upbeat on AI",
-     "u": "https://www.bangkokpost.com/world/3338239/asian-stocks-rise-as-tech-bounces-from-rout-fed-boss-upbeat-on-ai",
-     "s": "Bangkok Post · 国际 · 其他来源",
-     "ts": 1792136700
+     "t": "美联储主席沃什拒绝暗示10月是否加息：美联储已进入新阶段，不再提前透露利率决定",
+     "u": "https://finance.sina.cn/usstock/mggd/2026-10-16/detail-inivmazq1523921.d.html?vt=4&pos=108&his=0",
+     "s": "finance.sina.com.cn · 国际 · 其他来源",
+     "ts": 1792142015
     },
     {
-     "t": "‘We can’t be splurging money’: Sitharaman on India’s growth, China trade gap",
-     "u": "https://www.firstpost.com/business/nirmala-sitharaman-india-growth-china-trade-asean-imf-14053319.html",
-     "s": "Firstpost · 地区未标注 · 其他来源",
-     "ts": 1792134092
+     "t": "CPI强化加息预期？美联储官员接连表态：不急于10月行动！",
+     "u": "https://www.cls.cn/detail/2505208",
+     "s": "财联社 · 国际 · 其他来源 · 2家报道",
+     "ts": 1792141842
+    },
+    {
+     "t": "Global inflation debate puts BOJ rate-hike pace in spotlight",
+     "u": "https://kfgo.com/2026/10/16/global-inflation-debate-puts-boj-rate-hike-pace-in-spotlight/",
+     "s": "The Mighty 790 KFGO · 地区未标注 · 其他来源",
+     "ts": 1792141640
+    },
+    {
+     "t": "Fed Chair Warsh stresses price stability, offers no signals on rate outlook",
+     "u": "https://www.business-standard.com/world-news/fed-chair-warsh-stresses-price-stability-offers-no-signals-on-rate-outlook-126101600489_1.html",
+     "s": "Business Standard · 国际 · 其他来源",
+     "ts": 1792138076
+    },
+    {
+     "t": "Can China and the EU Resolve Their Growing Trade Imbalances?",
+     "u": "https://moderndiplomacy.eu/2026/10/16/can-china-and-the-eu-resolve-their-growing-trade-imbalances/",
+     "s": "Modern Diplomacy · 国际 · 其他来源",
+     "ts": 1792135668
     },
     {
      "t": "US Market: Fed's Goolsbee says latest US inflation data is discouraging",
@@ -569,150 +701,6 @@
      "u": "https://www.chinadailyasia.com/article/641224",
      "s": "chinadailyhk · 地区未标注 · 其他来源 · 2家报道",
      "ts": 1792130403
-    },
-    {
-     "t": "Fed official discusses economic outlook for U.S., Oklahoma",
-     "u": "https://www.swoknews.com/news/fed-official-discusses-economic-outlook-for-u-s-oklahoma/article_29b3151b-a5e7-526f-b3d8-17aa49006ee8.html",
-     "s": "The Lawton Constitution · 国际 · 其他来源",
-     "ts": 1792130400
-    },
-    {
-     "t": "CPI偏热之后，沃什的曼谷讲话会成为美联储10月加息的催化剂吗？",
-     "u": "https://k.sina.com.cn/article_5952915720_162d249080670509c6.html?from=finance",
-     "s": "新浪网 · 国际 · 其他来源",
-     "ts": 1792130160
-    },
-    {
-     "t": "US Market: Fed Chair Warsh offers no signal on October interest-rate decision",
-     "u": "https://m.economictimes.com/markets/us-stocks/wall-street-guide/us-market-fed-chair-warsh-offers-no-signal-on-october-interest-rate-decision/articleshow/134984000.cms",
-     "s": "The Economic Times · 国际 · 其他来源",
-     "ts": 1792130081
-    },
-    {
-     "t": "APEC's choices at a historical turning point in the global economy.",
-     "u": "https://www.vietnam.vn/en/su-lua-chon-cua-apec-truoc-nga-re-lich-su-cua-kinh-te-the-gioi",
-     "s": "Vietnam.vn · 地区未标注 · 其他来源",
-     "ts": 1792129701
-    },
-    {
-     "t": "21个国家，一把利率尺子！欧洲抗通胀为何比美国更难？",
-     "u": "https://www.fx168news.com/article/%E6%AC%A7%E6%B4%B2-1103659",
-     "s": "FX168 · 国际 · 其他来源",
-     "ts": 1792129678
-    },
-    {
-     "t": "Fed's Warsh surprised by world economy's 'resilience'",
-     "u": "http://www.bangkokpost.com/world/3338205/feds-warsh-surprised-by-world-economys-resilience",
-     "s": "Bangkok Post · 国际 · 其他来源 · 3家报道",
-     "ts": 1792129500
-    },
-    {
-     "t": "“Not going to prejudge\": Fed Chair keeps rate outlook open; calls AI \"positive supply shock\"",
-     "u": "https://www.aninews.in/news/business/8220not-going-to-prejudge-fed-chair-keeps-rate-outlook-open-calls-ai-positive-supply-shock20261016111226",
-     "s": "ANI News · 国际 · 其他来源",
-     "ts": 1792129320
-    },
-    {
-     "t": "AI Set To Transform Global Economy, But Jobs Outlook Uncertain: Fed Chair",
-     "u": "https://www.businessworld.in/article/ai-set-to-transform-global-economy-but-jobs-outlook-uncertain-fed-chair-628903",
-     "s": "BW Businessworld · 国际 · 其他来源",
-     "ts": 1792128785
-    },
-    {
-     "t": "Fuel costs squeezing margins for some businesses",
-     "u": "https://www.bbc.co.uk/news/articles/c9rky27ljrxno?at_medium=RSS&at_campaign=rss",
-     "s": "feeds.bbci.co.uk · 地区未标注 · 权威媒体",
-     "ts": 1792128657
-    },
-    {
-     "t": "盛松成：美联储利率路径仍有不确定性|美国大选|加息预期|能源价格|就业数据|通胀",
-     "u": "https://finance.sina.cn/2026-10-15/detail-iniviekk4661739.d.html?oid=%E5%BE%AE%E7%9B%98%E7%BA%B8%E9%A3%9E%E6%9C%BA%E5%AE%9A%E5%88%B6%E5%BC%80%E5%8F%91(%E9%A3%9E%E6%9C%BA%EF%BC%9A@kxkjww%20@kxkjrj%EF%BC%89&vt=4",
-     "s": "finance.sina.com.cn · 国际 · 其他来源",
-     "ts": 1792128496
-    },
-    {
-     "t": "'TV and cheap booze' blamed for landlord quitting",
-     "u": "https://www.bbc.co.uk/news/articles/c6lyk77jq9d2o?at_medium=RSS&at_campaign=rss",
-     "s": "feeds.bbci.co.uk · 地区未标注 · 权威媒体",
-     "ts": 1792126995
-    },
-    {
-     "t": "Ship attack reports near Hormuz reach record high as oil exports slow",
-     "u": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-     "s": "feeds.bbci.co.uk · 地区未标注 · 权威媒体",
-     "ts": 1792126817
-    },
-    {
-     "t": "美联储官员接连强化“鹰派立场”：抗通胀之战未完，年内应需再加息！",
-     "u": "https://www.cls.cn/detail/2504124",
-     "s": "财联社 · 国际 · 其他来源",
-     "ts": 1792126658
-    },
-    {
-     "t": "Fed Chair Warsh: AI Is the Most Profound Transformation of My Lifetime; November Field Hearing Set for Bay Area",
-     "u": "https://finance.biggo.com/news/5f35b041-63e2-4fd9-b9be-19768f41b022",
-     "s": "BigGo Finance · 国际 · 其他来源",
-     "ts": 1792126500
-    },
-    {
-     "t": "美联储本月能躲过加息吗？CPI周三揭晓，核心通胀0.3%或打乱暂停计划-市场参考",
-     "u": "https://xnews.jin10.com/details/232274",
-     "s": "金十数据 · 国际 · 其他来源",
-     "ts": 1792123711
-    },
-    {
-     "t": "Fed's Warsh sees US resilience, mum on rate-path view",
-     "u": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/",
-     "s": "Reuters · 国际 · 权威媒体",
-     "ts": 1792123020
-    },
-    {
-     "t": "IMF Chief Georgieva, Fed Chair Warsh Discuss Forces Reshaping Global Economy",
-     "u": "https://www.ntd.com/ntdplus/live-now-imf-chief-georgieva-fed-chair-warsh-discuss-forces-reshaping-global-economy_1179135.html",
-     "s": "NTD News · 国际 · 其他来源",
-     "ts": 1792122681
-    },
-    {
-     "t": "调查：逾八成经济学家预计美联储本周加息 明年3月底前有望再出手！",
-     "u": "https://www.cls.cn/detail/2483155",
-     "s": "财联社 · 国际 · 其他来源",
-     "ts": 1792122581
-    },
-    {
-     "t": "美联储10月加息悬念拉满：全球紧盯沃什讲话定调！",
-     "u": "https://www.cls.cn/detail/2505182",
-     "s": "财联社 · 国际 · 其他来源 · 2家报道",
-     "ts": 1792121639
-    },
-    {
-     "t": "IMF cuts Bangladesh growth outlook, raises inflation forecast",
-     "u": "https://www.thedailystar.net/business/economy/news/imf-cuts-bangladesh-growth-outlook-raises-inflation-forecast-4298066",
-     "s": "The Daily Star · 国际 · 其他来源",
-     "ts": 1792116797
-    },
-    {
-     "t": "一张表看懂！华尔街“彻底信了”：美联储本周加息",
-     "u": "https://www.cls.cn/detail/2481857",
-     "s": "财联社 · 国际 · 其他来源",
-     "ts": 1792115244
-    },
-    {
-     "t": "时隔三年多！美联储重启加息25个基点 内部预计年内还会升息一次",
-     "u": "https://www.cls.cn/detail/2485507",
-     "s": "财联社 · 国际 · 其他来源",
-     "ts": 1792111923
-    },
-    {
-     "t": "Learning from China’s economic philosophy and policy — XII",
-     "u": "https://www.brecorder.com/news/40444437/learning-from-chinas-economic-philosophy-and-policy-xii",
-     "s": "Business Recorder · 地区未标注 · 其他来源",
-     "ts": 1792110695
-    },
-    {
-     "t": "Fed chair to join IMF’s “Managing Director’s Fireside Chat with Federal Reserve Chairman Kevin Warsh” in Bangkok at 10.30am on October 16",
-     "u": "https://www.nationthailand.com/business/economy/40072340",
-     "s": "Nation Thailand · 国际 · 其他来源",
-     "ts": 1792109460
     }
    ]
   },
@@ -721,10 +709,22 @@
    "name": "全球贸易与供应链",
    "items": [
     {
+     "t": "英贸易相称愿就中国电动汽车关税问题与欧盟行动一致 法德就英车企加入“欧洲制造”计划条件曝光",
+     "u": "https://www.bannedbook.org/bnews/taiwannews/20261016/2370749.html",
+     "s": "禁闻网 · 国内+国际 · 其他来源 · 2家报道",
+     "ts": 1792158300
+    },
+    {
      "t": "欧盟关税后巴黎车展中国展台视频火了！马克龙现场体验后小鹏感叹",
      "u": "https://c.m.163.com/news/v/VZDNA9I1H.html?spss=backflow-index-hotlist",
      "s": "网易新闻客户端 · 国内+国际 · 其他来源",
      "ts": 1792143351
+    },
+    {
+     "t": "Sitharaman hopes India-US trade deal will be concluded soon, flags China's non-tariff barriers",
+     "u": "https://www.newindianexpress.com/business/2026/Oct/16/sitharaman-hopes-india-us-trade-deal-will-be-concluded-soon-flags-chinas-non-tariff-barriers",
+     "s": "The New Indian Express · 国际 · 其他来源",
+     "ts": 1792131356
     },
     {
      "t": "Trump's tariffs are changing the global trade ecosystem",
@@ -751,6 +751,12 @@
      "ts": 1792114567
     },
     {
+     "t": "特朗普威胁：若欧洲国家征收数字服务税，将对其输美商品征收100%关税",
+     "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5hTWNFanhhVm0yVjRTNUstQVpkVXdVQ3dZZnFFMnRwbGZ2UFZ1NjJodVM0X1ZFTTlZWFphQ05hOWNMalRBc0lySw?oc=5",
+     "s": "财联社 · 国际 · 其他来源",
+     "ts": 1792099563
+    },
+    {
      "t": "欧盟开价\"加税换进欧洲制造\" 英国拒绝：暂不对中国电动车加征关税|《卫报》|产业政策|奔驰|电动汽车|规则",
      "u": "https://finance.sina.cn/stock/jdts/2026-10-15/detail-inivhyan4577855.d.html?vt=4&cid=76993&node_id=76993",
      "s": "finance.sina.com.cn · 国内+国际 · 其他来源",
@@ -769,10 +775,22 @@
      "ts": 1792070381
     },
     {
+     "t": "Posthaste: U.S. businesses feel fresh pain from trade war with Canada, says this hot take on the economy",
+     "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaGFFLUxNWGxCS0gxSy1KZDBUSWhFUV9mZlNBX0RjWGpWZXhsdjNOQjFnRy04YndhUXVKQlFwN1JUVkJHeWZMQ2pCQmJVMmtPdkpwdDgtMm8yUXZkbl9seXoxeVdUbmtHQWlRLWpPcTFVRkttaXdUenFDVklxeVJPSG9B?oc=5",
+     "s": "Financial Post · 国际 · 其他来源",
+     "ts": 1792065849
+    },
+    {
      "t": "70 years of China's foreign trade: From 'mutual exchange of goods and services' to global production and supply chain lynchpin",
      "u": "https://news.cgtn.com/news/2026-10-15/China-s-foreign-trade-at-70-From-mutual-exchange-to-global-lynchpin-1Rgj6b8Opu8/share_amp.html",
      "s": "CGTN · 地区未标注 · 其他来源",
      "ts": 1792063801
+    },
+    {
+     "t": "英商业大臣拒因欧盟压力向华电动车加征关税｜即时新闻｜国际｜on.cc东网",
+     "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQXJsMFV1czg1NjIxU0k3UzJWbWRrVkJ1SUZDWDRKUFpUU2hJNGlkRVZiUXJ1Y2Zzb2VYQUNtclFDOGcxdVhWY3NESzI0VXRDc3VmemV1cWZubkN2T1QyVDlXM1cwUXo1ZVdrWHFrS2FiMnBWUWY4eXFnZU02MTlQQUoyeHk4RzRzUWdqUlBDUW5WaGdUcEdVdUxOMlc?oc=5",
+     "s": "on.cc東網 · 国际 · 其他来源",
+     "ts": 1792041486
     },
     {
      "t": "英国拒绝跟随欧盟对华汽车加征关税，不是挺中国而是算过账",
@@ -791,18 +809,6 @@
      "u": "https://global.hk01.com/%E5%8D%B3%E6%97%B6%E5%9B%BD%E9%99%85/60399871/%E8%8B%B1%E5%9B%BD%E6%8B%92%E5%9B%A0%E6%AC%A7%E7%9B%9F%E6%96%BD%E5%8E%8B%E5%AF%B9%E5%8D%8E%E5%8A%A0%E5%BE%81%E5%85%B3%E7%A8%8E-%E5%90%A6%E8%AE%A4%E6%B2%A6%E4%B8%AD%E5%9B%BD%E8%B4%A7%E5%85%A5%E6%AC%A7%E5%90%8E%E9%97%A8",
      "s": "香港01 · 国内+国际 · 其他来源",
      "ts": 1792034580
-    },
-    {
-     "t": "英商业大臣拒因欧盟压力向华电动车加征关税｜即时新闻｜中港台｜on.cc东网",
-     "u": "https://hk.on.cc/hk/bkn/cnt/news/20261015/bkn-20261015090307020-1015_00822_001_cn.html",
-     "s": "on.cc東網 · 国际 · 其他来源",
-     "ts": 1792029008
-    },
-    {
-     "t": "The Canadian economy is facing double pressure from US tariffs and rising energy prices.",
-     "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTmwzLVZJMlVzNGU2TlJ0ZmdDbXFVX1d6ZXh0eXJ6QU4xdUFmQUJWMUplZkNrTEcwUTkySFZZa1E0VFhXN285bWdaYUk5OVFqTjk2RzZxM1BJNndqMksxYWtYVjBQZGlhZE1TbWhSRkw4VGV0RGFqNk5Cd3JXRHVFN0VzWmo5YVpVUzUxVU5OQk95VG0tZ1hNamlTN05rYVBX?oc=5",
-     "s": "Vietnam.vn · 国际 · 其他来源",
-     "ts": 1792022498
     }
    ]
   }
