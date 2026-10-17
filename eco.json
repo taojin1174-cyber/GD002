@@ -1,11 +1,29 @@
 {
- "updated": "2026-10-17T14:14:25.702515+00:00",
+ "updated": "2026-10-17T17:10:41.254868+00:00",
  "title": "经济观察 · 政策与国际",
  "boards": [
   {
    "cat": "国家政策",
    "name": "国家政策",
    "items": [
+    {
+     "t": "推动数字经济与实体经济深度融合（今日谈）",
+     "u": "https://paper.people.com.cn/rmrb/pc/content/202610/17/content_30186194.html",
+     "s": "人民日报 · 地区未标注 · 官方发布 · 2家报道",
+     "ts": 1792247835
+    },
+    {
+     "t": "财经慧说丨鼓励现房、门槛降了、利息补了，购房新政策怎么接",
+     "u": "http://www.xinhuanet.com/fortune/20261017/9762181207b14d439b4caa480f4b94c7/c.html",
+     "s": "新华网 · 地区未标注 · 官方发布",
+     "ts": 1792247092
+    },
+    {
+     "t": "写在APEC领导人非正式会议倒计时一个月之际",
+     "u": "https://www.xinhuanet.com/20261017/8001f1694d3c46f389cc9e962bbc8623/c.html",
+     "s": "新华网 · 地区未标注 · 官方发布",
+     "ts": 1792238736
+    },
     {
      "t": "日媒曝日本政府考虑增税筹措防卫费",
      "u": "https://www.xinhuanet.com/20261017/8ea871360169497ba89eabb45012bfba/c.html",
@@ -49,6 +67,12 @@
      "ts": 1792213860
     },
     {
+     "t": "王浩：攻坚四季度夺取全年胜全力以赴高质量完成全年经济社会发展目标任务确保交出高质量发展和高水平安全良性互动的高分答卷-新华网",
+     "u": "http://www.zj.xinhuanet.com/20261017/5e5a17e7068644869a127b02398bd760/c.html",
+     "s": "新华网浙江 · 地区未标注 · 官方发布",
+     "ts": 1792205653
+    },
+    {
      "t": "三部门发文首次明确普惠养老收费政策",
      "u": "http://finance.people.com.cn/n1/2026/1017/c1004-40816516.html",
      "s": "人民网 · 地区未标注 · 官方发布 · 2家报道",
@@ -59,12 +83,6 @@
      "u": "http://finance.people.com.cn/n1/2026/1017/c1004-40816509.html",
      "s": "人民网 · 地区未标注 · 官方发布",
      "ts": 1792199280
-    },
-    {
-     "t": "推动数字经济与实体经济深度融合（今日谈）",
-     "u": "http://zj.people.com.cn/n2/2026/1017/c186327-41724715.html",
-     "s": "人民网 · 地区未标注 · 官方发布 · 2家报道",
-     "ts": 1792199100
     },
     {
      "t": "李强主持召开国务院常务会议",
@@ -92,9 +110,9 @@
     },
     {
      "t": "养老服务价格政策将进一步完善",
-     "u": "http://sx.people.com.cn/n2/2026/1017/c352664-41724587.html",
-     "s": "人民网 · 地区未标注 · 官方发布",
-     "ts": 1792195920
+     "u": "http://hb.people.com.cn/n2/2026/1017/c194063-41724575.html",
+     "s": "人民网－湖北频道 · 地区未标注 · 官方发布 · 2家报道",
+     "ts": 1792195680
     },
     {
      "t": "坚定不移推动经济社会高质量发展",
@@ -105,7 +123,7 @@
     {
      "t": "3部门完善养老服务价格政策",
      "u": "http://finance.people.com.cn/n1/2026/1017/c1004-40816336.html",
-     "s": "人民网 · 地区未标注 · 官方发布 · 3家报道",
+     "s": "人民网 · 地区未标注 · 官方发布",
      "ts": 1792183440
     },
     {
@@ -134,7 +152,7 @@
     },
     {
      "t": "森林康养产业加快培育 政策红利释放发展动能",
-     "u": "http://www.xinhuanet.com/travel/20261016/fcc703f0120442f9b4ba3bc4284d904d/c.html",
+     "u": "https://www.xinhuanet.com/travel/20261016/fcc703f0120442f9b4ba3bc4284d904d/c.html",
      "s": "新华网 · 地区未标注 · 官方发布",
      "ts": 1792136693
     },
@@ -161,24 +179,6 @@
      "u": "http://www.xinhuanet.com/20261016/118b3af9699e45cea5e01129c1fb5601/c.html",
      "s": "新华网 · 国内 · 官方发布",
      "ts": 1792122232
-    },
-    {
-     "t": "唐山海港经济开发区：让足球属于每一个孩子",
-     "u": "http://he.people.com.cn/n2/2026/1016/c192235-41723909.html",
-     "s": "人民网－河北频道 · 地区未标注 · 官方发布",
-     "ts": 1792120920
-    },
-    {
-     "t": "扩大高水平对外开放 建设开放型世界经济",
-     "u": "http://gd.people.com.cn/n2/2026/1016/c123932-41723864.html",
-     "s": "人民网 · 地区未标注 · 官方发布 · 3家报道",
-     "ts": 1792119660
-    },
-    {
-     "t": "走进山西岚县 看小小土豆兴一方经济",
-     "u": "http://www.sx.xinhuanet.com/20261016/2b33605a26c54dc38aa6569e8978c1f3/c.html",
-     "s": "新华网山西 · 地区未标注 · 官方发布",
-     "ts": 1792119621
     }
    ]
   },
@@ -215,12 +215,6 @@
      "u": "https://tyj.beijing.gov.cn/bjsports/zfxxgk_/2024zcjd/744141431/index.html",
      "s": "北京市体育局 · 地区未标注 · 其他来源",
      "ts": 1792113240
-    },
-    {
-     "t": "人民日报：甘肃统一规范农民工参加失业保险政策_媒体看甘肃",
-     "u": "http://www.gansu.gov.cn/gsszf/c100002/c100011/202610/174409651.shtml",
-     "s": "甘肃省人民政府 · 地区未标注 · 其他来源 · 2家报道",
-     "ts": 1792111140
     }
    ]
   },
@@ -241,28 +235,28 @@
      "ts": 1792230000
     },
     {
-     "t": "日本央行被曝倾向暂缓10月加息，但12月仍可能出手-市场参考",
-     "u": "https://xnews.jin10.com/details/232348",
-     "s": "金十数据 · 国内+国际 · 其他来源",
-     "ts": 1792229959
-    },
-    {
      "t": "欧洲央行行长拉加德：能源冲击规模巨大，不可忽视",
      "u": "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyr8177344.shtml?finpagefr=p_108",
      "s": "新浪财经 · 国内+国际 · 其他来源",
      "ts": 1792216881
     },
     {
+     "t": "日元跌穿162，日本却没升级警告！前央行高官称下次加息或早于12月-市场参考",
+     "u": "https://xnews.jin10.com/details/223109",
+     "s": "金十数据 · 国内+国际 · 其他来源",
+     "ts": 1792201882
+    },
+    {
+     "t": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
+     "u": "https://xnews.jin10.com/details/222678",
+     "s": "金十数据 · 国内+国际 · 其他来源",
+     "ts": 1792198918
+    },
+    {
      "t": "中国央行行长潘功胜：全球失衡不能靠汇率调节 IMF官员说人民币实际汇率被低估",
      "u": "https://molihua.org/zonghe-1086/",
      "s": "茉莉花新闻网 · 国内+国际 · 其他来源",
      "ts": 1792191188
-    },
-    {
-     "t": "日本央行纪要显露鹰派信号：多名委员曾讨论加快加息节奏-市场参考",
-     "u": "https://xnews.jin10.com/details/231118",
-     "s": "金十数据 · 国内+国际 · 其他来源",
-     "ts": 1792187771
     },
     {
      "t": "多项增量政策密集落地协同发力护航四季度经济稳增长|国务院常务会议|实体经济|宏观政策|货币政策|财政",
@@ -319,6 +313,12 @@
      "ts": 1792151160
     },
     {
+     "t": "加拿大央行没加息为何固定房贷利率反而上涨？",
+     "u": "https://info.vanpeople.com/1911270.html",
+     "s": "VanPeople · 国内 · 其他来源",
+     "ts": 1792143819
+    },
+    {
      "t": "日本央行：通胀上升加强了日本收紧货币政策的可能性",
      "u": "https://www.idnfinancials.com/cn/news/70369/%E6%97%A5%E6%9C%AC%E5%A4%AE%E8%A1%8C%E9%80%9A%E8%83%80%E4%B8%8A%E5%8D%87%E5%8A%A0%E5%BC%BA%E4%BA%86%E6%97%A5%E6%9C%AC%E6%94%B6%E7%B4%A7%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7",
      "s": "IDNFinancials · 国内+国际 · 其他来源",
@@ -329,6 +329,12 @@
      "u": "https://xnews.jin10.com/details/226264",
      "s": "金十数据 · 国内+国际 · 其他来源",
      "ts": 1792143202
+    },
+    {
+     "t": "美财政部公开喊话：日本已摆脱通缩环境，日元及货币政策必须调整",
+     "u": "https://news.futunn.com/post/1001358875/the-us-treasury-publicly-urged-that-japan-has-emerged-from",
+     "s": "富途牛牛 · 国内+国际 · 其他来源",
+     "ts": 1792137779
     },
     {
      "t": "欧洲央行管委、德国央行行长：不排除再次加息",
@@ -395,18 +401,6 @@
      "u": "http://finance.people.com.cn/n1/2026/1016/c1004-40815701.html",
      "s": "人民网 · 地区未标注 · 官方发布",
      "ts": 1792108800
-    },
-    {
-     "t": "加拿大央行未调利率而房贷利率上涨 固定房贷受国债收益率影响",
-     "u": "https://info.vanpeople.com/1911176.html",
-     "s": "VanPeople · 国内 · 其他来源",
-     "ts": 1792107817
-    },
-    {
-     "t": "日元走势再添变数！日本央行官员警告通胀上行，加息步伐或加快 美日USDJPY走势 2026-10-16 技术分析",
-     "u": "https://m.sohu.com/a/1088366244_122014422/?pvid=000115_3w_a",
-     "s": "搜狐 · 国内+国际 · 其他来源",
-     "ts": 1792105240
     }
    ]
   },
@@ -421,6 +415,12 @@
      "ts": 1792173730
     },
     {
+     "t": "陕西省渭南市市场监管局高新分局开展食品安全专项检查",
+     "u": "https://finance.sina.cn/2026-10-16/detail-inivksmm7072535.d.html?vt=4",
+     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
+     "ts": 1792165450
+    },
+    {
      "t": "海口市市场监管局龙泉所开展校园食品安全专项检查",
      "u": "https://finance.sina.cn/2026-10-16/detail-inivmiic6947568.d.html?vt=4",
      "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
@@ -431,6 +431,12 @@
      "u": "https://finance.sina.cn/2026-10-16/detail-inivmprk1659909.d.html?vt=4&cid=76675&node_id=76675",
      "s": "新浪财经 · 地区未标注 · 其他来源",
      "ts": 1792153646
+    },
+    {
+     "t": "举报“小额奖励”全市落地，食品安全管理师首次统考，专家库组建……重庆市市场监管局集中发布三项食安新举措",
+     "u": "https://www.cqnews.net/web/content_1560741952349880320.html",
+     "s": "华龙网 · 地区未标注 · 其他来源",
+     "ts": 1792151210
     },
     {
      "t": "食品价格降了1.2个百分点！9月青岛市CPI出炉|国家统计局|山东省|上涨|价格同比|环比",
@@ -457,22 +463,10 @@
      "ts": 1792137295
     },
     {
-     "t": "泰安市2027-2030年度政策性农业保险承保项目中选结果公示",
-     "u": "https://czj.taian.gov.cn/art/2026/10/16/art_48413_10321341.html",
-     "s": "泰安市财政局 · 地区未标注 · 其他来源",
-     "ts": 1792130880
-    },
-    {
      "t": "北京市顺义区市场监管局开展食品安全应急演练",
      "u": "https://finance.sina.cn/2026-10-16/detail-inivksmp7786594.d.html?vt=4&cid=76675&node_id=76675",
      "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
      "ts": 1792124069
-    },
-    {
-     "t": "陕西省渭南市市场监管局高新分局开展食品安全专项检查",
-     "u": "https://finance.sina.cn/2026-10-16/detail-inivksmm7072535.d.html?vt=4&cid=76675&node_id=76675",
-     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
-     "ts": 1792121093
     },
     {
      "t": "菏泽市市场监管局到单县督促检查特种设备安全及食品安全工作",
@@ -555,7 +549,7 @@
     {
      "t": "王毅会见以色列总统赫尔佐格",
      "u": "https://www.mfa.gov.cn/wjbzhd/202610/t20261016_12041367.shtml",
-     "s": "中华人民共和国外交部 · 地区未标注 · 官方发布 · 3家报道",
+     "s": "中华人民共和国外交部 · 地区未标注 · 官方发布 · 2家报道",
      "ts": 1792111020
     },
     {
@@ -589,7 +583,7 @@
      "ts": 1792237800
     },
     {
-     "t": "IMFC chairman says global economy resilient; delegates walk out on Russian official",
+     "t": "IMF committee chairman says global economy resilient; delegates walk out on Russian official",
      "u": "https://www.straitstimes.com/world/imfc-chair-says-global-economy-resilient-delegates-walk-out-on-russian-official",
      "s": "The Straits Times · 国际 · 其他来源",
      "ts": 1792232640
@@ -605,12 +599,6 @@
      "u": "https://english.ratopati.com/story/84049/imf-committed-to-helping-low-income-countries-affected-by-iran-war",
      "s": "Ratopati · 国际 · 其他来源",
      "ts": 1792229108
-    },
-    {
-     "t": "Charting the Global Economy: Inflationary Pressures Mount in US",
-     "u": "https://finance.yahoo.com/economy/articles/charting-global-economy-inflationary-pressures-090000483.html",
-     "s": "Yahoo Finance · 地区未标注 · 其他来源",
-     "ts": 1792227600
     },
     {
      "t": "IMF Warns Global Economy is 'Standing on One Leg' as AI Boom Masks Cracks",
@@ -709,12 +697,6 @@
      "ts": 1792212579
     },
     {
-     "t": "券商晨会精华：通胀反弹支持美联储加息，时点仍有悬念",
-     "u": "https://www.cls.cn/detail/2505146",
-     "s": "财联社 · 国际 · 其他来源",
-     "ts": 1792212296
-    },
-    {
      "t": "EUR/USD Q4 2026 Outlook: Euro at a Crossroads as Fed, ECB Tighten",
      "u": "https://www.stonex.com/en-gb/news-and-analysis/eur-usd-q4-2026-outlook-euro-at-a-crossroads-as-fed-ecb-tighten/",
      "s": "StoneX · 国际 · 其他来源",
@@ -749,6 +731,18 @@
      "u": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
      "s": "cnbc.com · 国际 · 权威媒体",
      "ts": 1792190069
+    },
+    {
+     "t": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+     "u": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+     "s": "cnbc.com · 地区未标注 · 权威媒体 · 评论观点",
+     "ts": 1792189985
+    },
+    {
+     "t": "Türkiye’s export value per kilogram surges as high-tech sectors boost revenue: Trade minister",
+     "u": "https://aa.com.tr/en/turkiye/turkiye-s-export-value-per-kilogram-surges-as-high-tech-sectors-boost-revenue-trade-minister/4091585",
+     "s": "Anadolu Ajansı · 地区未标注 · 其他来源",
+     "ts": 1792189828
     }
    ]
   },
@@ -757,27 +751,15 @@
    "name": "全球贸易与供应链",
    "items": [
     {
-     "t": "英国：不会跟随欧盟，对中国电动车、混动车实施关税加码与配额限制|产业政策|奇瑞|产业|产能|设防",
-     "u": "https://mil.news.sina.com.cn/2026-10-17/doc-inivnzss1487495.shtml",
-     "s": "新浪军事 · 国内+国际 · 其他来源",
-     "ts": 1792212720
-    },
-    {
      "t": "法德同意英国车企加入“欧洲制造” 条件是对中国电动车的关税与欧盟一致",
      "u": "https://molihua.org/zonghe-1095/",
      "s": "茉莉花新闻网 · 国内+国际 · 其他来源",
      "ts": 1792192963
     },
     {
-     "t": "特朗普威胁：若欧洲国家征收数字服务税，将对其输美商品征收100%关税",
-     "u": "https://www.cls.cn/detail/2410747",
-     "s": "财联社 · 国际 · 其他来源",
-     "ts": 1792182863
-    },
-    {
      "t": "China’s non-tariff barriers biggest hurdle to bilateral trade: FM",
      "u": "https://www.financialexpress.com/policy/economy/chinas-non-tariff-barriers-biggest-hurdle-to-bilateral-trade-fm/4363414/",
-     "s": "The Financial Express · 国际 · 其他来源",
+     "s": "Financial Express · 国际 · 其他来源",
      "ts": 1792176924
     },
     {
@@ -797,6 +779,12 @@
      "u": "https://www.rfi.fr/cn/%E7%BB%8F%E8%B4%B8/20261016-%E8%8B%B1%E8%B4%B8%E6%98%93%E7%9B%B8%E7%A7%B0%E6%84%BF%E5%B0%B1%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6%E5%85%B3%E7%A8%8E%E9%97%AE%E9%A2%98%E4%B8%8E%E6%AC%A7%E7%9B%9F%E8%A1%8C%E5%8A%A8%E4%B8%80%E8%87%B4-%E6%B3%95%E5%BE%B7%E5%B0%B1%E8%8B%B1%E8%BD%A6%E4%BC%81%E5%8A%A0%E5%85%A5-%E6%AC%A7%E6%B4%B2%E5%88%B6%E9%80%A0-%E8%AE%A1%E5%88%92%E6%9D%A1%E4%BB%B6%E6%9B%9D%E5%85%89",
      "s": "RFI · 国内+国际 · 其他来源",
      "ts": 1792156737
+    },
+    {
+     "t": "Sitharaman hopes India-US trade deal will be concluded soon, flags China's non-tariff barriers",
+     "u": "https://www.newindianexpress.com/business/2026/Oct/16/sitharaman-hopes-india-us-trade-deal-will-be-concluded-soon-flags-chinas-non-tariff-barriers",
+     "s": "The New Indian Express · 国际 · 其他来源",
+     "ts": 1792131356
     },
     {
      "t": "Trump's tariffs are changing the global trade ecosystem",
