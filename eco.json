@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T17:10:41.254868+00:00",
+ "updated": "2026-10-17T19:24:17.195056+00:00",
  "title": "经济观察 · 政策与国际",
  "boards": [
   {
@@ -9,7 +9,7 @@
     {
      "t": "推动数字经济与实体经济深度融合（今日谈）",
      "u": "https://paper.people.com.cn/rmrb/pc/content/202610/17/content_30186194.html",
-     "s": "人民日报 · 地区未标注 · 官方发布 · 2家报道",
+     "s": "人民日报 · 地区未标注 · 官方发布 · 3家报道",
      "ts": 1792247835
     },
     {
@@ -56,7 +56,7 @@
     },
     {
      "t": "中国裁军大使：反对一些国家歪曲抹黑中国核政策",
-     "u": "http://www.xinhuanet.com/20261017/9c6f8303289b4b9ebea2fdbe7f2d0e8f/c.html",
+     "u": "https://www.xinhuanet.com/20261017/9c6f8303289b4b9ebea2fdbe7f2d0e8f/c.html",
      "s": "新华网 · 国内 · 官方发布",
      "ts": 1792218150
     },
@@ -110,9 +110,9 @@
     },
     {
      "t": "养老服务价格政策将进一步完善",
-     "u": "http://hb.people.com.cn/n2/2026/1017/c194063-41724575.html",
-     "s": "人民网－湖北频道 · 地区未标注 · 官方发布 · 2家报道",
-     "ts": 1792195680
+     "u": "http://sx.people.com.cn/n2/2026/1017/c352664-41724587.html",
+     "s": "人民网 · 地区未标注 · 官方发布",
+     "ts": 1792195920
     },
     {
      "t": "坚定不移推动经济社会高质量发展",
@@ -123,7 +123,7 @@
     {
      "t": "3部门完善养老服务价格政策",
      "u": "http://finance.people.com.cn/n1/2026/1017/c1004-40816336.html",
-     "s": "人民网 · 地区未标注 · 官方发布",
+     "s": "人民网 · 地区未标注 · 官方发布 · 3家报道",
      "ts": 1792183440
     },
     {
@@ -152,7 +152,7 @@
     },
     {
      "t": "森林康养产业加快培育 政策红利释放发展动能",
-     "u": "https://www.xinhuanet.com/travel/20261016/fcc703f0120442f9b4ba3bc4284d904d/c.html",
+     "u": "http://www.xinhuanet.com/travel/20261016/fcc703f0120442f9b4ba3bc4284d904d/c.html",
      "s": "新华网 · 地区未标注 · 官方发布",
      "ts": 1792136693
     },
@@ -193,12 +193,6 @@
      "ts": 1792164763
     },
     {
-     "t": "9月广东CPI同比上涨1.1%，核心CPI同比涨1.3%",
-     "u": "https://finance.sina.cn/2026-10-16/detail-inivmtwx6811866.d.html?vt=4&cid=76729&node_id=76729",
-     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
-     "ts": 1792158765
-    },
-    {
      "t": "21评论丨加大逆周期调节力度，推动物价合理回升|国家统计局|国内成品油|国际油价|CPI|能源价格",
      "u": "https://finance.sina.cn/2026-10-16/detail-inivivfv7168989.d.html?oid=%E9%9F%B6%E5%85%B3%E6%9F%A5%E8%AF%A2%E8%80%81%E5%85%AC%E8%80%81%E5%A9%86%E5%87%BA%E8%BD%A8%E8%AE%B0%E5%BD%95%EF%BC%88%E5%AE%98%E6%96%B9%E5%BE%AE%E4%BF%A149811007%EF%BC%89%E5%BE%AE%E4%BF%A1%E5%AE%9A%E4%BD%8D%E6%9C%89%E6%B2%A1%E6%9C%89%E6%8C%82&vt=4&cid=76729&node_id=76729",
      "s": "finance.sina.com.cn · 国内 · 其他来源 · 评论观点",
@@ -215,6 +209,12 @@
      "u": "https://tyj.beijing.gov.cn/bjsports/zfxxgk_/2024zcjd/744141431/index.html",
      "s": "北京市体育局 · 地区未标注 · 其他来源",
      "ts": 1792113240
+    },
+    {
+     "t": "人民日报：甘肃统一规范农民工参加失业保险政策_媒体看甘肃",
+     "u": "http://www.gansu.gov.cn/gsszf/c100002/c100011/202610/174409651.shtml",
+     "s": "甘肃省人民政府 · 地区未标注 · 其他来源 · 2家报道",
+     "ts": 1792111140
     }
    ]
   },
@@ -222,6 +222,12 @@
    "cat": "金融与货币",
    "name": "金融与货币",
    "items": [
+    {
+     "t": "日本央行放出下周加息风声 相关人士：再拖下去就太晚了",
+     "u": "https://www.cls.cn/detail/2394959",
+     "s": "财联社 · 国内+国际 · 其他来源",
+     "ts": 1792253450
+    },
     {
      "t": "加拿大央行继续按兵不动，未来降息或加息皆有可能-市场参考",
      "u": "https://xnews.jin10.com/details/221617",
@@ -241,22 +247,16 @@
      "ts": 1792216881
     },
     {
-     "t": "日元跌穿162，日本却没升级警告！前央行高官称下次加息或早于12月-市场参考",
-     "u": "https://xnews.jin10.com/details/223109",
-     "s": "金十数据 · 国内+国际 · 其他来源",
-     "ts": 1792201882
-    },
-    {
-     "t": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
-     "u": "https://xnews.jin10.com/details/222678",
-     "s": "金十数据 · 国内+国际 · 其他来源",
-     "ts": 1792198918
-    },
-    {
      "t": "中国央行行长潘功胜：全球失衡不能靠汇率调节 IMF官员说人民币实际汇率被低估",
      "u": "https://molihua.org/zonghe-1086/",
      "s": "茉莉花新闻网 · 国内+国际 · 其他来源",
      "ts": 1792191188
+    },
+    {
+     "t": "日本央行纪要显露鹰派信号：多名委员曾讨论加快加息节奏-市场参考",
+     "u": "https://xnews.jin10.com/details/231118",
+     "s": "金十数据 · 国内+国际 · 其他来源",
+     "ts": 1792187771
     },
     {
      "t": "多项增量政策密集落地协同发力护航四季度经济稳增长|国务院常务会议|实体经济|宏观政策|货币政策|财政",
@@ -331,12 +331,6 @@
      "ts": 1792143202
     },
     {
-     "t": "美财政部公开喊话：日本已摆脱通缩环境，日元及货币政策必须调整",
-     "u": "https://news.futunn.com/post/1001358875/the-us-treasury-publicly-urged-that-japan-has-emerged-from",
-     "s": "富途牛牛 · 国内+国际 · 其他来源",
-     "ts": 1792137779
-    },
-    {
      "t": "欧洲央行管委、德国央行行长：不排除再次加息",
      "u": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmazq1641924.shtml",
      "s": "新浪财经 · 国内+国际 · 其他来源",
@@ -397,6 +391,12 @@
      "ts": 1792115959
     },
     {
+     "t": "裕信银行增持德国商业银行获欧洲央行批准 持股可超30%",
+     "u": "https://www.guandian.cn/m/show/614063",
+     "s": "观点网 · 国内+国际 · 其他来源",
+     "ts": 1792115814
+    },
+    {
      "t": "继续实施好适度宽松的货币政策",
      "u": "http://finance.people.com.cn/n1/2026/1016/c1004-40815701.html",
      "s": "人民网 · 地区未标注 · 官方发布",
@@ -413,12 +413,6 @@
      "u": "https://finance.sina.cn/2026-10-16/detail-inivmiif7686421.d.html?vt=4&cid=76675&node_id=76675",
      "s": "新浪财经 · 地区未标注 · 其他来源",
      "ts": 1792173730
-    },
-    {
-     "t": "陕西省渭南市市场监管局高新分局开展食品安全专项检查",
-     "u": "https://finance.sina.cn/2026-10-16/detail-inivksmm7072535.d.html?vt=4",
-     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
-     "ts": 1792165450
     },
     {
      "t": "海口市市场监管局龙泉所开展校园食品安全专项检查",
@@ -451,22 +445,28 @@
      "ts": 1792143406
     },
     {
-     "t": "内蒙古额济纳旗市场监管局扎实开展网络餐饮食品安全专项整治",
-     "u": "https://finance.sina.cn/2026-10-16/detail-inivmazq1688113.d.html?vt=4&cid=76675&node_id=76675",
-     "s": "新浪财经 · 地区未标注 · 其他来源",
-     "ts": 1792140351
-    },
-    {
      "t": "内蒙古通辽市举办2026年食品安全宣传周主场活动",
      "u": "https://finance.sina.cn/2026-10-16/detail-inivmazr8339808.d.html?vt=4&cid=76675&node_id=76675",
      "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
      "ts": 1792137295
     },
     {
+     "t": "泰安市2027-2030年度政策性农业保险承保项目中选结果公示",
+     "u": "https://czj.taian.gov.cn/art/2026/10/16/art_48413_10321341.html",
+     "s": "泰安市财政局 · 地区未标注 · 其他来源",
+     "ts": 1792130880
+    },
+    {
      "t": "北京市顺义区市场监管局开展食品安全应急演练",
      "u": "https://finance.sina.cn/2026-10-16/detail-inivksmp7786594.d.html?vt=4&cid=76675&node_id=76675",
      "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
      "ts": 1792124069
+    },
+    {
+     "t": "陕西省渭南市市场监管局高新分局开展食品安全专项检查",
+     "u": "https://finance.sina.cn/2026-10-16/detail-inivksmm7072535.d.html?vt=4&cid=76675&node_id=76675",
+     "s": "finance.sina.com.cn · 地区未标注 · 其他来源",
+     "ts": 1792121093
     },
     {
      "t": "菏泽市市场监管局到单县督促检查特种设备安全及食品安全工作",
@@ -504,6 +504,12 @@
    "cat": "政治与外交动态",
    "name": "政治与外交动态",
    "items": [
+    {
+     "t": "李强同乌兹别克斯坦总理阿里波夫会谈",
+     "u": "https://app.xinhuanet.com/news/article.html?articleId=2026101890304d20ee2e485399f7d90bd6c96c97",
+     "s": "新华网客户端 · 地区未标注 · 官方发布 · 2家报道",
+     "ts": 1792260675
+    },
     {
      "t": "俄外交部：中国正在进行“新的伟大长征”",
      "u": "https://www.xinhuanet.com/20261017/dc09c7e3cfa04eaa8aa7594a386d8347/c.html",
@@ -557,6 +563,12 @@
      "u": "https://www.xinhuanet.com/20261015/f56920c3693a475c94d2a5141e5e70a3/c.html",
      "s": "新华网 · 地区未标注 · 官方发布",
      "ts": 1792078555
+    },
+    {
+     "t": "李强会见博茨瓦纳总统博科",
+     "u": "https://www.news.cn/politics/leaders/20261015/cc146de8efcb4593959a6dbd23ed679f/c.html",
+     "s": "新华网 · 地区未标注 · 官方发布 · 2家报道",
+     "ts": 1792076665
     }
    ]
   },
@@ -575,12 +587,6 @@
      "u": "https://www.freemalaysiatoday.com/category/business/2026/10/17/leaders-weigh-huge-benefit-risks-of-ai-for-global-economy",
      "s": "Free Malaysia Today · 地区未标注 · 其他来源",
      "ts": 1792239864
-    },
-    {
-     "t": "加息大消息！美联储主席重磅发声！",
-     "u": "https://k.sina.com.cn/article_1801487174_6b608346020039v98.html?from=finance",
-     "s": "新浪网 · 国际 · 其他来源 · 2家报道",
-     "ts": 1792237800
     },
     {
      "t": "IMF committee chairman says global economy resilient; delegates walk out on Russian official",
@@ -619,16 +625,16 @@
      "ts": 1792223591
     },
     {
+     "t": "IMF chief sees ‘optimism and worry’ at Bangkok talks",
+     "u": "https://www.bangkokpost.com/business/general/3338795/imf-chief-sees-optimism-and-worry-at-bangkok-talks",
+     "s": "Bangkok Post · 国际 · 其他来源",
+     "ts": 1792223100
+    },
+    {
      "t": "专访IMF研究部世界经济主管：五年或十年后会发生什么？目前还非常不确定",
      "u": "https://m.sohu.com/a/1089016782_114986?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
      "s": "搜狐 · 国际 · 其他来源",
      "ts": 1792222620
-    },
-    {
-     "t": "IMF chief flags 'optimism', 'worry' after Bangkok annual meetings",
-     "u": "https://www.france24.com/en/live-news/20261017-imf-chief-says-has-optimism-and-worry-after-bangkok-annual-meetings",
-     "s": "France 24 · 国际 · 其他来源",
-     "ts": 1792221084
     },
     {
      "t": "US inflation complicates Fed policy outlook ahead of midterm elections",
@@ -685,12 +691,6 @@
      "ts": 1792213200
     },
     {
-     "t": "美联储12月或祭出50基点加息？资深预测人士：10月料按兵不动",
-     "u": "https://www.cls.cn/detail/2505369",
-     "s": "财联社 · 国际 · 其他来源",
-     "ts": 1792212878
-    },
-    {
      "t": "专访丨IMF官员警告全球经济面临紧迫财政挑战",
      "u": "https://www.xinhuanet.com/20261017/3dd2f2251bca40fb83d8e718cc24b723/c.html",
      "s": "新华网 · 国际 · 官方发布",
@@ -701,6 +701,18 @@
      "u": "https://www.stonex.com/en-gb/news-and-analysis/eur-usd-q4-2026-outlook-euro-at-a-crossroads-as-fed-ecb-tighten/",
      "s": "StoneX · 国际 · 其他来源",
      "ts": 1792212268
+    },
+    {
+     "t": "Warsh signals steady Fed outlook despite inflation jump",
+     "u": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
+     "s": "Axios · 国际 · 其他来源",
+     "ts": 1792211195
+    },
+    {
+     "t": "油价调整最新通知|国际油价|成品油|发改委|调价|原油",
+     "u": "https://finance.sina.cn/2026-10-17/detail-inivnzsm7240335.d.html?oid=%E9%9F%B6%E5%85%B3%E6%9F%A5%E8%AF%A2%E8%80%81%E5%85%AC%E8%80%81%E5%A9%86%E5%87%BA%E8%BD%A8%E8%AE%B0%E5%BD%95%EF%BC%88%E5%AE%98%E6%96%B9%E5%BE%AE%E4%BF%A149811007%EF%BC%89%E5%BE%AE%E4%BF%A1%E5%AE%9A%E4%BD%8D%E6%9C%89%E6%B2%A1%E6%9C%89%E6%8C%82&vt=4&cid=76729&node_id=76729",
+     "s": "finance.sina.com.cn · 国内 · 其他来源",
+     "ts": 1792207489
     },
     {
      "t": "美联储本月能躲过加息吗？CPI周三揭晓，核心通胀0.3%或打乱暂停计划-市场参考",
@@ -751,6 +763,18 @@
    "name": "全球贸易与供应链",
    "items": [
     {
+     "t": "澳大利亚拒绝重启与欧盟的贸易协定谈判",
+     "u": "https://www.vinetur.com/cn/20261017109184/australia-refuses-to-reopen-its-trade-deal-with-the-eu.html",
+     "s": "Vinetur · 国际 · 其他来源",
+     "ts": 1792262253
+    },
+    {
+     "t": "特朗普威胁：若欧洲国家征收数字服务税，将对其输美商品征收100%关税",
+     "u": "https://www.cls.cn/detail/2410747",
+     "s": "财联社 · 国际 · 其他来源",
+     "ts": 1792254063
+    },
+    {
      "t": "法德同意英国车企加入“欧洲制造” 条件是对中国电动车的关税与欧盟一致",
      "u": "https://molihua.org/zonghe-1095/",
      "s": "茉莉花新闻网 · 国内+国际 · 其他来源",
@@ -759,14 +783,8 @@
     {
      "t": "China’s non-tariff barriers biggest hurdle to bilateral trade: FM",
      "u": "https://www.financialexpress.com/policy/economy/chinas-non-tariff-barriers-biggest-hurdle-to-bilateral-trade-fm/4363414/",
-     "s": "Financial Express · 国际 · 其他来源",
+     "s": "The Financial Express · 国际 · 其他来源",
      "ts": 1792176924
-    },
-    {
-     "t": "唐宁街10仍未排除英国加入欧盟计划后对中国电动汽车征收关税的可能",
-     "u": "https://mezha.net/ch/news/mezha-959416dbb65317baf979e755_no-10-leaves-option-open-to/",
-     "s": "Mezha.net · 国内+国际 · 其他来源",
-     "ts": 1792159740
     },
     {
      "t": "英国未排除对中国电动汽车征收关税的可能性——《卫报》",
