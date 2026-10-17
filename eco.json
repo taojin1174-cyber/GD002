@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:24:17.195056+00:00",
+ "updated": "2026-10-17T22:17:58.777315+00:00",
  "title": "经济观察 · 政策与国际",
  "boards": [
   {
@@ -152,7 +152,7 @@
     },
     {
      "t": "森林康养产业加快培育 政策红利释放发展动能",
-     "u": "http://www.xinhuanet.com/travel/20261016/fcc703f0120442f9b4ba3bc4284d904d/c.html",
+     "u": "https://www.xinhuanet.com/travel/20261016/fcc703f0120442f9b4ba3bc4284d904d/c.html",
      "s": "新华网 · 地区未标注 · 官方发布",
      "ts": 1792136693
     },
@@ -186,6 +186,12 @@
    "cat": "宏观形势与数据",
    "name": "宏观形势与数据",
    "items": [
+    {
+     "t": "9月PPI同比上涨5.0%创近四年新高 主要受国际输入性因素影响",
+     "u": "https://finance.sina.cn/2026-10-17/detail-inivnvku1405809.d.html?vt=4&cid=76729&node_id=76729",
+     "s": "新浪网 · 地区未标注 · 其他来源",
+     "ts": 1792200511
+    },
     {
      "t": "9月份内蒙古CPI同比上涨1.3% PPI同比上涨12.4%",
      "u": "https://finance.sina.cn/2026-10-16/detail-inivmprm8434217.d.html?oid=%E9%9F%B6%E5%85%B3%E6%9F%A5%E8%AF%A2%E8%80%81%E5%85%AC%E8%80%81%E5%A9%86%E5%87%BA%E8%BD%A8%E8%AE%B0%E5%BD%95%EF%BC%88%E5%AE%98%E6%96%B9%E5%BE%AE%E4%BF%A149811007%EF%BC%89%E5%BE%AE%E4%BF%A1%E5%AE%9A%E4%BD%8D%E6%9C%89%E6%B2%A1%E6%9C%89%E6%8C%82&vt=4&cid=76729&node_id=76729",
@@ -275,6 +281,12 @@
      "u": "https://cryptorank.io/zh/news/feed/60e74-2296875",
      "s": "CryptoRank · 国内+国际 · 其他来源 · 2家报道",
      "ts": 1792165522
+    },
+    {
+     "t": "潘功胜会见欧洲央行行长拉加德、欧元集团主席皮埃拉卡基斯",
+     "u": "https://xinwen.bjd.com.cn/content/s6ad2361de4b0e42f8f01ab62.html",
+     "s": "京报网 · 国内+国际 · 其他来源",
+     "ts": 1792161300
     },
     {
      "t": "市场做了央行的工作？全球债市抛售太猛，央行可能不用再加息了-市场参考",
@@ -395,12 +407,6 @@
      "u": "https://www.guandian.cn/m/show/614063",
      "s": "观点网 · 国内+国际 · 其他来源",
      "ts": 1792115814
-    },
-    {
-     "t": "继续实施好适度宽松的货币政策",
-     "u": "http://finance.people.com.cn/n1/2026/1016/c1004-40815701.html",
-     "s": "人民网 · 地区未标注 · 官方发布",
-     "ts": 1792108800
     }
    ]
   },
@@ -505,10 +511,28 @@
    "name": "政治与外交动态",
    "items": [
     {
+     "t": "欧洲外交人员在约旦河西岸遭犹太定居者袭击",
+     "u": "https://www.xinhuanet.com/20261018/645cdafb281a4cf2b1724a1288d3a3d8/c.html",
+     "s": "新华网 · 国际 · 官方发布",
+     "ts": 1792272733
+    },
+    {
      "t": "李强同乌兹别克斯坦总理阿里波夫会谈",
-     "u": "https://app.xinhuanet.com/news/article.html?articleId=2026101890304d20ee2e485399f7d90bd6c96c97",
-     "s": "新华网客户端 · 地区未标注 · 官方发布 · 2家报道",
-     "ts": 1792260675
+     "u": "http://www.news.cn/photo/20261018/884505ff291042ffb52550689f1ae2d9/c.html",
+     "s": "新华网 · 地区未标注 · 官方发布",
+     "ts": 1792259190
+    },
+    {
+     "t": "李强会见乌兹别克斯坦总统米尔济约耶夫",
+     "u": "https://www.news.cn/20261018/b0564823459f4a9c8aac33c3dcc0575f/c.html",
+     "s": "新华网 · 地区未标注 · 官方发布",
+     "ts": 1792258051
+    },
+    {
+     "t": "克罗地亚总理普连科维奇会见王毅",
+     "u": "https://www.chinanews.com.cn/gn/2026/10-17/10716470.shtml",
+     "s": "中国新闻网 · 地区未标注 · 权威媒体",
+     "ts": 1792245178
     },
     {
      "t": "俄外交部：中国正在进行“新的伟大长征”",
@@ -557,18 +581,6 @@
      "u": "https://www.mfa.gov.cn/wjbzhd/202610/t20261016_12041367.shtml",
      "s": "中华人民共和国外交部 · 地区未标注 · 官方发布 · 2家报道",
      "ts": 1792111020
-    },
-    {
-     "t": "《亚信第七次峰会宣言》（全文）",
-     "u": "https://www.xinhuanet.com/20261015/f56920c3693a475c94d2a5141e5e70a3/c.html",
-     "s": "新华网 · 地区未标注 · 官方发布",
-     "ts": 1792078555
-    },
-    {
-     "t": "李强会见博茨瓦纳总统博科",
-     "u": "https://www.news.cn/politics/leaders/20261015/cc146de8efcb4593959a6dbd23ed679f/c.html",
-     "s": "新华网 · 地区未标注 · 官方发布 · 2家报道",
-     "ts": 1792076665
     }
    ]
   },
@@ -576,6 +588,36 @@
    "cat": "国际经济",
    "name": "国际经济",
    "items": [
+    {
+     "t": "How day of protests unfolded as disorder breaks out across France",
+     "u": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss",
+     "s": "feeds.bbci.co.uk · 地区未标注 · 权威媒体",
+     "ts": 1792272797
+    },
+    {
+     "t": "Another interest rate hike may be ahead as Fed battles inflation",
+     "u": "https://www.scrippsnews.com/politics/economy/another-interest-rate-hike-may-be-ahead-as-fed-battles-inflation",
+     "s": "Scripps News · 国际 · 其他来源",
+     "ts": 1792262562
+    },
+    {
+     "t": "High global energy prices may hurt inflation outlook, Bank of Canada governor says",
+     "u": "https://www.bnnbloomberg.ca/business/economics/2026/10/17/high-global-energy-prices-may-hurt-inflation-outlook-bank-of-canada-governor-says/",
+     "s": "BNN Bloomberg · 地区未标注 · 权威媒体",
+     "ts": 1792262400
+    },
+    {
+     "t": "Asian Stocks Rebound as Treasury Yields Ease, While Apple Leads Big Tech in 2026, and Germany’s Economic Outlook Improves",
+     "u": "https://www.tekedia.com/asian-stocks-rebound-as-treasury-yields-ease-while-apple-leads-big-tech-in-2026-and-germanys-economic-outlook-improves/",
+     "s": "Tekedia · 地区未标注 · 其他来源",
+     "ts": 1792255722
+    },
+    {
+     "t": "美国CPI通胀再抬头，美联储加息押注升温，金银短线跳水！-市场参考",
+     "u": "https://xnews.jin10.com/details/232481",
+     "s": "金十数据 · 国际 · 其他来源",
+     "ts": 1792247520
+    },
     {
      "t": "Low-cost clinic helps pet owners with vet bills",
      "u": "https://www.bbc.co.uk/news/articles/c6kgl39rnnvzo?at_medium=RSS&at_campaign=rss",
@@ -589,10 +631,10 @@
      "ts": 1792239864
     },
     {
-     "t": "IMF committee chairman says global economy resilient; delegates walk out on Russian official",
-     "u": "https://www.straitstimes.com/world/imfc-chair-says-global-economy-resilient-delegates-walk-out-on-russian-official",
-     "s": "The Straits Times · 国际 · 其他来源",
-     "ts": 1792232640
+     "t": "IMFC chair says global economy resilient; delegates walk out on Russian official",
+     "u": "https://www.cnbc.com/2026/10/17/imf-members-call-for-more-support-amid-war-shocks-advanced-intelligence-risks.html",
+     "s": "CNBC · 国际 · 权威媒体 · 2家报道",
+     "ts": 1792232890
     },
     {
      "t": "盛松成：美联储利率路径仍有不确定性",
@@ -725,36 +767,6 @@
      "u": "https://www.pymnts.com/economy/2026/new-york-fed-finds-surging-costs-turn-executive-outlook-negative/",
      "s": "PYMNTS.com · 国际 · 其他来源",
      "ts": 1792196069
-    },
-    {
-     "t": "IMF warns of rising debt, inflation risks amid global economic shifts",
-     "u": "https://gazettengr.com/imf-warns-of-rising-debt-inflation-risks-amid-global-economic-shifts/",
-     "s": "Peoples Gazette Nigeria · 国际 · 其他来源",
-     "ts": 1792192728
-    },
-    {
-     "t": "IMF urges China to boost fiscal stimulus to curb deflation",
-     "u": "https://www.idnfinancials.com/news/70361/imf-urges-china-to-boost-fiscal-stimulus-to-curb-deflation",
-     "s": "IDNFinancials · 国际 · 其他来源 · 4家报道",
-     "ts": 1792191600
-    },
-    {
-     "t": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
-     "u": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
-     "s": "cnbc.com · 国际 · 权威媒体",
-     "ts": 1792190069
-    },
-    {
-     "t": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-     "u": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-     "s": "cnbc.com · 地区未标注 · 权威媒体 · 评论观点",
-     "ts": 1792189985
-    },
-    {
-     "t": "Türkiye’s export value per kilogram surges as high-tech sectors boost revenue: Trade minister",
-     "u": "https://aa.com.tr/en/turkiye/turkiye-s-export-value-per-kilogram-surges-as-high-tech-sectors-boost-revenue-trade-minister/4091585",
-     "s": "Anadolu Ajansı · 地区未标注 · 其他来源",
-     "ts": 1792189828
     }
    ]
   },
@@ -775,6 +787,12 @@
      "ts": 1792254063
     },
     {
+     "t": "英国：不会跟随欧盟，对中国电动车、混动车实施关税加码与配额限制|产业政策|奇瑞|产业|产能|设防",
+     "u": "https://mil.news.sina.com.cn/2026-10-17/doc-inivnzss1487495.shtml",
+     "s": "新浪军事 · 国内+国际 · 其他来源",
+     "ts": 1792212720
+    },
+    {
      "t": "法德同意英国车企加入“欧洲制造” 条件是对中国电动车的关税与欧盟一致",
      "u": "https://molihua.org/zonghe-1095/",
      "s": "茉莉花新闻网 · 国内+国际 · 其他来源",
@@ -787,6 +805,12 @@
      "ts": 1792176924
     },
     {
+     "t": "唐宁街10仍未排除英国加入欧盟计划后对中国电动汽车征收关税的可能",
+     "u": "https://mezha.net/ch/news/mezha-959416dbb65317baf979e755_no-10-leaves-option-open-to/",
+     "s": "Mezha.net · 国内+国际 · 其他来源",
+     "ts": 1792159740
+    },
+    {
      "t": "英国未排除对中国电动汽车征收关税的可能性——《卫报》",
      "u": "https://ua.news/cn/world/britaniia-ne-vikliuchila-mita-na-kitaiski-elektromobili-the-guardian",
      "s": "UA.NEWS · 国内+国际 · 其他来源",
@@ -797,12 +821,6 @@
      "u": "https://www.rfi.fr/cn/%E7%BB%8F%E8%B4%B8/20261016-%E8%8B%B1%E8%B4%B8%E6%98%93%E7%9B%B8%E7%A7%B0%E6%84%BF%E5%B0%B1%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6%E5%85%B3%E7%A8%8E%E9%97%AE%E9%A2%98%E4%B8%8E%E6%AC%A7%E7%9B%9F%E8%A1%8C%E5%8A%A8%E4%B8%80%E8%87%B4-%E6%B3%95%E5%BE%B7%E5%B0%B1%E8%8B%B1%E8%BD%A6%E4%BC%81%E5%8A%A0%E5%85%A5-%E6%AC%A7%E6%B4%B2%E5%88%B6%E9%80%A0-%E8%AE%A1%E5%88%92%E6%9D%A1%E4%BB%B6%E6%9B%9D%E5%85%89",
      "s": "RFI · 国内+国际 · 其他来源",
      "ts": 1792156737
-    },
-    {
-     "t": "Sitharaman hopes India-US trade deal will be concluded soon, flags China's non-tariff barriers",
-     "u": "https://www.newindianexpress.com/business/2026/Oct/16/sitharaman-hopes-india-us-trade-deal-will-be-concluded-soon-flags-chinas-non-tariff-barriers",
-     "s": "The New Indian Express · 国际 · 其他来源",
-     "ts": 1792131356
     },
     {
      "t": "Trump's tariffs are changing the global trade ecosystem",
@@ -831,7 +849,7 @@
     {
      "t": "欧盟召开峰会：对华出口、能源价格及预算是重点",
      "u": "https://www.dw.com/zh/%E6%AC%A7%E7%9B%9F%E5%8F%AC%E5%BC%80%E5%B3%B0%E4%BC%9A%E5%AF%B9%E5%8D%8E%E5%87%BA%E5%8F%A3%E8%83%BD%E6%BA%90%E4%BB%B7%E6%A0%BC%E5%8F%8A%E9%A2%84%E7%AE%97%E6%98%AF%E9%87%8D%E7%82%B9/a-79669593",
-     "s": "DW.com · 国际 · 其他来源",
+     "s": "dw.com · 国际 · 其他来源",
      "ts": 1792087449
     }
    ]
