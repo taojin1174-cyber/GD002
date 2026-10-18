@@ -9,11 +9,15 @@ def gn(q):  # Google 新闻 RSS，近 7 天（中文大陆版）
     return f"https://news.google.com/rss/search?q={quote(q + ' when:7d')}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
 def gn_en(q):  # Google 新闻 RSS，英文版（国际视角）
     return f"https://news.google.com/rss/search?q={quote(q + ' when:7d')}&hl=en-US&gl=US&ceid=US:en"
+def gn_r(q, hl, gl, ceid):  # 同一个词换地区，索引不同 → 能多捞出一批
+    return f"https://news.google.com/rss/search?q={quote(q + ' when:7d')}&hl={hl}&gl={gl}&ceid={ceid}"
 
 KW = re.compile(r"预制菜|食品|餐饮|外卖|饮料|零食|调味|冷链|中央厨房|农产品|茶饮|咖啡")
 # (分类, 榜单名, RSS 地址, 关键词过滤)  —— 想加榜单就往这里加一行
 SOURCES = [
-    ("预制菜", "预制菜 · 最新", gn("预制菜"), None),
+    ("预制菜", "预制菜 · 最新", [gn("预制菜"),
+                                gn_r("预制菜", "zh-TW", "TW", "TW:zh-Hant"),
+                                gn_r("预制菜", "zh-CN", "SG", "SG:zh-Hans")], None),
     ("预制菜", "融资 · 企业 · 财报", gn("预制菜 融资 OR 上市 OR 财报 OR 工厂 OR 布局"), None),
     ("预制菜", "争议与舆情", gn("预制菜 争议 OR 投诉 OR 添加剂 OR 进校园 OR 消费者"), None),
     ("政策标准", "国家标准与规范", gn("预制菜 国家标准 OR 行业标准 OR 团体标准 OR 规范"), None),
@@ -23,7 +27,8 @@ SOURCES = [
     ("行业垂直", "餐饮老板内参", gn("餐饮老板内参"), None),
     ("行业垂直", "红餐网", gn("红餐网 预制菜"), None),
     ("食品新闻", "食品行业动态", gn("食品行业 新品 OR 消费趋势 OR 品牌"), None),
-    ("食品新闻", "食品安全", gn("食品安全 通报 OR 抽检 OR 召回 OR 曝光"), None),
+    ("食品新闻", "食品安全", [gn("食品安全 通报 OR 抽检 OR 召回 OR 曝光"),
+                            gn_r("食品安全 通报 OR 抽检 OR 曝光", "zh-TW", "TW", "TW:zh-Hant")], None),
     ("食品新闻", "餐饮与供应链", gn("餐饮 供应链 中央厨房 OR 团餐 OR 连锁 OR 冷链"), None),
     ("科技商业媒体", "36氪 · 预制菜与食品", gn("site:36kr.com 预制菜 OR 食品 OR 餐饮"), None),
     ("科技商业媒体", "虎嗅 · 预制菜与食品", gn("site:huxiu.com 预制菜 OR 食品 OR 餐饮"), None),
@@ -34,8 +39,35 @@ SOURCES = [
     ("国际动态", "Global · 监管与召回", gn_en("food recall OR food safety warning OR FDA food OR foodborne outbreak"), None),
     ("国际动态", "Global · 市场与资本", gn_en("food company acquisition OR food industry funding OR food brand launch"), None),
 ]
-TREND_CATS = ("预制菜", "政策标准", "行业垂直", "食品新闻", "科技商业媒体", "热点追踪")
+TREND_CATS = ("预制菜", "政策标准", "行业垂直", "食品新闻", "科技商业媒体", "热点追踪", "主流媒体")
 DIGEST_CATS = ("预制菜", "政策标准", "行业垂直")   # 日报只统计这几类，避免口径被冲淡
+
+# ---- 直连 RSS（不经 Google）：国内媒体全站流，按食品关键词筛 ----
+MEDIA_RE = re.compile(r"预制菜|食品|餐饮|外卖|饮料|零食|调味|冷链|中央厨房|农产品|"
+                      r"猪肉|鸡蛋|鸡肉|粮油|食用油|乳|酒|茶|咖啡|烘焙|火锅|连锁|超市|零售|生鲜")
+FEEDS = [
+    ("主流媒体", "中新网 · 食品相关", [
+        "https://www.chinanews.com.cn/rss/scroll-news.xml",
+        "https://www.chinanews.com.cn/rss/life.xml"], MEDIA_RE),
+    ("主流媒体", "钛媒体 · 食品与消费", ["https://www.tmtpost.com/feed"], MEDIA_RE),
+]
+
+def pull_feed(urls, kw, n=24):   # 直连源：不带查询能力，只能全站拉回来按关键词筛
+    out, seen = [], set()
+    for u in urls:
+        try: d = feedparser.parse(u, agent=UA)
+        except Exception as ex: print("  直连失败", u, ex); continue
+        print("  直连", u.split("/")[2], len(d.entries))
+        for e in d.entries:
+            t = re.sub(r"\s+", " ", e.get("title", "")).strip()
+            if " - " in t: t = t.rsplit(" - ", 1)[0]
+            if not t or t in seen or (kw and not kw.search(t)): continue
+            ts = int(time.mktime(e.published_parsed)) if e.get("published_parsed") else 0
+            if ts and ts < time.time() - 14 * 86400: continue
+            seen.add(t)
+            out.append({"t": t, "u": e.get("link", ""), "s": u.split("/")[2].replace("www.", ""), "ts": ts})
+    out.sort(key=lambda x: -x["ts"])
+    return out[:n]
 TOPICS = ["政策", "标准", "监管", "融资", "上市", "出海", "团餐", "零售", "餐饮", "争议",
           "添加剂", "食品安全", "冷链", "中央厨房", "净菜", "外卖", "进校园", "价格", "品牌", "渠道"]
 
@@ -91,6 +123,22 @@ for cat, name, url, kw in SOURCES:
     try: items = pull(url, kw)
     except Exception as ex: print("失败", name, ex); items = []
     boards.append({"cat": cat, "name": name, "items": items}); print(name, len(items))
+
+for cat, name, urls, kw in FEEDS:      # 直连的国内媒体
+    try: items = pull_feed(urls, kw)
+    except Exception as ex: print("失败", name, ex); items = []
+    boards.append({"cat": cat, "name": name, "items": items}); print(name, len(items))
+
+# ---- 行业垂直站：由 vertical.py 单独抓好，这里只负责并进来 ----
+# 这些站 Google 索引里搜不到（或只索引到几篇），但内容正是我们要的
+try:
+    for b in json.load(open("vertical.json", encoding="utf-8")).get("boards", []):
+        b.setdefault("cat", "行业垂直")
+        boards.append(b); print("并入", b["name"], len(b["items"]))
+except FileNotFoundError:
+    print("vertical.json 不存在，跳过垂直站（不影响其他频道）")
+except Exception as ex:
+    print("vertical.json 读取失败，跳过:", ex)
 
 resolve_links(boards)
 now = int(time.time())
