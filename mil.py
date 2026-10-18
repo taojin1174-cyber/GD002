@@ -121,3 +121,145 @@ def main():
                     continue
                 if only_off and lv != "官方":
                     st["非官方"] += 1
+
+                    continue
+                if it["t"] in seen_all:
+                    continue
+                seen_all.add(it["t"])
+                it["board"] = name
+                it["level"] = lv
+                pool.append(it)
+
+        print(f"[统计] {name}: {dict(st)}")
+
+    # 按标题相似度合并重复报道
+    groups = []
+    for it in sorted(pool, key=lambda x: x["ts"], reverse=True):
+        bg = bigrams(it["t"])
+        match = None
+        for g in groups:
+            if sim(bg, g["_bg"]) >= 0.22:
+                match = g
+                break
+        if match is None:
+            groups.append({
+                "_bg": bg,
+                "items": [it],
+                "board": it["board"],
+                "t": it["t"],
+                "u": it["u"],
+                "s": it["s"],
+                "ts": it["ts"],
+                "level": it["level"],
+            })
+        else:
+            match["items"].append(it)
+            if RANK.get(it["level"], 0) > RANK.get(match["level"], 0):
+                match["level"] = it["level"]
+                match["t"] = it["t"]
+                match["u"] = it["u"]
+                match["s"] = it["s"]
+                match["ts"] = it["ts"]
+
+    # 生成多源确认要闻
+    headlines = []
+    for g in groups:
+        sources = []
+        for it in g["items"]:
+            src = it.get("s", "").strip()
+            if src and src not in sources:
+                sources.append(src)
+        if len(sources) >= 2:
+            item = {
+                "t": g["t"],
+                "u": g["u"],
+                "s": f'{g["level"]}发布 · 多源确认（{len(sources)}家）',
+                "ts": g["ts"],
+            }
+            headlines.append(item)
+
+    headlines.sort(key=lambda x: x["ts"], reverse=True)
+
+    # 生成各版块数据，保持与 index.html 兼容
+    boards = [{
+        "cat": "要闻",
+        "name": "多源确认要闻",
+        "items": headlines[:PER_BOARD],
+    }]
+
+    for cat, name, urls, only_off in BOARDS:
+        items = []
+        for g in groups:
+            if g["board"] != name:
+                continue
+            srcs = []
+            for it in g["items"]:
+                src = it.get("s", "").strip()
+                if src and src not in srcs:
+                    srcs.append(src)
+
+            level_name = g["level"]
+            if len(srcs) >= 2:
+                label = f"{level_name}发布 · 多源确认（{len(srcs)}家）"
+            elif level_name == "官方":
+                label = "官方发布"
+            elif level_name == "媒体":
+                label = "主流媒体"
+            else:
+                label = "专业来源"
+
+            items.append({
+                "t": g["t"],
+                "u": g["u"],
+                "s": f'{label} · {g["s"]}',
+                "ts": g["ts"],
+            })
+
+        items.sort(key=lambda x: x["ts"], reverse=True)
+        boards.append({
+            "cat": cat,
+            "name": name,
+            "items": items[:PER_BOARD],
+        })
+
+    # 未能识别来源的线索单独展示，不混入已核实新闻
+    if unl:
+        seen_unl = set()
+        pending = []
+        for it in sorted(unl, key=lambda x: x["ts"], reverse=True):
+            if it["t"] in seen_unl:
+                continue
+            seen_unl.add(it["t"])
+            pending.append({
+                "t": it["t"],
+                "u": it["u"],
+                "s": "来源待核实 · " + (it["s"] or "未知来源"),
+                "ts": it["ts"],
+            })
+        boards.append({
+            "cat": "待核实",
+            "name": "待核实线索",
+            "items": pending[:PER_BOARD],
+        })
+
+    data = {
+        "updated": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "boards": boards,
+    }
+
+    # 原子写入，避免网站读取到半截 JSON
+    tmp = "mil.json.tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    import os
+    os.replace(tmp, "mil.json")
+
+    total = sum(len(b["items"]) for b in boards)
+    print(f"[完成] 军事频道已生成：{total} 条，"
+          f"多源确认要闻 {len(headlines)} 条")
+    for b in boards:
+        print(f'  {b["name"]}: {len(b["items"])} 条')
+
+
+if __name__ == "__main__":
+    main()
