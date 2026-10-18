@@ -1,0 +1,14 @@
+{
+  "name": "热点观察 · 食品/AI/经济/军事",
+  "short_name": "热点观察",
+  "description": "预制菜、食品、AI、经济、军事热点聚合，每小时自动更新",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f5f2",
+  "theme_color": "#b8341f",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

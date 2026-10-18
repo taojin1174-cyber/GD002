@@ -4,7 +4,7 @@
 import json, os, re, hashlib, difflib, urllib.request
 from datetime import datetime, timezone, timedelta
 
-FILES = {"food": "data.json", "ai": "ai.json", "eco": "eco.json"}
+FILES = {"food": "data.json", "ai": "ai.json", "eco": "eco.json", "mil": "mil.json"}
 TITLE_KEYS = ("title", "t", "name")
 URL_KEYS = ("url", "link", "href")
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-5-5")
@@ -14,18 +14,18 @@ BJ = timezone(timedelta(hours=8))
 # ---------- 规则（以后直接在这里加词） ----------
 SPAM = [  # 所有频道通用：色情、赌博、导流
     "吊起来", "打屁股", "校花", "官方版", "高清完整", "免费观看", "在线观看",
-    "六合彩", "6合彩", "特码", "彩票", "博彩", "赌场", "澳门", "葡京",
+    "六合彩", "6合彩", "特码", "彩票", "博彩", "赌场", "澳门赌", "葡京",
     "成人", "裸聊", "约炮", "福利姬", "资源分享", "网盘", "磁力",
 ]
-NOISE_FOOD = [  # 食品频道：粉圈用语、影视、无关热点
+NOISE_FOOD = [  # 食品频道：影视、饭圈、无关热点（注意别误伤食材词，如「粉丝」）
     "短剧", "古代", "穿越", "重生", "小说", "剧情", "预告", "追剧", "神之八秒",
-    "断刹", "尊界", "自媒体", "粉丝", "饭圈", "演唱会",
+    "断刹", "尊界", "饭圈", "演唱会",
 ]
 NOISE_ECO = [  # 经济频道：娱乐、体育、社会八卦
     "明星", "出轨", "离婚", "演唱会", "综艺", "八卦", "恋情", "塌房", "爆料",
     "世界杯", "NBA", "英超", "电竞", "游戏", "手游",
 ]
-NOISE = {"food": NOISE_FOOD, "ai": [], "eco": NOISE_ECO}
+NOISE = {"food": NOISE_FOOD, "ai": [], "eco": NOISE_ECO, "mil": []}
 
 # ---------- 工具函数 ----------
 def tkey(d):
@@ -59,6 +59,26 @@ def walk(obj):
     elif isinstance(obj, dict):
         for v in obj.values():
             yield from walk(v)
+
+def dedupe_boards(data):
+    """跨榜单去重：同一条新闻只保留在靠前的榜单里（榜单顺序=优先级）。"""
+    seen, removed = set(), 0
+    boards = data.get("boards") if isinstance(data, dict) else None
+    if not boards:
+        return 0
+    for b in boards:
+        keep = []
+        for it in b.get("items", []):
+            k = tkey(it)
+            n = norm(it[k]) if k else ""
+            if n and n in seen:
+                removed += 1
+                continue
+            if n:
+                seen.add(n)
+            keep.append(it)
+        b["items"] = keep
+    return removed
 
 def clean_list(lst, channel):
     kept, seen_url, seen_title = [], set(), []
@@ -115,8 +135,16 @@ def load(path, default):
         return default
 
 def save(path, obj):
+    """紧凑写回（不留缩进，省 25% 以上流量）；内容没变就不动文件。"""
+    txt = json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+    try:
+        with open(path, encoding="utf-8") as f:
+            if f.read() == txt:
+                return
+    except Exception:
+        pass
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=1)
+        f.write(txt)
 
 # ---------- 翻译（带缓存，只翻新标题） ----------
 def translate(all_items):
@@ -190,6 +218,7 @@ def main():
         data = load(path, None)
         if data is None:
             continue
+        removed += dedupe_boards(data)
         for lst in walk(data):
             before = len(lst)
             lst[:] = clean_list(lst, ch)
