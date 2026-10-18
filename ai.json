@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T00:30:34.140910+00:00",
+ "updated": "2026-10-18T00:38:17.435494+00:00",
  "title": "AI 动态 · 全球观察",
  "boards": [
   {
@@ -67,15 +67,9 @@
      "s": "AIBase"
     },
     {
-     "t": "最好的MiniMaxH3 AI工具模型_精选MiniMaxH3资讯",
-     "u": "https://www.aibase.com/zh/search/MiniMaxH3&type=0",
-     "ts": 1792257736,
-     "s": "AIBase"
-    },
-    {
-     "t": "最新Ai 长文档分析网站工具和软件推荐",
-     "u": "https://top.aibase.com/Gtopic/%E9%95%BF%E6%96%87%E6%A1%A3%E5%88%86%E6%9E%90",
-     "ts": 1792244778,
+     "t": "最好的LTX-2.5 AI工具模型_精选LTX-2.5资讯",
+     "u": "https://www.aibase.com/zh/search/LTX-2.5&type=0",
+     "ts": 1792259035,
      "s": "AIBase"
     },
     {
@@ -126,12 +120,6 @@
    "name": "全球新模型发布",
    "items": [
     {
-     "t": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试",
-     "u": "https://www.cls.cn/detail/2453889",
-     "s": "财联社 · 国内 · 媒体报道",
-     "ts": 1792279322
-    },
-    {
      "t": "DeepSeek unveils faster, lighter V4.1-Flash-1017",
      "u": "https://www.digitaltoday.co.kr/en/view/115917/deepseek-unveils-faster-lighter-v41-flash-1017",
      "s": "디지털투데이 · 国内 · 媒体报道",
@@ -142,12 +130,6 @@
      "u": "https://mashable.com/tech/google-launches-gemini-4-argon",
      "s": "Mashable · 海外 · 媒体报道",
      "ts": 1792270623
-    },
-    {
-     "t": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API，千次调用仅5元",
-     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpsqc7102597.d.html?oid=%E8%8A%AC%E8%BF%AA%E4%B9%A6%E5%8C%85%E9%AB%98%E4%BB%BF%E2%97%86%E5%BE%AE%E4%BF%A1198099199%E2%97%86Hbec&vt=4",
-     "s": "新浪网 · 国内 · 媒体报道 · 3家报道",
-     "ts": 1792259433
     },
     {
      "t": "Chinese startup DeepSeek releases V4.1-Flash-1017 AI model live on platforms",
@@ -168,6 +150,12 @@
      "ts": 1792249451
     },
     {
+     "t": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API，千次调用仅5元",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpsqc7102597.d.html?oid=prada%E5%8E%9F%E5%8D%95%E6%98%AF%E7%9C%9F%E7%9A%84%E5%90%97%E2%86%98%E5%BE%AE%E4%BF%A1198099199%E2%86%99JwE0&vt=4&cid=76993&node_id=76993",
+     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
+     "ts": 1792243273
+    },
+    {
      "t": "Anthropic prepares to release Claude Fable 5.5 next week",
      "u": "https://www.testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners/",
      "s": "TestingCatalog AI News · 海外 · 媒体报道",
@@ -178,6 +166,12 @@
      "u": "https://pasqualepillitteri.it/en/news/24844/deepseek-releases-41-flash-1017-mit-weights-shorter-outputs",
      "s": "Pasquale Pillitteri · 国内 · 媒体报道",
      "ts": 1792236934
+    },
+    {
+     "t": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试",
+     "u": "https://www.cls.cn/detail/2453889",
+     "s": "财联社 · 国内 · 媒体报道",
+     "ts": 1792236455
     },
     {
      "t": "DeepSeek Releases V4.1 Flash Update: Cheaper Inference, Stronger Coding, and First-Ever Public Access to Its Proprietary Search API",
@@ -228,10 +222,10 @@
      "ts": 1792147871
     },
     {
-     "t": "每日牛熊 | 快手新一代模型Kling 4.0正式上线！看好可留意快手购16645 港美股资讯",
-     "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yWlFmM2owZTJ0NmVvd2Q4NGd6QV9mcjRFWmdtVTN1VkRfSzI1U0pOTmR4X2hPdUZxOUd3N0hNNUNJWGdBTHNCQXBWRzJzWWJDZnZoX1ZvN1hDTWYxWVQ5ampR?oc=5",
-     "s": "华盛通 · 地区未标注 · 媒体报道",
-     "ts": 1792133460
+     "t": "可灵AI新一代模型Kling 4.0正式上线专业影像模型“卷”出新高度_行业动态",
+     "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtOXVDT2dXQ2hKQWhVUTlnMnoxc0d2MVFKVVEwRUs4eFB4MXhBVloxOTczOThvNXhLVkRkRGt2cEdGN2doR2lMMjdReDVUcDNGdWNNWFJGZVI?oc=5",
+     "s": "投资界 · 地区未标注 · 媒体报道",
+     "ts": 1792139940
     },
     {
      "t": "Meta与苹果合作推出适配Mac的AI大模型",
@@ -262,12 +256,6 @@
      "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tSUw3MXhxN2xWa2xyV3NuUmpjQUZpWndibmtlVDJZdkxvS29oRGZKdGRZcEM2REhFVG1iTlI5RU0zY0dRZDdvN1NTamFUdmNRVzBiZzJwWU0?oc=5",
      "s": "Jiemian.com · 海外 · 媒体报道",
      "ts": 1792120748
-    },
-    {
-     "t": "Meta发布开源大模型Muse Spark Open 对标Qwen GLM Kimi",
-     "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nNFFLbXdkWG9MeEx5WTg2OUNwQmNzZkRILWVodDN6NTZpWXhYdzdfMVZ1RmRwQm9fR1ljZDBUaWE4TTZqM3ZnZVE4eVhiV3FOT05vUHVn?oc=5",
-     "s": "亿邦动力 · 国内+海外 · 媒体报道",
-     "ts": 1792116691
     }
    ]
   },
@@ -286,6 +274,12 @@
      "u": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
      "s": "techcrunch.com · 海外 · 媒体报道",
      "ts": 1792268479
+    },
+    {
+     "t": "DeepSeek新模型：更聪明，还更省钱",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpwvx6350743.d.html?oid=%F0%9F%80%B2%EC%83%81%EA%B0%84%EB%82%A8%EC%B0%BE%EA%B8%B0%20%EB%8C%80%ED%96%89%EC%86%8C%E2%AD%85%F0%9F%94%98@psdfg66%F0%9F%84%92%EC%9D%B4%EC%B2%B4%ED%95%9C%EB%8F%84%20%EC%88%98%EC%A0%95%EB%8C%80%ED%96%89%F0%9F%8F%81%F0%9F%90%AC%EA%B0%80%EB%9E%98%ED%95%9C%EB%8F%84%ED%95%B4%EC%A0%9C%20%EC%99%B8%EC%A3%BC%E2%9F%8F%22&vt=4&cid=76993&node_id=76993",
+     "s": "新浪网 · 国内 · 媒体报道 · 3家报道",
+     "ts": 1792268079
     },
     {
      "t": "Free AI Chatbot Compared: ChatGPT vs Gemini vs Claude",
@@ -336,12 +330,6 @@
      "ts": 1792243800
     },
     {
-     "t": "DeepSeek新模型：更聪明，还更省钱",
-     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpwvx6350743.d.html?oid=800&vt=4&cid=76993&node_id=76993",
-     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
-     "ts": 1792242832
-    },
-    {
      "t": "DeepSeek Ties Its New V4.1-Flash-1017 Model Tighter to Its Own Harness",
      "u": "https://startupfortune.com/deepseek-ties-its-new-v41-flash-1017-model-tighter-to-its-own-harness/",
      "s": "Startup Fortune · 国内 · 媒体报道",
@@ -351,7 +339,7 @@
      "t": "国常会年内再谈人工智能，两次部署有何不同？",
      "u": "https://www.21jingji.com/article/20261017/herald/0c35422ad2758a9778be839f7c56e8b8.html",
      "s": "21财经 · 地区未标注 · 媒体报道",
-     "ts": 1792240740
+     "ts": 1792240789
     },
     {
      "t": "195款备案大模型，藏着广东“AI生态雨林密码”",
@@ -362,13 +350,13 @@
     {
      "t": "DeepSeek更新模型了，还对外开放了搜索引擎",
      "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpspz6404728.d.html?oid=%E9%A6%99%E6%B8%AF%E6%B2%B9%E5%B0%96%E6%97%BA%E5%8C%BA%E5%A4%A7%E5%9C%88%E7%BB%8F%E7%BA%AA%E4%BA%BA%EF%BC%88%E7%A7%81%E4%BA%BA%E5%AE%9A%E5%88%B6%EF%BC%89%E9%AD%8F%E6%96%B0%E5%8A%A0V%EF%BC%881%E2%91%A0%E2%91%A678593%EF%BC%89%E7%9C%9F%E5%AE%9E%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%9C%A8%E9%A3%9E%E7%A9%BA%E5%A7%90%E5%9C%A8%E8%81%8C%E4%BA%BA%E5%91%98Vv70Ml1mqeftyJHUzC0317&vt=4&cid=76993&node_id=76993",
-     "s": "新浪财经 · 国内 · 媒体报道",
+     "s": "新浪财经 · 国内 · 媒体报道 · 2家报道",
      "ts": 1792240194
     },
     {
      "t": "广东已备案195款大模型",
      "u": "https://xxsb.gz-cmc.com/pages/2026/10/16/33ff2bb2f90041438d3d6d199ffa5627.html",
-     "s": "广州日报新花城 · 地区未标注 · 媒体报道 · 3家报道",
+     "s": "广州日报新花城 · 地区未标注 · 媒体报道 · 4家报道",
      "ts": 1792233801
     },
     {
@@ -376,6 +364,12 @@
      "u": "https://k.sina.com.cn/article_6192937794_17120bb4202002vg3k.html?from=tech",
      "s": "新浪网 · 海外 · 媒体报道",
      "ts": 1792233540
+    },
+    {
+     "t": "Giorgos Tsetis: no one is personally accountable for AI. This must change",
+     "u": "https://fortune.com/2026/10/17/ai-executives-personal-legal-liability/",
+     "s": "Fortune · 地区未标注 · 媒体报道",
+     "ts": 1792233163
     },
     {
      "t": "DeepSeek崩完后，上新了",
@@ -388,12 +382,6 @@
      "u": "https://tech.ifeng.com/c/8xIg4YWs1OM",
      "s": "凤凰网科技 · 国内 · 媒体报道",
      "ts": 1792231774
-    },
-    {
-     "t": "Giorgos Tsetis: no one is personally accountable for AI. This must change",
-     "u": "https://fortune.com/2026/10/17/ai-executives-personal-legal-liability/",
-     "s": "Fortune · 地区未标注 · 媒体报道",
-     "ts": 1792231362
     },
     {
      "t": "DeepSeek quietly pushed a new model update straight into its live API",
@@ -412,6 +400,12 @@
      "u": "https://k.sina.com.cn/article_5953189932_162d6782c0670516um.html?from=tech",
      "s": "新浪网 · 海外 · 媒体报道",
      "ts": 1792230000
+    },
+    {
+     "t": "DeepSeek再次出现大规模宕机服务稳定性会影响冲刺IPO吗？|Minimax|融资|模型|腾讯|持续",
+     "u": "https://finance.sina.cn/tech/2026-10-16/detail-inivmpqz6915448.d.html?oid=%E4%B8%8A%E6%B5%B7%E5%A4%96%E5%9B%B4%E4%B8%8A%E9%97%A8%E5%AE%89%E6%8E%92%EF%BC%88%E9%AA%8C%E8%AF%81%E4%BF%9D%E7%9C%9F%EF%BC%89%E5%B7%8D%E8%8A%AF%E5%8A%A0%20%EF%BC%881177%E2%91%A7%E2%91%A493%EF%BC%89%E8%A7%81%E9%9D%A2%E4%BB%98%E6%AC%BE%E7%9C%9F%E4%BA%BA%E9%AA%8C%E8%AF%81%E5%AF%B9%E6%AF%94%E6%97%A0%E5%A5%97%E8%B7%AFWFpkcaPwVtDqHI9oOGi3QR0209&vt=4",
+     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
+     "ts": 1792228997
     },
     {
      "t": "Meta Muse vs OpenAI Dots: Should You Trust AI to Handle Everyday Tasks?",
@@ -448,12 +442,6 @@
      "u": "https://www.csdn.net/article/2026-10-17/168244876",
      "s": "CSDN · 地区未标注 · 媒体报道",
      "ts": 1792221560
-    },
-    {
-     "t": "国产大模型API哪家强？实测5家平台后我选了它",
-     "u": "https://www.csdn.net/article/2026-10-17/168244100",
-     "s": "CSDN · 地区未标注 · 媒体报道",
-     "ts": 1792220365
     }
    ]
   },
@@ -666,16 +654,16 @@
      "ts": 1792143306
     },
     {
+     "t": "智能体重塑算力需求，英特尔能否打开市场机会？",
+     "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOalhiQXlHR19ySDU1WWMtdVFPWVRUS2wtaDNhTmV0S0FEMjRsVEZDSzhaMWVBRmo5TzBIN1ZUU2p4cHA4STdNQjdtZHNuc2ZLVFBlNUVISFAwLUVSSUFSbTZZaEFkRGM4VFVvTG1uNU9idTFsSDU3ZGpQUDBMRnBWRDVGckVWdGpPa0xnekJFMVpJUzN0?oc=5",
+     "s": "21财经 · 地区未标注 · 媒体报道",
+     "ts": 1792140436
+    },
+    {
      "t": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YelYtUlhKdk1DUVhWR3hhQUNnd2ZWMmZ4VVMzT0s5QU9oYUpxaW42SWRMUGtpelpRM0h5emF3WF92Mk1CVF84NGhXbHJ3QU82eGdpaXltdjRXNm1iWUE?oc=5",
      "s": "InfoQ-CN · 地区未标注 · 媒体报道",
      "ts": 1792136009
-    },
-    {
-     "t": "为什么Anthropic不做个人Agent",
-     "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pQW1sakd4alJtdk9vTmRZckZQZkNTZXJ0UExEZGdMcC1fWmVlV3NPWGRJTnB4cnhEWU1WWm5fRFlMTE4yUG5WbHVhN1RGTXdUcGdhbXpITjR1X05qRHh6SQ?oc=5",
-     "s": "ThePaper.cn · 海外 · 媒体报道",
-     "ts": 1792133460
     }
    ]
   },
@@ -733,7 +721,7 @@
     },
     {
      "t": "17岁天才少年离开Kimi，论文曾被马斯克点赞",
-     "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXJzeS1xc2JwVDZOb05aX09nWmt1VkhzZGtSR3hPSC1jMDR1eEcySjNwUDFUbVYzWUxBTlQ2SkFYZXQ3dFpiandxdC1GMGVVempuRVZaaWxTTnpheVV5UlIxeGowbTVNcVRqc0t0RllxaTd0cTQyYWQydVVjbTFMSHQ2b2ZLNFFMczJMUGtZSjF6MEg0cnBybw?oc=5",
+     "u": "https://news.google.com/rss/articles/CBMihwNBVV95cUxPdlpFV1ZMMlp2dThYN0dNZ1FqSzJpOHZfM0xybDB1ZXNWLTRTWGpCQzFEaUMwTnFpalZ2djNKdXZGT3BLeHVJXzR1Q3VBLXhOTjRpR3Q1RzFfc1YzODRIdnV2dUN5Q3BqXzVHQmVsMlpJeVFFSVBXblV3cVpsZHF5RUdCRW4xUkRrY3RwVzFMNlROeUxrSWw0QVdxWUpSQWltQjB4MmRqRFpwWWNQRE5NNXFSRjB0YmJKRlZvMnJuR29oUjBGaVBjSi1xQ1AyMldic2lYWlB1bXVDYWpUeHFuaDRwVlZodGFWWVF1d29CWmhJdFQ2dUJRVEdFbzQ1dW9nbnRuRFFiYjdwWmYzemZMOUxmaFRVd0xnYlBWejhvOG1qeTdPWnhNMDk2VGlWUzRWbElDV0poVVJCRHdoaE9XSGdjS3N3WGZ0dS1NYVI5OENrS1phN2dMSjc1UUpSaThZYk1UbWRNaDl3cTNrYnhDUWZGTEYyaG5GSnJoZ2xyMnFNMVh6SE1r?oc=5",
      "s": "新浪新闻_手机新浪网 · 国内 · 媒体报道",
      "ts": 1792207740
     },
@@ -808,24 +796,6 @@
      "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhQWZrc2ZnU0kxOTA1N2Q1aHNsUnY0QkFpcXVpV1B1eFB2cmdxNVF0THhSQ3JqallGak5VTURTZ0NqSm40ekxGZ1J1ZzRhQ3EyUVdKQ3dtVVp3SEFpbXVSWnNkQkxJYUZaOWc2RzdCUnJWQktrZjQ4WQ?oc=5",
      "s": "finance.sina.com.cn · 国内 · 媒体报道",
      "ts": 1792121339
-    },
-    {
-     "t": "Meta杀回开源：816B新模型，两台Mac Studio就能跑",
-     "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15OVpJdElEeFE3UURMT2N5b0pFRGE5ajA0WGdSaWpmcEVDc2tSZU5YOVB0clUyX28ybENETWw0aXpaaEpfbnBuZU12V1VkX2NfUEZ1cDdR?oc=5",
-     "s": "投资界 · 海外 · 媒体报道",
-     "ts": 1792119360
-    },
-    {
-     "t": "“背刺”OpenAI？微软AI主管：自研模型性能超越同类产品，只需1/4算力！",
-     "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1XZG5RQzZJVnVYaFVIX3FnZ0o5akdZYU5sMmtvVDBpWEJ2ajlkM2RjSVI0Z2U2WERMRlcwMVBqa2lVTTNIZHJVbg?oc=5",
-     "s": "财联社 · 海外 · 媒体报道",
-     "ts": 1792117988
-    },
-    {
-     "t": "AI黑箱要被AI破解了？前OpenAI研究员发现，90%的神经元功能可以解释",
-     "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ERGxqQXV3SnJnYlVzdFExaXg3b0h0RXVCOFlySDVYZjJscVA0VlNuODVBclBvR0h6RnFHRXhOU3ZYNEZid0VJLWFETVhsZw?oc=5",
-     "s": "安全内参 · 海外 · 媒体报道",
-     "ts": 1792117589
     }
    ]
   },
