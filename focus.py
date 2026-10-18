@@ -12,7 +12,7 @@ SRC = [  # (放到哪个频道, 榜单名, [订阅地址], 标题过滤)  ——
     ("ai", "Readhub · AI 热点", [zh("site:readhub.cn")], AIRE),
     ("ai", "AIBase · 模型与工具", [zh("site:aibase.com")], None),
     ("food", "Foodaily · 食品新品与趋势", [zh("site:foodaily.com")], None),
-    ("food", "FBIF · 食品创新与消费", [zh("site:fbif.com")], None),
+    ("food", "FBIF · 食品创新与消费", [zh("site:fbifood.com")], None),
     ("ai", "机器之心 · 技术与科研", [zh("site:jiqizhixin.com")], None),
     ("food", "FoodNavigator · 海外食品（英文）", [en("site:foodnavigator.com"), en("site:foodnavigator-asia.com")], None)]
 
@@ -24,7 +24,7 @@ def pull(urls, flt):
             if " - " in t: t = t.rsplit(" - ", 1)[0]
             ts = calendar.timegm(e.published_parsed) if e.get("published_parsed") else 0
             if t and ts and t not in seen and (not flt or flt.search(t)): seen.add(t); out.append({"t": t, "u": e.get("link", ""), "ts": ts})
-    return sorted(out, key=lambda x: -x["ts"])[:10]
+    return sorted(out, key=lambda x: -x["ts"])[:14]
 
 res = {"ai": [], "food": []}
 for dest, name, urls, flt in SRC:

@@ -5,8 +5,10 @@ import feedparser
 socket.setdefaulttimeout(20)  # 单个源卡住时 20 秒后自动跳过
 
 UA = "Mozilla/5.0 (food-hot bot)"
-def gn(q):  # Google 新闻 RSS，近 7 天
+def gn(q):  # Google 新闻 RSS，近 7 天（中文大陆版）
     return f"https://news.google.com/rss/search?q={quote(q + ' when:7d')}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+def gn_en(q):  # Google 新闻 RSS，英文版（国际视角）
+    return f"https://news.google.com/rss/search?q={quote(q + ' when:7d')}&hl=en-US&gl=US&ceid=US:en"
 
 KW = re.compile(r"预制菜|食品|餐饮|外卖|饮料|零食|调味|冷链|中央厨房|农产品|茶饮|咖啡")
 # (分类, 榜单名, RSS 地址, 关键词过滤)  —— 想加榜单就往这里加一行
@@ -25,8 +27,15 @@ SOURCES = [
     ("食品新闻", "餐饮与供应链", gn("餐饮 供应链 中央厨房 OR 团餐 OR 连锁 OR 冷链"), None),
     ("科技商业媒体", "36氪 · 预制菜与食品", gn("site:36kr.com 预制菜 OR 食品 OR 餐饮"), None),
     ("科技商业媒体", "虎嗅 · 预制菜与食品", gn("site:huxiu.com 预制菜 OR 食品 OR 餐饮"), None),
+    ("热点追踪", "全网热议", gn("预制菜 热搜 OR 热议 OR 刷屏 OR 冲上 OR 舆论"), None),
+    ("热点追踪", "消费与渠道", gn("食品 消费趋势 OR 年轻人 OR 性价比 OR 零售 OR 渠道 OR 电商"), None),
+    ("国际动态", "全球 · 中文观察", gn("食品 出口 OR 海外市场 OR 出海 OR 跨境电商 OR 国际化"), None),
+    ("国际动态", "Global · 英文头条", gn_en("prepared food OR frozen food OR ready meal OR convenience food"), None),
+    ("国际动态", "Global · 监管与召回", gn_en("food recall OR food safety warning OR FDA food OR foodborne outbreak"), None),
+    ("国际动态", "Global · 市场与资本", gn_en("food company acquisition OR food industry funding OR food brand launch"), None),
 ]
-TREND_CATS = ("预制菜", "政策标准", "行业垂直")   # 这些分类参与趋势和日报
+TREND_CATS = ("预制菜", "政策标准", "行业垂直", "食品新闻", "科技商业媒体", "热点追踪")
+DIGEST_CATS = ("预制菜", "政策标准", "行业垂直")   # 日报只统计这几类，避免口径被冲淡
 TOPICS = ["政策", "标准", "监管", "融资", "上市", "出海", "团餐", "零售", "餐饮", "争议",
           "添加剂", "食品安全", "冷链", "中央厨房", "净菜", "外卖", "进校园", "价格", "品牌", "渠道"]
 
@@ -49,7 +58,7 @@ def pull(urls, kw):
             seen.add(title)
             out.append({"t": title, "u": e.get("link", ""), "s": src or ("必应" if "bing" in url else ""), "ts": ts})
     out.sort(key=lambda x: -x["ts"])
-    return out[:20]
+    return out[:32]
 
 # ---- 把 Google 新闻的跳转链接换成原文直链（国内不翻墙也能直接打开）----
 def resolve_links(boards, limit=120, budget=240):
@@ -131,7 +140,7 @@ def uniq(cats, n):
             for i in b["items"]:
                 if i["t"] not in seen: seen.add(i["t"]); out.append(i)
     return sorted(out, key=lambda x: -x["ts"])[:n]
-new24 = [i for i in uniq(TREND_CATS, 999) if i["ts"] > now - 86400]
+new24 = [i for i in uniq(DIGEST_CATS, 999) if i["ts"] > now - 86400]
 hot = sorted(((k, sum(1 for i in new24 if k in i["t"])) for k in TOPICS), key=lambda x: -x[1])
 hot = [f"{k}({n})" for k, n in hot if n][:5]
 head, pol = uniq(("预制菜",), 5), uniq(("政策标准",), 3)

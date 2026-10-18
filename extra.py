@@ -23,7 +23,7 @@ def pull(url):
         ts = int(time.mktime(e.published_parsed)) if e.get("published_parsed") else 0
         if not t or t in seen or (ts and ts < time.time() - 14 * 86400): continue
         seen.add(t); out.append({"t": t, "u": e.get("link", ""), "s": s, "ts": ts})
-    return sorted(out, key=lambda x: -x["ts"])[:20]
+    return sorted(out, key=lambda x: -x["ts"])[:28]
 
 def resolve(items, limit=60):  # Google 跳转链接 -> 原文直链（用单独的缓存 links2.json）
     try: cache = json.load(open("links2.json", encoding="utf-8"))
