@@ -1,5 +1,5 @@
 # 原料专题（猪肉/鸡肉/鸡蛋）+ 品类热度。在 fetch.py 之后运行：读 data.json，追加榜单后写回。
-import json, re, time, socket
+import json, re, time, socket, calendar
 from urllib.parse import quote
 import feedparser
 socket.setdefaulttimeout(20)
@@ -20,7 +20,7 @@ def pull(url):
     for e in feedparser.parse(url, agent=UA).entries:
         t, s = re.sub(r"\s+", " ", e.get("title", "")).strip(), ""
         if " - " in t: t, s = t.rsplit(" - ", 1)
-        ts = int(time.mktime(e.published_parsed)) if e.get("published_parsed") else 0
+        ts = int(calendar.timegm(e.published_parsed)) if e.get("published_parsed") else 0
         if not t or t in seen or (ts and ts < time.time() - 14 * 86400): continue
         seen.add(t); out.append({"t": t, "u": e.get("link", ""), "s": s, "ts": ts})
     return sorted(out, key=lambda x: -x["ts"])[:28]

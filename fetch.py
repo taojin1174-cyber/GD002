@@ -1,5 +1,5 @@
 # 抓取各榜单 -> data.json（页面数据）+ archive.json（趋势用的历史累积）。依赖: pip install feedparser
-import json, re, time, socket, os, datetime as dt
+import json, re, time, socket, os, calendar, datetime as dt
 from urllib.parse import quote
 import feedparser
 socket.setdefaulttimeout(20)  # 单个源卡住时 20 秒后自动跳过
@@ -62,7 +62,7 @@ def pull_feed(urls, kw, n=24):   # 直连源：不带查询能力，只能全站
             t = re.sub(r"\s+", " ", e.get("title", "")).strip()
             if " - " in t: t = t.rsplit(" - ", 1)[0]
             if not t or t in seen or (kw and not kw.search(t)): continue
-            ts = int(time.mktime(e.published_parsed)) if e.get("published_parsed") else 0
+            ts = int(calendar.timegm(e.published_parsed)) if e.get("published_parsed") else 0
             if ts and ts < time.time() - 14 * 86400: continue
             seen.add(t)
             out.append({"t": t, "u": e.get("link", ""), "s": u.split("/")[2].replace("www.", ""), "ts": ts})
@@ -84,7 +84,7 @@ def pull(urls, kw):
                 title, src = title.rsplit(" - ", 1)
             if not title or title in seen or (kw and not kw.search(title)):
                 continue
-            ts = int(time.mktime(e.published_parsed)) if e.get("published_parsed") else 0
+            ts = int(calendar.timegm(e.published_parsed)) if e.get("published_parsed") else 0
             if ts and ts < time.time() - 14 * 86400:   # 只保留近 14 天
                 continue
             seen.add(title)
