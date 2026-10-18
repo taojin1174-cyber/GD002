@@ -1,16 +1,120 @@
 {
- "updated": "2026-10-18T00:18:42.350332+00:00",
+ "updated": "2026-10-18T00:30:34.140910+00:00",
  "title": "AI 动态 · 全球观察",
  "boards": [
   {
    "cat": "重点来源",
    "name": "Readhub · AI 热点",
-   "items": []
+   "items": [
+    {
+     "t": "GPT-Live-1 近期动态",
+     "u": "https://readhub.cn/entity/gpt-live-1-8nq7xRrfvwe",
+     "ts": 1791950631,
+     "s": "Readhub"
+    },
+    {
+     "t": "CHERY NEXT AI 近期动态",
+     "u": "https://readhub.cn/entity/chery-next-ai-f9e105a8e9e99e38",
+     "ts": 1791935584,
+     "s": "Readhub"
+    },
+    {
+     "t": "Maia 近期动态",
+     "u": "https://readhub.cn/entity/maia-8o2amgPfWjR",
+     "ts": 1791885626,
+     "s": "Readhub"
+    },
+    {
+     "t": "Oxen AI 近期动态",
+     "u": "https://readhub.cn/entity/oxen-ai-8o2tBTJiHMR",
+     "ts": 1791883321,
+     "s": "Readhub"
+    },
+    {
+     "t": "Azure Maia 200 近期动态",
+     "u": "https://readhub.cn/entity/azure-maia-200-8o2q7IaZPLm",
+     "ts": 1791882841,
+     "s": "Readhub"
+    },
+    {
+     "t": "丘成桐数学与人工智能实验室联盟 近期动态",
+     "u": "https://readhub.cn/entity/%E4%B8%98%E6%88%90%E6%A1%90%E6%95%B0%E5%AD%A6%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%9E%E9%AA%8C%E5%AE%A4%E8%81%94%E7%9B%9F-8o2bo0MaxQ0",
+     "ts": 1791882421,
+     "s": "Readhub"
+    },
+    {
+     "t": "Cortex AI 近期动态",
+     "u": "https://readhub.cn/entity/cortex-ai-8o2o4eMl6bi",
+     "ts": 1791881219,
+     "s": "Readhub"
+    },
+    {
+     "t": "Maia 300 近期动态",
+     "u": "https://readhub.cn/entity/maia-300-8o2amgPjisR",
+     "ts": 1791875057,
+     "s": "Readhub"
+    }
+   ]
   },
   {
    "cat": "重点来源",
    "name": "AIBase · 模型与工具",
-   "items": []
+   "items": [
+    {
+     "t": "常见问题",
+     "u": "https://www.aibase.com/zh/faq",
+     "ts": 1792271214,
+     "s": "AIBase"
+    },
+    {
+     "t": "最好的MiniMaxH3 AI工具模型_精选MiniMaxH3资讯",
+     "u": "https://www.aibase.com/zh/search/MiniMaxH3&type=0",
+     "ts": 1792257736,
+     "s": "AIBase"
+    },
+    {
+     "t": "最新Ai 长文档分析网站工具和软件推荐",
+     "u": "https://top.aibase.com/Gtopic/%E9%95%BF%E6%96%87%E6%A1%A3%E5%88%86%E6%9E%90",
+     "ts": 1792244778,
+     "s": "AIBase"
+    },
+    {
+     "t": "最新Ai 免费无水印网站工具和软件推荐_AiBase产品库",
+     "u": "https://top.aibase.com/topic/%E5%85%8D%E8%B4%B9%E6%97%A0%E6%B0%B4%E5%8D%B0",
+     "ts": 1792201497,
+     "s": "AIBase"
+    },
+    {
+     "t": "最新Ai 生图灵感网站工具和软件推荐_AiBase产品库",
+     "u": "https://top.aibase.com/topic/%E7%94%9F%E5%9B%BE%E7%81%B5%E6%84%9F",
+     "ts": 1792201496,
+     "s": "AIBase"
+    },
+    {
+     "t": "最新Ai 转化优化网站工具和软件推荐_AiBase产品库",
+     "u": "https://top.aibase.com/topic/%E8%BD%AC%E5%8C%96%E4%BC%98%E5%8C%96",
+     "ts": 1792201495,
+     "s": "AIBase"
+    },
+    {
+     "t": "最新Ai 视频剪切网站工具和软件推荐_AiBase产品库",
+     "u": "https://top.aibase.com/topic/%E8%A7%86%E9%A2%91%E5%89%AA%E5%88%87",
+     "ts": 1792201492,
+     "s": "AIBase"
+    },
+    {
+     "t": "最新Ai 电商广告网站工具和软件推荐_AiBase产品库",
+     "u": "https://top.aibase.com/topic/%E7%94%B5%E5%95%86%E5%B9%BF%E5%91%8A",
+     "ts": 1792201486,
+     "s": "AIBase"
+    },
+    {
+     "t": "最新Ai AI漫剧网站工具和软件推荐_AiBase产品库",
+     "u": "https://top.aibase.com/topic/AI%E6%BC%AB%E5%89%A7",
+     "ts": 1792201483,
+     "s": "AIBase"
+    }
+   ]
   },
   {
    "cat": "重点来源",
@@ -22,10 +126,148 @@
    "name": "全球新模型发布",
    "items": [
     {
-     "t": "Meta launches an open-weight AI model that runs on Macs",
-     "u": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-     "s": "techcrunch.com · 海外 · 媒体报道",
-     "ts": 1792094693
+     "t": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试",
+     "u": "https://www.cls.cn/detail/2453889",
+     "s": "财联社 · 国内 · 媒体报道",
+     "ts": 1792279322
+    },
+    {
+     "t": "DeepSeek unveils faster, lighter V4.1-Flash-1017",
+     "u": "https://www.digitaltoday.co.kr/en/view/115917/deepseek-unveils-faster-lighter-v41-flash-1017",
+     "s": "디지털투데이 · 国内 · 媒体报道",
+     "ts": 1792277452
+    },
+    {
+     "t": "Google releases Gemini 4 Argon, its new frontier model: Benchmarks, how to try it, and pricing",
+     "u": "https://mashable.com/tech/google-launches-gemini-4-argon",
+     "s": "Mashable · 海外 · 媒体报道",
+     "ts": 1792270623
+    },
+    {
+     "t": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API，千次调用仅5元",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpsqc7102597.d.html?oid=%E8%8A%AC%E8%BF%AA%E4%B9%A6%E5%8C%85%E9%AB%98%E4%BB%BF%E2%97%86%E5%BE%AE%E4%BF%A1198099199%E2%97%86Hbec&vt=4",
+     "s": "新浪网 · 国内 · 媒体报道 · 3家报道",
+     "ts": 1792259433
+    },
+    {
+     "t": "Chinese startup DeepSeek releases V4.1-Flash-1017 AI model live on platforms",
+     "u": "https://www.newsbytesapp.com/news/science/chinese-startup-deepseek-releases-v41-flash-1017-ai-model-live-on-platforms/tldr",
+     "s": "NewsBytes · 国内 · 媒体报道",
+     "ts": 1792255277
+    },
+    {
+     "t": "DeepSeek Releases Lightweight New Model With Per-Task Costs One-Tenth of US Rivals",
+     "u": "https://finance.biggo.com/news/f993a5f3-fbbf-4070-917f-7a292fa8f58d",
+     "s": "BigGo Finance · 国内 · 媒体报道",
+     "ts": 1792250700
+    },
+    {
+     "t": "DeepSeek releases AI model update, opens search APIs to all users",
+     "u": "https://au.finance.yahoo.com/news/deepseek-releases-ai-model-opens-150411542.html",
+     "s": "Yahoo Finance Australia · 国内 · 媒体报道",
+     "ts": 1792249451
+    },
+    {
+     "t": "Anthropic prepares to release Claude Fable 5.5 next week",
+     "u": "https://www.testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners/",
+     "s": "TestingCatalog AI News · 海外 · 媒体报道",
+     "ts": 1792241871
+    },
+    {
+     "t": "DeepSeek releases 4.1 Flash 1017 with MIT weights and shorter outputs",
+     "u": "https://pasqualepillitteri.it/en/news/24844/deepseek-releases-41-flash-1017-mit-weights-shorter-outputs",
+     "s": "Pasquale Pillitteri · 国内 · 媒体报道",
+     "ts": 1792236934
+    },
+    {
+     "t": "DeepSeek Releases V4.1 Flash Update: Cheaper Inference, Stronger Coding, and First-Ever Public Access to Its Proprietary Search API",
+     "u": "https://finance.biggo.com/news/22811d03-2553-4d77-a598-b8d066de04aa",
+     "s": "BigGo Finance · 国内 · 媒体报道",
+     "ts": 1792234500
+    },
+    {
+     "t": "DeepSeek Launches V4.1-Flash-1017, Beats Claude Opus 5 On Some Benchmarks",
+     "u": "https://officechai.com/ai/deepseek-v4-1-flash-1017-benchmarks-cost/",
+     "s": "OfficeChai · 国内+海外 · 媒体报道",
+     "ts": 1792230802
+    },
+    {
+     "t": "大的要上了 DeepSeek悄然上线新模型：可惜秒删",
+     "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hRUFoVTFFamJWelFacDYwd09hbWVBM1ZlcVRqWWJLdzZreDZvUl9vR1dSRUFUU1IzbmJ5SHVmQ0JXcGx2MGN5UXNRWTdITXlsNUVyT3FKLWw?oc=5",
+     "s": "驱动之家 · 国内 · 媒体报道",
+     "ts": 1792211400
+    },
+    {
+     "t": "探路AI+先进材料，欧科亿联合顶材科技发布“智刃”大模型",
+     "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ORDU3OXZ0NDduQm5Ed254Y01qTHRENXpYVVRqREdaOFg2dTlRSkNCSWt1Y3RFSHFFMGNJdHRaaWNydWhmS2RKZjQxY3Y2WjlyZFVPVTBaMFpsa0d3M1kwOUllSQ?oc=5",
+     "s": "东方财富 · 地区未标注 · 媒体报道",
+     "ts": 1792177810
+    },
+    {
+     "t": "AI药材检测大模型在江西樟树正式发布",
+     "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOdXAzYVJWTUZ2cThFS0lGcW5KZHN4Z3RYVzU5RUY1LTJHYWRJTVY4Qlp2ZFR2aDZqbW1YX1kwQkpSakUxRkV6bjlDMmswNy02NFB5bkk4TE5faGJVcFBDUl8xemYwUkx4bnc?oc=5",
+     "s": "人民网－江西频道 · 地区未标注 · 媒体报道",
+     "ts": 1792156680
+    },
+    {
+     "t": "范式智能联合睿思智联推出开源一站式生产级 AI 部署平台 “模域 ModelSphere”",
+     "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wVDBQNE5haHZGakN0UmNPbmpwODBSZ2tYbkctdDNXLVBFQ2NORUZsaFlnbmZVS2VxV01wUEFFclp0OEowUEpBY3NGRHhKaDJHTENDUlF1cjMwZnUzSXc?oc=5",
+     "s": "InfoQ-CN · 地区未标注 · 媒体报道",
+     "ts": 1792154894
+    },
+    {
+     "t": "断层领先Jev，全球第一！决策模型新王震撼发布新版本|OpenAI|微软|硅谷|注意力机制|推理",
+     "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkdHVFhJUlhFRF9TVEFRUG1rU1dOczE3WHlMYjZqbWk5RU91RFo4UnhFSFVrbnFqS0E5RXhBbnRTaWRiSEpBbzlUTnl3M1N0cXhGWlBRakhxQ3psekxxUDhETHFxdnQ5Vi1VeVpvQ1JpZ3JRZWV2b19RdFNnNDFCQUZ1ei1JT0ptU0h2bkxDdUhRVUFjOEtUdmdxY0Q1Mm5UenRUOWhRZw?oc=5",
+     "s": "finance.sina.com.cn · 海外 · 媒体报道",
+     "ts": 1792149929
+    },
+    {
+     "t": "谷歌终于发布Gemini 4 Argon模型-模型",
+     "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03Qm5rbzU2d0ZObjFBRG9nWEplaHB0aFRQMV9TLWVTRndQV1ltQUhTU3hiRmdvR3VRTUJ0ZlVZckhENTFWTTI4YzhTOW1WRWlVc1lPTTVDeTk0NWNiMkpwdmVwaw?oc=5",
+     "s": "至顶网 · 海外 · 媒体报道",
+     "ts": 1792147871
+    },
+    {
+     "t": "每日牛熊 | 快手新一代模型Kling 4.0正式上线！看好可留意快手购16645 港美股资讯",
+     "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yWlFmM2owZTJ0NmVvd2Q4NGd6QV9mcjRFWmdtVTN1VkRfSzI1U0pOTmR4X2hPdUZxOUd3N0hNNUNJWGdBTHNCQXBWRzJzWWJDZnZoX1ZvN1hDTWYxWVQ5ampR?oc=5",
+     "s": "华盛通 · 地区未标注 · 媒体报道",
+     "ts": 1792133460
+    },
+    {
+     "t": "Meta与苹果合作推出适配Mac的AI大模型",
+     "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYVQ1d2xhZUZuV08zSVN3YUNrRWZyUkRhWS0tajczd3VZVFBEZ214NTZiZmdqUkhyUEtJU1EtdU1kS0k2TTJrSjhLS2w4YklTYXVYSG5hMHA4V1dKaG53bHZObGI1RlFla1pkeWk2amRPY2VmLVJoT05HMVF3aGdud2tZU3l0U1VLVk90cFEzWTlKb09QNzh0OW5vdGw?oc=5",
+     "s": "新浪财经 · 海外 · 媒体报道",
+     "ts": 1792132768
+    },
+    {
+     "t": "Meta releases Muse Spark Open, a new open-weight AI model",
+     "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYS1SQ3E0WmNRVlNMamZDbC1hZHN4MEZRaV9GRDREcUZ0bDZPbVNESGpESEhTSXVGOEhQcHF0U21mak0wU1l4OGRvc2xTRzdSQmRONXV3YzdqOFlOOWQwT3A3dGdIV05EaTE4VGJmckJnT2RzdnBnbjU0UTItRE5Uek5mR3JnUG84VE1IQlRVQ3ByVG5faVZIYmN2c0pnUQ?oc=5",
+     "s": "K24 Digital · 海外 · 媒体报道",
+     "ts": 1792128014
+    },
+    {
+     "t": "DeepSeek发布新模型：把KV缓存压到原来的四分之一，速度反而更快了",
+     "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DSGNCM0xuSmZXb0g0VGJnNzJmUUx6ZnphR2hpbzRielRYdlo5eU0zbHZGaVlweUxxR2daTllhQm1LNFoxVEFsWXZSZ1BsRG4tb3JnZncycnFXRHlsNEln?oc=5",
+     "s": "科技行者 · 国内 · 媒体报道",
+     "ts": 1792126380
+    },
+    {
+     "t": "Meta发布美国最强开源大模型",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RdGk4Q0RXbzl3X0NCbmVlbkRRNF9meUJlMEVJZFdLN3hkdjUwQ0lNNHZZWWMxWHhoNE9YMzhPeUlGT20taDRVc1lpTW44TXhNVGc?oc=5",
+     "s": "搜狐网 · 海外 · 媒体报道 · 2家报道",
+     "ts": 1792120928
+    },
+    {
+     "t": "Meta发布美国最强开源大模型，可在两台Mac Studio上本地运行",
+     "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tSUw3MXhxN2xWa2xyV3NuUmpjQUZpWndibmtlVDJZdkxvS29oRGZKdGRZcEM2REhFVG1iTlI5RU0zY0dRZDdvN1NTamFUdmNRVzBiZzJwWU0?oc=5",
+     "s": "Jiemian.com · 海外 · 媒体报道",
+     "ts": 1792120748
+    },
+    {
+     "t": "Meta发布开源大模型Muse Spark Open 对标Qwen GLM Kimi",
+     "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nNFFLbXdkWG9MeEx5WTg2OUNwQmNzZkRILWVodDN6NTZpWXhYdzdfMVZ1RmRwQm9fR1ljZDBUaWE4TTZqM3ZnZVE4eVhiV3FOT05vUHVn?oc=5",
+     "s": "亿邦动力 · 国内+海外 · 媒体报道",
+     "ts": 1792116691
     }
    ]
   },
@@ -46,10 +288,28 @@
      "ts": 1792268479
     },
     {
+     "t": "Free AI Chatbot Compared: ChatGPT vs Gemini vs Claude",
+     "u": "https://tech-insider.org/au/chatgpt-vs-gemini-vs-claude-free-tiers-2026/",
+     "s": "tech-insider.org · 海外 · 媒体报道",
+     "ts": 1792266606
+    },
+    {
+     "t": "Anthropic也要付10%高息 AI债市怎么了？",
+     "u": "https://wap.eastmoney.com/a/202610183899090017.html",
+     "s": "东方财富 · 海外 · 媒体报道",
+     "ts": 1792263336
+    },
+    {
      "t": "Replit makes OpenAI its default over Anthropic, CEO says",
      "u": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
      "s": "techcrunch.com · 海外 · 媒体报道",
      "ts": 1792262888
+    },
+    {
+     "t": "DeepSeek pushes out updated AI model it says is faster, leaner",
+     "u": "https://m.economictimes.com/tech/artificial-intelligence/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner/articleshow/135016984.cms",
+     "s": "The Economic Times · 国内 · 媒体报道",
+     "ts": 1792254201
     },
     {
      "t": "Meta removes language that may have allowed it to scrape news sites",
@@ -58,177 +318,268 @@
      "ts": 1792249476
     },
     {
-     "t": "How Itaú is building generative AI for its entire customer base",
-     "u": "https://openai.com/index/itau-generative-ai",
-     "s": "openai.com · 地区未标注 · 官方发布",
-     "ts": 1792177200
+     "t": "DeepSeek V4.1 Flash 1017: Specs, Benchmarks, Pricing and Frontier Rivals",
+     "u": "https://kingy.ai/blog/deepseek-v4-1-flash-1017-specs-benchmarks-pricing/",
+     "s": "Kingy AI · 国内 · 媒体报道",
+     "ts": 1792248004
     },
     {
-     "t": "Elorian’s first AI model wants to reason with images, not just about them",
-     "u": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792166497
+     "t": "DeepSeek V4.1-Flash-1017 Hits 77.0, Opens Search API [2026]",
+     "u": "https://tech-insider.org/deepseek-v4-1-flash-1017-deepswe-search-api-2026/",
+     "s": "https://tech-insider.org/ · 国内 · 媒体报道 · 3家报道",
+     "ts": 1792247846
     },
     {
-     "t": "Jev is Vercel’s fastest-adopted AI model ever",
-     "u": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792164829
+     "t": "Charlebois: Your grocer has AI. Who’s looking out for you?",
+     "u": "https://thestarphoenix.com/news/saskatchewan-news/charlebois-your-grocer-has-ai-whos-looking-out-for-you/",
+     "s": "Saskatoon StarPhoenix · 地区未标注 · 媒体报道",
+     "ts": 1792243800
     },
     {
-     "t": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-     "u": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-     "s": "theverge.com · 海外 · 媒体报道",
-     "ts": 1792162800
+     "t": "DeepSeek新模型：更聪明，还更省钱",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpwvx6350743.d.html?oid=800&vt=4&cid=76993&node_id=76993",
+     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
+     "ts": 1792242832
     },
     {
-     "t": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
-     "u": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792160811
+     "t": "DeepSeek Ties Its New V4.1-Flash-1017 Model Tighter to Its Own Harness",
+     "u": "https://startupfortune.com/deepseek-ties-its-new-v41-flash-1017-model-tighter-to-its-own-harness/",
+     "s": "Startup Fortune · 国内 · 媒体报道",
+     "ts": 1792240932
     },
     {
-     "t": "Meta’s new terms may allow it to train AI on news sites for free",
-     "u": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-     "s": "theverge.com · 海外 · 媒体报道",
-     "ts": 1792159360
+     "t": "国常会年内再谈人工智能，两次部署有何不同？",
+     "u": "https://www.21jingji.com/article/20261017/herald/0c35422ad2758a9778be839f7c56e8b8.html",
+     "s": "21财经 · 地区未标注 · 媒体报道",
+     "ts": 1792240740
     },
     {
-     "t": "Replit’s CEO says the future of work is the ‘self-driving company’",
-     "u": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792155309
+     "t": "195款备案大模型，藏着广东“AI生态雨林密码”",
+     "u": "https://k.sina.com.cn/article_2131593523_7f0d893302001peuo.html?from=tech",
+     "s": "新浪网 · 地区未标注 · 媒体报道",
+     "ts": 1792240320
     },
     {
-     "t": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-     "u": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-     "s": "huggingface.co · 地区未标注 · 官方发布",
-     "ts": 1792115087
+     "t": "DeepSeek更新模型了，还对外开放了搜索引擎",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpspz6404728.d.html?oid=%E9%A6%99%E6%B8%AF%E6%B2%B9%E5%B0%96%E6%97%BA%E5%8C%BA%E5%A4%A7%E5%9C%88%E7%BB%8F%E7%BA%AA%E4%BA%BA%EF%BC%88%E7%A7%81%E4%BA%BA%E5%AE%9A%E5%88%B6%EF%BC%89%E9%AD%8F%E6%96%B0%E5%8A%A0V%EF%BC%881%E2%91%A0%E2%91%A678593%EF%BC%89%E7%9C%9F%E5%AE%9E%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%9C%A8%E9%A3%9E%E7%A9%BA%E5%A7%90%E5%9C%A8%E8%81%8C%E4%BA%BA%E5%91%98Vv70Ml1mqeftyJHUzC0317&vt=4&cid=76993&node_id=76993",
+     "s": "新浪财经 · 国内 · 媒体报道",
+     "ts": 1792240194
     },
     {
-     "t": "Welcome Beam: a 501B open model you can own, customize, and scale",
-     "u": "https://huggingface.co/blog/reflection-beam",
-     "s": "huggingface.co · 地区未标注 · 官方发布",
-     "ts": 1792108800
+     "t": "广东已备案195款大模型",
+     "u": "https://xxsb.gz-cmc.com/pages/2026/10/16/33ff2bb2f90041438d3d6d199ffa5627.html",
+     "s": "广州日报新花城 · 地区未标注 · 媒体报道 · 3家报道",
+     "ts": 1792233801
     },
     {
-     "t": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-     "u": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792107896
+     "t": "Anthropic值2万亿美元吗？",
+     "u": "https://k.sina.com.cn/article_6192937794_17120bb4202002vg3k.html?from=tech",
+     "s": "新浪网 · 海外 · 媒体报道",
+     "ts": 1792233540
     },
     {
-     "t": "ChatGPT can peek at your Chrome tabs now",
-     "u": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-     "s": "theverge.com · 海外 · 媒体报道",
-     "ts": 1792104203
+     "t": "DeepSeek崩完后，上新了",
+     "u": "https://m.sohu.com/a/1089058308_122014422?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+     "s": "搜狐 · 国内 · 媒体报道",
+     "ts": 1792232686
     },
     {
-     "t": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-     "u": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
-     "s": "theverge.com · 地区未标注 · 媒体报道",
-     "ts": 1792103755
+     "t": "DeepSeek新模型登场，用户要给AI付的钱又少了",
+     "u": "https://tech.ifeng.com/c/8xIg4YWs1OM",
+     "s": "凤凰网科技 · 国内 · 媒体报道",
+     "ts": 1792231774
     },
     {
-     "t": "The tech backlash is now in theaters",
-     "u": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-     "s": "theverge.com · 地区未标注 · 媒体报道",
-     "ts": 1792100392
+     "t": "Giorgos Tsetis: no one is personally accountable for AI. This must change",
+     "u": "https://fortune.com/2026/10/17/ai-executives-personal-legal-liability/",
+     "s": "Fortune · 地区未标注 · 媒体报道",
+     "ts": 1792231362
     },
     {
-     "t": "Trump posts AI-edited photo to brag about White House restoration work",
-     "u": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
-     "s": "theverge.com · 地区未标注 · 媒体报道",
-     "ts": 1792098573
+     "t": "DeepSeek quietly pushed a new model update straight into its live API",
+     "u": "https://startupfortune.com/deepseek-quietly-pushed-a-new-model-update-straight-into-its-live-api/",
+     "s": "Startup Fortune · 国内 · 媒体报道",
+     "ts": 1792230894
     },
     {
-     "t": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-     "u": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-     "s": "huggingface.co · 地区未标注 · 官方发布",
-     "ts": 1792096441
+     "t": "Anthropic’s AI capabilities advancing faster than expected, says co-founder Clark",
+     "u": "https://cryptobriefing.com/anthropics-ai-capabilities-advancing-faster-than-expected-says-co-founder-clark/",
+     "s": "Crypto Briefing · 海外 · 媒体报道",
+     "ts": 1792230665
     },
     {
-     "t": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
-     "u": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
-     "s": "theverge.com · 地区未标注 · 媒体报道",
-     "ts": 1792094236
+     "t": "Gemini 4 Argon打穿AGI终极考场！",
+     "u": "https://k.sina.com.cn/article_5953189932_162d6782c0670516um.html?from=tech",
+     "s": "新浪网 · 海外 · 媒体报道",
+     "ts": 1792230000
     },
     {
-     "t": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-     "u": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792094125
+     "t": "Meta Muse vs OpenAI Dots: Should You Trust AI to Handle Everyday Tasks?",
+     "u": "https://www.analyticsinsight.net/artificial-intelligence/meta-muse-vs-openai-dots-should-you-trust-ai-to-handle-everyday-tasks",
+     "s": "Analytics Insight · 海外 · 媒体报道",
+     "ts": 1792227600
     },
     {
-     "t": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-     "u": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792090606
+     "t": "人工智能狂飙，冲击数学界！丘成桐等专家陆续发声",
+     "u": "https://k.sina.com.cn/article_1893892941_70e2834d0200248yk.html",
+     "s": "新浪网 · 地区未标注 · 媒体报道",
+     "ts": 1792227120
     },
     {
-     "t": "Meta and Apple team up to make Muse AI models run better on Macs",
-     "u": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-     "s": "theverge.com · 海外 · 媒体报道",
-     "ts": 1792088136
+     "t": "【财闻联播】上新！DeepSeek，大消息！国际货币基金组织，最新发声",
+     "u": "https://www.stcn.com/article/detail/4224021.html",
+     "s": "证券时报网 · 国内 · 媒体报道",
+     "ts": 1792226040
     },
     {
-     "t": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
-     "u": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792087200
+     "t": "OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world'",
+     "u": "https://6abc.com/post/openai-ceo-sam-altman-claims-artificial-intelligence-singularity-has-arrived/19588207/?userab=kfsn_content_recs-582*variant_a_control_kfsn-2512,kabc_content_recs-577*variant_c_trending-2482,wls_content_recs-584*variant_b_trending_wls-2517,wtvd_content_recs-585*variant_b_trending_wtvd-2519,ktrk_content_recs-587*variant_b_trending_ktrk-2523,wpvi_content_recs-586*variant_a_control_wpvi-2520,abcn_article_nfy_v2-691*control-3727,otv_web_content_rec-539*variant_c_trending-2268,otv_web_topic-580*variant_b_topic_redesign-2509,follow_abcnews_otv_on_google-654*variant_a_control-3493,otv_search_page_design_unification-546*variant_b_search_redesign-2300,otv_web_live-581*variant_a_live-2510,follow_otv_on_google-683*variant_b_share_drop_down-3661,abcn_popular_reads_exp_followup-648*variant_a_control-3455,otv_mobile_web_content_recs-639*variant_b_mobile_content_recs_enabled-3431,kgo_content_recs-583*variant_b_trending_kgo-2515,abcn_verts_midterms-671*variant_a_control-3586,otvlink_abcnnav-576*variant_b_local-2479",
+     "s": "6abc Philadelphia · 海外 · 媒体报道",
+     "ts": 1792225467
     },
     {
-     "t": "Google’s Universal Cart shopping tool launches in the US",
-     "u": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-     "s": "techcrunch.com · 海外 · 媒体报道",
-     "ts": 1792074573
+     "t": "大模型API聚合平台怎么选？性价比之王被我扒出来了",
+     "u": "https://www.csdn.net/article/2026-10-17/168245525",
+     "s": "CSDN · 地区未标注 · 媒体报道",
+     "ts": 1792222767
     },
     {
-     "t": "TechCrunch Disrupt 2026: Last day",
-     "u": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792072800
+     "t": "大模型API聚合平台口碑盘点：原来高手都在偷偷用这几个",
+     "u": "https://www.csdn.net/article/2026-10-17/168244876",
+     "s": "CSDN · 地区未标注 · 媒体报道",
+     "ts": 1792221560
     },
     {
-     "t": "Teaching students to think and learn through questions",
-     "u": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-     "s": "openai.com · 地区未标注 · 官方发布",
-     "ts": 1792069200
-    },
-    {
-     "t": "Sullivan & Cromwell brings legal expertise into agreement review",
-     "u": "https://openai.com/index/sullivan-cromwell",
-     "s": "openai.com · 地区未标注 · 官方发布",
-     "ts": 1792022400
-    },
-    {
-     "t": "Welcome FLUX.3 Image Klein in Diffusers",
-     "u": "https://huggingface.co/blog/flux-3",
-     "s": "huggingface.co · 地区未标注 · 官方发布",
-     "ts": 1792022400
-    },
-    {
-     "t": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-     "u": "https://huggingface.co/blog/allenai/hiro-acev2",
-     "s": "huggingface.co · 地区未标注 · 官方发布",
-     "ts": 1791994362
+     "t": "国产大模型API哪家强？实测5家平台后我选了它",
+     "u": "https://www.csdn.net/article/2026-10-17/168244100",
+     "s": "CSDN · 地区未标注 · 媒体报道",
+     "ts": 1792220365
     }
    ]
   },
   {
    "cat": "AI造福人类",
    "name": "AI造福人类",
-   "items": []
+   "items": [
+    {
+     "t": "AI Tracker: Sirona Medical secures $40M",
+     "u": "https://www.modernhealthcare.com/health-tech/ai/mh-tracking-ai-healthcare-live-updates/",
+     "s": "Modern Healthcare · 地区未标注 · 媒体报道",
+     "ts": 1792240403
+    },
+    {
+     "t": "‘Pharma Bro’ Martin Shkreli Slams Anthropic’s Claude Drug-Discovery Claims: ‘This Is Not Impressive Work’",
+     "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEFLOExITld4YkJIVU85dEpKM1RzbjBNYmx5dWxlY0RGOXFVRVpfNVZVdndxbUs4TTY5OUtiQW9LT0ExckE4TVVrOU5uLTBsYy1iUi1NNDBoZDRoc25rTjdZTUVaQy1VLUVMOU1XVk1fcTV3RDBRNzdxalFHYXREaDJKN3hSbWJ5eXpXRTd6dDRfYW1nX0loVGNfLXA1a2gxTzl4VUpjVklxUGoxX2pEYWFtZ28yTDhK?oc=5",
+     "s": "Stocktwits · 海外 · 媒体报道",
+     "ts": 1792211761
+    },
+    {
+     "t": "Medical company bets on AI-powered drug breakthrough that could extend lifespan to 150",
+     "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50NUQxbjZ3Q1NaWEdBMUJFblR1THRhampycE9JTE9xSXJHempCendDYndLRXVTeDFoSkJUcVFZWEpFZVpIOGN0cFMyN0RMQjREYmNPQ3N4YlhrTkU?oc=5",
+     "s": "Fox Business · 地区未标注 · 媒体报道",
+     "ts": 1792193558
+    },
+    {
+     "t": "AI tool receives FDA clearance to predict breast cancer recurrence",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUGRaOEIxMjBVOC1LNDRRWXlfV3NITnhGODVzazN4d09VcUFiQzI5cUZDdVdnSlJDQjBRYVJiZ2t3MUFiRFVZR3pPZmRPbGRSMzZmb2Z5V0QtUjQ1LWx6eEpURUpIV3g4STZ1VVJiSFB6eGQwbWVUWXRsQnU2Z181Sk1feEFsMmNTbTRfMmlvdXJuLUlyemhNV0pSX0QtelNNeDBZNEFvRVFCbkhiZEc1bjFMYzQ0T3JUTGE1emZ6RlPSAdQBQVVfeXFMUEhSZkhYalhqTEp1bmRCZjl4akNGSE4tc0VDN3RrMURNTlprZl80Yy1QM1VkaEcwYUVMZnhwY0hpOGhnbHpjcFhsTlZHV3F4TDVIamRsMGgxYjk1NHZFNFBXenF6ZEtEOS1YSkU1V2NLajl1ZndTdXJwaFFxQW9ieDFkR0NHblFUcG9zTVBRREF1ekdRdVFVODNyeW83RVEydm91UG05dWRIa0cxS1RWWXdjMGRlcnZOYk54MGFJMDNQRkd5TWFUanQ5S05sUTN4OUlHX0s?oc=5",
+     "s": "WFTV · 地区未标注 · 媒体报道",
+     "ts": 1792168393
+    },
+    {
+     "t": "AstraZeneca strikes 1.5 billion dollar AI drug discovery deal",
+     "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN1lNUXdNNldrRFctMEI4ZS1KajNWZGVTQTNxSFlzcXZZOE9nMVFTeXBjWGJCb2lDMno2LWt6NllteWtvWk9LOU5wZ3pCYS1TbzNVUE9venFZWE9tTGJHaUFVX2VkdmY2aGpZMWlHM0g1WWJCNnMxd3RwV04zWG1JMi1SSDhObnBxWkZqYTFXN1QwOENKUTN1a09qYmdVbWtmaURIMFVKZzB0XzZGTG5DVXR0M0s?oc=5",
+     "s": "www.lifesciencefocus.com · 地区未标注 · 媒体报道",
+     "ts": 1792141431
+    }
+   ]
   },
   {
    "cat": "AI工具与智能体",
    "name": "AI工具与智能体",
    "items": [
     {
+     "t": "DeepSeek V4.1 Flash Gets New Model With Big Coding Gains, Cheaper Agent Tasks",
+     "u": "https://propakistani.pk/2026/10/17/deepseek-v4-1-flash-gets-new-model-with-big-coding-gains-cheaper-agent-tasks/",
+     "s": "ProPakistani · 国内 · 媒体报道",
+     "ts": 1792251924
+    },
+    {
+     "t": "Chinese Startup StepFun Launches a Phone Built Around an AI Agent, Not Apps",
+     "u": "https://decrypt.co/381202/chinese-startup-stepfun-phone-ai-agent",
+     "s": "Decrypt · 地区未标注 · 媒体报道",
+     "ts": 1792249263
+    },
+    {
      "t": "Websites are closing their doors to AI agents",
      "u": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
      "s": "theverge.com · 地区未标注 · 媒体报道",
      "ts": 1792242000
+    },
+    {
+     "t": "DeepSeek上新，“许愿式编程”成为现实",
+     "u": "https://finance.sina.cn/2026-10-17/detail-inivpwwi8087771.d.html?vt=4&cid=79649&node_id=79649",
+     "s": "finance.sina.com.cn · 国内 · 媒体报道",
+     "ts": 1792241139
+    },
+    {
+     "t": "行业首个基于确定性网络的智能体互联平台AXP在南京正式发布",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivnzsi6547523.d.html?oid=800&vt=4",
+     "s": "finance.sina.com.cn · 地区未标注 · 媒体报道",
+     "ts": 1792241100
+    },
+    {
+     "t": "AMD Ross发布：智能体AI重塑嵌入式开发全流程",
+     "u": "https://www.dostor.com/p/101267.html",
+     "s": "存储在线 · 地区未标注 · 媒体报道",
+     "ts": 1792230173
+    },
+    {
+     "t": "ServiceNow and NVIDIA to Develop \"AI Passport\" for AI Agent Runtime Permission Control, Launching Q4 2026",
+     "u": "https://finance.biggo.com/news/10446f80-7b28-4f34-894d-19dced682f4e",
+     "s": "BigGo Finance · 海外 · 媒体报道",
+     "ts": 1792222500
+    },
+    {
+     "t": "AXP发布：确定性网络接入百万级智能体，AI通信底座开始“换挡”",
+     "u": "https://m.sohu.com/a/1088973041_128075?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+     "s": "搜狐 · 地区未标注 · 媒体报道",
+     "ts": 1792214760
+    },
+    {
+     "t": "面向智能体能力构建的高质量数据集建设指南（2026年）：信通院联合联想、AIIA数据委员会共同发布，提出面向智能体能力构建的行业高质量数据集建设总体框架、关键方法和实施路径– 智慧城市行业分析",
+     "u": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPMnAyUEd2RGpzWWxDMWZpeXZJYkxPVHdNQUE1b3EyYVFqbjlwWmhOdjVKRVIyY0tWRXUyX2JZOHM3eGdZQzM3dXFDcS1IYWhCVmZJTUZuZ292SURXYmJjZG5Zd0ZWZDNtN3Vib3BfdmxoRWZXTFNtdWtRaGluLUhZRzZ3QlhKMm0tdUpXS01CaVRSYTYyUUhndlU3eE5PTklaZnFIRG5hZHVkWFlMeVpoZkc2RVY2dkF1ck5HWWlqZ2pTVVF4ZWZTWTQzZ3YxM1F5RUlpM0dJVlFPV2hiZ3ZvX0xtSWpCWFJ1SldDQ2Y1cm53VWkxOVFaQnFPUklubURiWEpKOFhSOWRSZ01jb29TaEJXV082TG9jM2J1eUhMTEI1c2xsaXJtMnZWdmZiMjEySFE4dVVmemg5TlJhR1FrMThR?oc=5",
+     "s": "智慧城市行业分析 · 地区未标注 · 媒体报道",
+     "ts": 1792213560
+    },
+    {
+     "t": "AI智能体决策层独立化，科技巨头竞相布局专用模型",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IMlhiUHBscU51UlZnUFpGSGVkUnJCMFdFeTdya1hOR3J1d1pCMHFBRkRGanhkQXJZSXAyRW9MeHd1T21EVnMzaG8tR1QtTVRIbmc?oc=5",
+     "s": "至顶网 · 地区未标注 · 媒体报道",
+     "ts": 1792206028
+    },
+    {
+     "t": "BAND Launches Desktop App to Coordinate Multiple AI Coding Agents",
+     "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SUElYREhmRlBLS1ZWQ0lUVFhocXM5aFRuNXpwamNlTnFUUFpzajBXTDg5bUVURUxGMXozVjVnQ19tMTFUQkVZMFlxNF9HX1Zhb2oxZWNKYWJTRGc?oc=5",
+     "s": "TOKENPOST · 地区未标注 · 媒体报道 · 2家报道",
+     "ts": 1792205100
+    },
+    {
+     "t": "Muse能带火国内个人AI智能体吗？",
+     "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BbWZGVlRKdTFqYlBaMUxoOGJEWmJ1QUJUWnZPQ2JGcWQydUQxVk5BcFV5OW04OEhJLWl2Vl9UWjBSdUNJWExqWkluMkdXNHc4X3A0Qjc3T2htSlR0S09jYw?oc=5",
+     "s": "ThePaper.cn · 地区未标注 · 媒体报道",
+     "ts": 1792197840
+    },
+    {
+     "t": "American Express launches framework to verify AI shopping agent purchases",
+     "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOEpQaVRTZ1BDcl93bVMxcDFCTERmMmN2WGE1T1lBUkNLY3dPVU5UWkNtMlM4R1BQdjZudDZtQnJULWNVZ2VkcHEwazU5cnV0YnhfN0VEdVo1NmdYTm9EX3NreEdkYUxGUzF0WWpOVkt5b2ZCYy1UUDdwRDhPcHRJNml30gGHAUFVX3lxTE41dXJvTzR0WGN0UEtxeFFPdl9VUV83MFl2YTFXME92QXdISS01aE5SSElWVlJOR0JvcldjVVFTMHJ0aG1IUE9aQWhxc1BtaXJVZl9fODRGYlZBbV95dVh3bEFqa0RyMlpoTjE5d1BQc3RKU0FkUlRxbmFnclo4cV9ZeldVZjZybw?oc=5",
+     "s": "Digital Commerce 360 · 地区未标注 · 媒体报道",
+     "ts": 1792197184
+    },
+    {
+     "t": "Meme Coin Trading in 2026: MemeToro Open-Sources Its AI Agent",
+     "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeHJWVXl1dzVSNFh2clZ0aGo4Z0JkSzdrR1RCaU43M1hFQ3FHVEVSUldkVDJRa0JZZGEwWFNQRmo1dVgxV2VvT0VmdWNkYUJZNjhRNHVUOEFERnNSdjZzdW05SlVoaGZtVTFzdUMycHJtVUNGamtEUnpKcG1KYzF0WVJ0QTk3aTVpdHo0?oc=5",
+     "s": "HackerNoon · 地区未标注 · 媒体报道",
+     "ts": 1792173946
     },
     {
      "t": "India becomes the latest country to report rogue AI agent activity",
@@ -237,70 +588,173 @@
      "ts": 1792173144
     },
     {
-     "t": "Benefit Street Partners answers questions faster with Codex",
-     "u": "https://openai.com/index/benefit-street-partners",
-     "s": "openai.com · 地区未标注 · 官方发布",
-     "ts": 1792108800
+     "t": "Workday深化AI布局：发布基于Sana的新界面及自动驾驶智能体-AI应用",
+     "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTWHYtMGJkSXVMSnE5ZUtabW9tVklPbHk5Yl9vUGwzRXJYZ3VEcF9PWTJFMFhYU0F4NDNmYWdPeXRfNEpMM05iS1F0bHlYSzNrYmIwWXpTdlRibHBFZzNka19xZzBnVjRiSUNvZmNRYw?oc=5",
+     "s": "至顶网 · 地区未标注 · 媒体报道",
+     "ts": 1792171994
     },
     {
-     "t": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-     "u": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-     "s": "openai.com · 海外 · 官方发布",
-     "ts": 1792108800
+     "t": "Self Labs Launches Agent Vault as Banks Lock AI Agents Out of Accounts",
+     "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd2VqbkdHbGlSQ1hMdlNNOE1FejdXSmlNaGxnRlJUUDhTOURwSXJmRlJsSEdUcV9vR1B4VFJNZC1pUEhXanRUME8tZlpmSjBnVEdCTUtDd2kxRWFJd3BrZnRJbzFWU25FV1ppRDNGS1NDeVc1X2tNV2I0QXN2RlVtWVl0WFcxYXJFTTBEbVZ2YVk2dTZOX0hCYnM0SUY1Q3M?oc=5",
+     "s": "Startup Fortune · 地区未标注 · 媒体报道",
+     "ts": 1792170936
     },
     {
-     "t": "AI agents are coming to Rivian’s cars",
-     "u": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-     "s": "techcrunch.com · 地区未标注 · 媒体报道",
-     "ts": 1792076556
+     "t": "同一批巨头对阶跃“开窗”、对豆包关门 智能体手机离大众换机还有多远？",
+     "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xdXJLUTlqSzA1cUxCQmhWeWh4Q1NMNmp6UTItMEhPZFhrLTJRcDl0SWpfa1NfNktDZzdHSER5Ylo4VlQwSDFuZkZtS2JCT0xtcU9acl9vVE02SWJLZE5zMTRSTzBwdF9XRWFZVWJ4bDgtN3NHRmp0dzJ5YkdwVnc?oc=5",
+     "s": "新浪网 · 国内 · 媒体报道 · 2家报道",
+     "ts": 1792169460
     },
     {
-     "t": "Amp puts AI agents to work beyond code with OpenAI models",
-     "u": "https://openai.com/index/amp-beyond-coding",
-     "s": "openai.com · 海外 · 官方发布",
-     "ts": 1791979200
+     "t": "AI agents are going rogue, and the labs’ own training choices are pushing them to do so",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ2c3ckUwd1Z1Sm1GTjJYTjNBdUZfYXNBZG44TlVLZFJlemhfNGl3SkViQzFQcVFUWnJpejA0bklXRXA1SlBvelNWVmh6YUxrTlp5Ykw4QjI0eGp3ZkFiQWlJdjZqSTV3c0xTUDYzRGFDSHM0c2NPeGhiVXoyRHdmWWtadjBRVXJkWXJYemZxdkhKR0NRT0N3NGIxU09FTzZQR3NUVzJlaVRVMkx5NFU4bEp6bVEyQjMzcnN6Z1pZZ3k?oc=5",
+     "s": "Fortune · 地区未标注 · 媒体报道",
+     "ts": 1792165440
     },
     {
-     "t": "How Third Moment Research runs 10,000 agents for 36+ hours",
-     "u": "https://openai.com/index/third-moment-research",
-     "s": "openai.com · 地区未标注 · 官方发布",
-     "ts": 1791961200
+     "t": "面壁智能发布大监督智能体，用AI重新定义行业",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LdVRGdmFuX1N5STZuOUt6U3RLZ25sVk92SW5mM2thOE1UZXcxcXptNW9rUDVzSjNiY09mdUZJMUFFMVAtNjcxbFhFdVRuMnhhbUE?oc=5",
+     "s": "搜狐网 · 地区未标注 · 媒体报道",
+     "ts": 1792161496
     },
     {
-     "t": "The EU’s next chapter in AI is agentic",
-     "u": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-     "s": "openai.com · 地区未标注 · 官方发布",
-     "ts": 1791936000
+     "t": "Nvidia Launches RTX Spark AI Agent PC Starting at $2,599",
+     "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CMmlSUU55UWVsM05MNERURlhCbjVLRFNJNFlsajViWEFPYU1rV3NDd1JWUWw4LVU0RlNidlV2Z0ZBT2V6bGdrdXd2ZjNha2g2RkNUSDdFSFlOLU40aF9YdW5ZOHNlTmFwTXNHRVF2TE1VZGpKVFE?oc=5",
+     "s": "BigGo Finance · 海外 · 媒体报道",
+     "ts": 1792157100
     },
     {
-     "t": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-     "u": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-     "s": "huggingface.co · 地区未标注 · 官方发布",
-     "ts": 1791911148
+     "t": "信通院联合发布《面向智能体能力构建的高质量数据集建设指南（2026年）》",
+     "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkN21zajJybGVpUzJhbDViRW9JTDd1aVNNSDIyTzhBQTlCTl9aZUVQaFlia3NHNS1kZmFZcVVaXzM0OVhwaURGV2JEYXhtQQ?oc=5",
+     "s": "安全内参 · 地区未标注 · 媒体报道",
+     "ts": 1792156993
     },
     {
-     "t": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-     "u": "https://openai.com/index/oracle",
-     "s": "openai.com · 海外 · 官方发布",
-     "ts": 1791475200
+     "t": "搭载英伟达RTX Spark N1X！全球首款AI智能体PC华硕ProArt创16开售：35999元起",
+     "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nZkxQWG1IRHJZaTZ2NV9mTjVzQ2dLS0MyS1RlN08zRTd1T3BDQmlERkVvUWt6cnNtNlVFUGVPbFVrQkstaEs1X3NLRXJkSVRVNTlQOWVHUWE?oc=5",
+     "s": "驱动之家 · 海外 · 媒体报道",
+     "ts": 1792153740
     },
     {
-     "t": "LegalOn halves Codex costs while maintaining development speed",
-     "u": "https://openai.com/index/legalon-halves-codex-costs",
-     "s": "openai.com · 地区未标注 · 官方发布",
-     "ts": 1791460800
+     "t": "NVIDIA RTX Spark Laptops Launch Worldwide With Local AI Agent Support",
+     "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObUhxbzhuRXF5U25udk1xLUVGd1lWcXFPSkwxcENqcUxCOWpaOHVJOU1ZVVNMbWV5SXVaZVo4ZXJVVE45ck05a00tOUF1ZHNLcGdhbG10NGlTTktPazg4R2VOU282Tk9hMG9VUTJXc2FMcEN1VTFSc1dnbHV5T2pSMXJVS2FwWWFJVFY1TlQtNXZ3NTF4d0E?oc=5",
+     "s": "Unite.AI · 海外 · 媒体报道",
+     "ts": 1792153452
+    },
+    {
+     "t": "Voip Unlimited launches AI Agent",
+     "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdW1HazZLTXpiRGlra0N1SmFWSUE0THlqQUloMGdBcUJSaEc3bXFyQllCdzhXNklrYXdwOUVNbnRQR1pydUVOYnllQ0NURUtGMHNNbTZPV3JxTTdmR2tvNG5Oc09PSkozdTVLNkRtRzF2ZkFBakJZTEszTktNZnU2V243UQ?oc=5",
+     "s": "Comms Business · 地区未标注 · 媒体报道",
+     "ts": 1792151660
+    },
+    {
+     "t": "Booking Holdings launches Vayo AI travel agent",
+     "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oNV9oOFJKbEQ4d1F3ejJVM1NuYWcyYkt3N2laNXFPQzFzTVNGelRxZ2Y5SENDanY1UUVEOXBPcE50UGFQVHBLa0tfY1lTZi01WFFTQnkzcVc4NjNSbDFaTTl5ZFVVdGxRa1E5bUZYdGxEN2FHLU00cVNUVG8?oc=5",
+     "s": "Short Term Rentalz · 地区未标注 · 媒体报道",
+     "ts": 1792150330
+    },
+    {
+     "t": "153款应用博弈豆包手机，AI智能体带来的巨变刚开始",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4aDdiVEFjY2pjSDVfLURUOGtZMEFhMkQ2VWVjNEJDNUJSZVR3WnZxNHUwYmd1UmcyVWk2TUhGQ1lZN05KZVIwTnRLaUlTUWtP?oc=5",
+     "s": "凤凰网财经 · 国内 · 媒体报道",
+     "ts": 1792147260
+    },
+    {
+     "t": "肾母细胞瘤AI智能体2.0在渝发布 护航患儿全周期诊疗",
+     "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mTC05b1J4UFhZcVFvNnhLa1Q3NWE5d3JCLXVSNXY2MzV0UXNnNU05elp5YTRIcVRHTlFUdjB6MVY2aVc1WElzbjRaZFQ5bldEbGg2OG14TXY4azQ3RXdsenV4a3o5R3AyVnE2RkdnVjVqRnVM?oc=5",
+     "s": "新华网重庆 · 地区未标注 · 媒体报道",
+     "ts": 1792143306
+    },
+    {
+     "t": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
+     "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YelYtUlhKdk1DUVhWR3hhQUNnd2ZWMmZ4VVMzT0s5QU9oYUpxaW42SWRMUGtpelpRM0h5emF3WF92Mk1CVF84NGhXbHJ3QU82eGdpaXltdjRXNm1iWUE?oc=5",
+     "s": "InfoQ-CN · 地区未标注 · 媒体报道",
+     "ts": 1792136009
+    },
+    {
+     "t": "为什么Anthropic不做个人Agent",
+     "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pQW1sakd4alJtdk9vTmRZckZQZkNTZXJ0UExEZGdMcC1fWmVlV3NPWGRJTnB4cnhEWU1WWm5fRFlMTE4yUG5WbHVhN1RGTXdUcGdhbXpITjR1X05qRHh6SQ?oc=5",
+     "s": "ThePaper.cn · 海外 · 媒体报道",
+     "ts": 1792133460
     }
    ]
   },
   {
    "cat": "AI与食品产业",
    "name": "AI与食品产业",
-   "items": []
+   "items": [
+    {
+     "t": "EU Agri-Food AI Rate Rests on 8% Coverage",
+     "u": "https://streamlinefeed.co.ke/news/eu-agri-food-ai-rate-rests-on-8-percent-coverage",
+     "s": "https://streamlinefeed.co.ke/ · 地区未标注 · 媒体报道",
+     "ts": 1792244465
+    },
+    {
+     "t": "World Food Day – Harness AI to ensure every person has safe and affordable food, says UN",
+     "u": "https://www.gulftoday.ae/news/2026/10/17/world-food-day-harness-ai-to-ensure-every-person-has-safe-and-affordable-food-says-un",
+     "s": "Gulf Today · 地区未标注 · 媒体报道",
+     "ts": 1792231241
+    },
+    {
+     "t": "How Marc Lore, Founder of Wonder, is Transforming Food Delivery with AI and Robotics",
+     "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdjlmSlp1a2g2NUZ1TzdYZUVVSS1BTUgyOGY4YnVtdkpvQWhSVDZRYnpzd2pkbXFXTFFIaTFpVlpseVBCcTFyQjVuVDRaWFU2dUVtdmFrdldpZllYdmY3MWNybGlnRnRwWi1OdWhfbGg3bHF5eVlCQW1VMWdpTGV6WnRzN1FaeXBUSGRhR3UwOVRmNGlvOFJQZjNoQnUxRV9yVWZ1cmZ3YXUtc3F0SFp2U2xfdWFDeDdlYWpnbWV4TzlNaG1CYk9MT3ZFOW_SAcwBQVVfeXFMUHY5ZkpadWtoNjVGdU83WGVFVUktQU1IMjhmOGJ1bXZKb0FoUlQ2UWJ6c3dqZG1xV0xRSGkxaVZabHlQQnExckI1blQ0WlhVNnVFbXZha3ZXaWZZWHZmNzFjcmxpZ0Z0cFotTnVoX2xoN2xxeXlZQkFtVTFnaUxlelp0czdRWnlwVEhkYUd1MDlUZjRpbzhSUGYzaEJ1MUVfclVmdXJmd2F1LXNxdEhadlNsX3VhQ3g3ZWFqZ21leE85TWhtQmJPTE92RTlv?oc=5",
+     "s": "Analytics Insight · 地区未标注 · 媒体报道",
+     "ts": 1792180465
+    },
+    {
+     "t": "Can AI help discover new food physics? Researchers pair AI with human expertise",
+     "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XeEpERUViZzdfSU5tdFBPRGkzTFB5VHRSY3ZfclFhWEV3anFiT3ZMNjRHNmtybnk2UzZJb3JrOVM3UjBvRk1QMWhVQ1lXNk9rMUNQTXl2UUxTQnZVNm5mQWFscjk1YndXSFNkMDl0bHRjVm1pWkE?oc=5",
+     "s": "Tech Xplore · 地区未标注 · 媒体报道",
+     "ts": 1792168812
+    },
+    {
+     "t": "Canada backs food processing AI and automation with C$50M investment",
+     "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR1JORm1WSmRkd2s3TGMxczNmMjQzZ2VRcjFZVEJmd01nTmxiY2dNQjlvZ1dpc0hLRW5Rd1Q5d0FnOG1uVERiYUVRaUJSc2JFT0EtTDdRcmVmVy1ILU82ZWRTaVI4a1FxYmFQS2lfTlUtSjRncGRqczZIaDlWcjBwbnRQZVN0OWhkZWpN?oc=5",
+     "s": "Food Ingredients First · 地区未标注 · 媒体报道",
+     "ts": 1792140341
+    },
+    {
+     "t": "AI doubts, digital threats, and surplus food milestones: the retail technology week in numbers",
+     "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaWVidjMwWDh5YXFBQXd6Y0RVSk94QVRQa19KOFlzcDdwYnhLUXdGX3gzeHR1Q00tVVIxTFpzX2hnamNTTFZFTms3dFFycTVVNkREVWFLNXd4cEk2MnBqaHBEcmZzaklDdVh2T0gzd3FadGJDS2VfajdFdGEzUW45WkNLaFZNTU53cVZfbU4xVTZkeXdNbnlfMDFHZFhNTEJBTENKNEFBZVRKc0ZPWUdiM2FaVjd2M1JJSkoyZW16T3JjY09BdDBHN01Qdnd5WWd6U01ONk44WWZHOF9LNGJtLXZBUTc0U01Y?oc=5",
+     "s": "Retail Technology Innovation Hub · 地区未标注 · 媒体报道",
+     "ts": 1792126832
+    }
+   ]
   },
   {
    "cat": "AI科学与技术突破",
    "name": "AI科学与技术突破",
    "items": [
+    {
+     "t": "AI robots are roaming L.A. grocery aisles. Shoppers and workers are worried",
+     "u": "https://www.latimes.com/business/story/2026-10-15/ai-robots-are-roaming-la-grocery-store-aisles-shoppers-workers-are-worried",
+     "s": "Los Angeles Times · 地区未标注 · 媒体报道",
+     "ts": 1792257780
+    },
+    {
+     "t": "17岁天才少年离开Kimi，论文曾被马斯克点赞",
+     "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXJzeS1xc2JwVDZOb05aX09nWmt1VkhzZGtSR3hPSC1jMDR1eEcySjNwUDFUbVYzWUxBTlQ2SkFYZXQ3dFpiandxdC1GMGVVempuRVZaaWxTTnpheVV5UlIxeGowbTVNcVRqc0t0RllxaTd0cTQyYWQydVVjbTFMSHQ2b2ZLNFFMczJMUGtZSjF6MEg0cnBybw?oc=5",
+     "s": "新浪新闻_手机新浪网 · 国内 · 媒体报道",
+     "ts": 1792207740
+    },
+    {
+     "t": "Anthropic向黑石集团提供逾10%收益率，支撑600亿美元AI芯片融资计划 提供者 Investing.com",
+     "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VSDU1T0VxRFQ4UDhMY1dVZVFRU2ZIaHV2NkZGVlViRWNKbDNmZmluZjNRRWkwOHFxSVdYdXlqLTFXRW8wNEJfYlROQXVJRktNYWtqM19BN2oxVDhIWnZUbVdiLUxKOEFhVGc?oc=5",
+     "s": "英为财情 Investing.com · 海外 · 媒体报道",
+     "ts": 1792202460
+    },
+    {
+     "t": "Anthropic在最新一轮芯片融资中向黑石提供两位数收益率",
+     "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaDlQNnpIWmNTaldoU3dEM3ZjZzdUbDhoNEl1ZDk0N3V0dTFmdjA4enNMT3FPWTcxZklzbGFLb2w1Ui04WDNIVEh1em9rdUc0NGtKR3F1VGZkdEFCdlVhTHpVb1o3ZGNDYVl6a0FLVGR5NUwwOUdHVVM1dndXc2FxdUxxdEhQSTVvdEltUUxlNDlMM01TVk1OdWxuU3U?oc=5",
+     "s": "新浪财经 · 海外 · 媒体报道",
+     "ts": 1792198355
+    },
+    {
+     "t": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压",
+     "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jSzNiNUdWU0hjQWhLajBVTUg5eU9RY2FSckQ5b1JYRnJuV0l1UTBaNldaOXpLbG83RTNZNkl3WUNaQUxteTMzUmRibjZtcTlyOEtSQg?oc=5",
+     "s": "虎嗅网 · 海外 · 媒体报道",
+     "ts": 1792191603
+    },
     {
      "t": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
      "u": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
@@ -314,35 +768,222 @@
      "ts": 1792168200
     },
     {
+     "t": "人工智能如何赋能基础研究",
+     "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SS04xcFFkRE1aMVNfUTFoQ2FHeF96ZjZENjA2dS02SmFMOFFETjNxdXdsdUJabkptY2h5VVNSNFNvN0YtT0hqaUxWMzgtNThFMzFJeWJ3?oc=5",
+     "s": "南京大学 · 地区未标注 · 媒体报道",
+     "ts": 1792162996
+    },
+    {
      "t": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
      "u": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
      "s": "techcrunch.com · 地区未标注 · 媒体报道",
      "ts": 1792159200
     },
     {
-     "t": "Anthropic is letting METR researchers look under the hood with employee-level access",
-     "u": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-     "s": "techcrunch.com · 海外 · 媒体报道",
-     "ts": 1792091666
+     "t": "计算机行业周报：海内外大模型及应用持续更新_行业研究_研报",
+     "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Wcnk3SDhsclROZGZuLXcySUYzeWFLM3hSWUxjNVJDUGZGb2hLcHdMd0Y2eE1HOVFQTW4tUGJzdUZMODFsc0pPUGRfN1Q1ZE44Zlp2dktEM1JtejJtc3o5Y193?oc=5",
+     "s": "证券之星 · 地区未标注 · 媒体报道",
+     "ts": 1792155360
     },
     {
-     "t": "Bringing GPT-Rosalind to academic research labs",
-     "u": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-     "s": "openai.com · 海外 · 官方发布",
-     "ts": 1792090800
+     "t": "量化派“物理AI”新突破：实现机器人蛋烘糕连贯作业测试，携智谱等参投10亿基金聚力产业生态",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9sUDU5V0lzWWZiTkluV1FkQVJraFAtSUUxMkZKdEItQ2tTWDlPVTE1YkpNZmdadXNWYkxRLV9ydWFKMzBQQUdaLWhJMUlKajB0?oc=5",
+     "s": "砍柴网 · 国内 · 媒体报道",
+     "ts": 1792144025
     },
     {
-     "t": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-     "u": "https://huggingface.co/blog/meta-muse-spark-open",
-     "s": "huggingface.co · 海外 · 官方发布",
-     "ts": 1792022400
+     "t": "OpenAI、Anthropic罕见联手：砸下1个亿，给数学家送钱、送算力",
+     "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUZk8yMGlWMUtiSnl4Mk5NcVlTNEYxcVNYamNUVDJMLWxaa1ltUmZEc3k0dG0tMEN2ZUpKcmxOeXA4WGcxSFFBTQ?oc=5",
+     "s": "智东西 · 海外 · 媒体报道",
+     "ts": 1792124991
+    },
+    {
+     "t": "小米开源空间音频大模型 MiDashengLM-Spatial，采用 Apache2.0许可证",
+     "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WVGZMNGlCTzBtRVg0UlViM0JzTlBZYXRNemwwZ251aDFEQjBCdmprcDROc2tDdHVqbFVRcW8ya0hBSWY4cEQ4N1FvenlwQQ?oc=5",
+     "s": "AIBase · 地区未标注 · 媒体报道",
+     "ts": 1792121640
+    },
+    {
+     "t": "人工智能产业竞争转向拼效率|AI芯片|大模型|华为|DeepSeek|模型",
+     "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhQWZrc2ZnU0kxOTA1N2Q1aHNsUnY0QkFpcXVpV1B1eFB2cmdxNVF0THhSQ3JqallGak5VTURTZ0NqSm40ekxGZ1J1ZzRhQ3EyUVdKQ3dtVVp3SEFpbXVSWnNkQkxJYUZaOWc2RzdCUnJWQktrZjQ4WQ?oc=5",
+     "s": "finance.sina.com.cn · 国内 · 媒体报道",
+     "ts": 1792121339
+    },
+    {
+     "t": "Meta杀回开源：816B新模型，两台Mac Studio就能跑",
+     "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15OVpJdElEeFE3UURMT2N5b0pFRGE5ajA0WGdSaWpmcEVDc2tSZU5YOVB0clUyX28ybENETWw0aXpaaEpfbnBuZU12V1VkX2NfUEZ1cDdR?oc=5",
+     "s": "投资界 · 海外 · 媒体报道",
+     "ts": 1792119360
+    },
+    {
+     "t": "“背刺”OpenAI？微软AI主管：自研模型性能超越同类产品，只需1/4算力！",
+     "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1XZG5RQzZJVnVYaFVIX3FnZ0o5akdZYU5sMmtvVDBpWEJ2ajlkM2RjSVI0Z2U2WERMRlcwMVBqa2lVTTNIZHJVbg?oc=5",
+     "s": "财联社 · 海外 · 媒体报道",
+     "ts": 1792117988
+    },
+    {
+     "t": "AI黑箱要被AI破解了？前OpenAI研究员发现，90%的神经元功能可以解释",
+     "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ERGxqQXV3SnJnYlVzdFExaXg3b0h0RXVCOFlySDVYZjJscVA0VlNuODVBclBvR0h6RnFHRXhOU3ZYNEZid0VJLWFETVhsZw?oc=5",
+     "s": "安全内参 · 海外 · 媒体报道",
+     "ts": 1792117589
     }
    ]
   },
   {
    "cat": "AI政策与安全",
    "name": "AI政策与安全",
-   "items": []
+   "items": [
+    {
+     "t": "Anthropic向美国国会推介AI监管草案，仅允许出现严重风险时封锁模型",
+     "u": "https://k.sina.com.cn/article_1826017320_6cd6d02802001xr5q.html?from=tech",
+     "s": "新浪网 · 海外 · 媒体报道",
+     "ts": 1792279620
+    },
+    {
+     "t": "Nutrafol Co-Founder Urges Personal Liability for AI Safety Risks",
+     "u": "https://www.tokenpost.com/news/regulation/34066",
+     "s": "TOKENPOST · 地区未标注 · 媒体报道",
+     "ts": 1792248893
+    },
+    {
+     "t": "California Gov Newsom boosts AI regulation as he eyes 2028 presidential run",
+     "u": "https://www.aljazeera.com/economy/2026/10/17/california-gov-newsom-boosts-ai-regulation-as-he-eyes-2028-presidential-run",
+     "s": "Al Jazeera · 地区未标注 · 媒体报道",
+     "ts": 1792246153
+    },
+    {
+     "t": "粤东首个！粤港澳大湾区生成式人工智能安全发展联合实验室汕头服务中心正式授牌",
+     "u": "https://www.21jingji.com/article/20261017/herald/5cd783dd5cdf5e3453649525eeecb0d3.html",
+     "s": "21财经 · 地区未标注 · 媒体报道 · 2家报道",
+     "ts": 1792239343
+    },
+    {
+     "t": "Anthropic to put forward AI safety law",
+     "u": "https://www.brusselstimes.com/2365546/anthropic-to-put-forward-ai-safety-law",
+     "s": "The Brussels Times · 海外 · 媒体报道",
+     "ts": 1792237337
+    },
+    {
+     "t": "国务院常务会议最新部署：听取“人工智能+”行动进展情况汇报，从夯实底座、赋能应用、统筹发展与安全等方面作出一系列新部署。 – 智慧城市行业分析",
+     "u": "https://www.smartcity.team/news/%E5%9B%BD%E5%B8%B8%E4%BC%9A_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/",
+     "s": "智慧城市行业分析 · 地区未标注 · 媒体报道",
+     "ts": 1792230660
+    },
+    {
+     "t": "Anthropic proposes federal AI safety law to US Congress",
+     "u": "https://en.yenisafak.com/world/anthropic-proposes-federal-ai-safety-law-to-us-congress-3724536",
+     "s": "Yeni Şafak English · 海外 · 媒体报道",
+     "ts": 1792225842
+    },
+    {
+     "t": "Can AI be regulated? Why experts say government intervention is needed — but could be tricky",
+     "u": "https://www.cbc.ca/news/business/ai-safety-regulation-9.7382483",
+     "s": "CBC · 地区未标注 · 媒体报道",
+     "ts": 1792224000
+    },
+    {
+     "t": "Anthropic Pitches a $1B AI Safety Bill to Lawmakers [2026]",
+     "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03QldDcThFcXI1NnZSWGZZU2UzdWxGak40MWZESTB6Ni12VUFKcVd0UDVJSFBZYnViSGlBaTk2UklwUnVmOFB3SlNYN1ZPUE5YeWJCbl8tdXgyWHdsYTBHZGVxQVVMNWJUZEE1RWJOcDY0dXc?oc=5",
+     "s": "https://tech-insider.org/ · 海外 · 媒体报道 · 5家报道",
+     "ts": 1792213129
+    },
+    {
+     "t": "Congress Weighs AI Safety Rules as Anthropic Proposes New Bill",
+     "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02YWdBY2RKbF96VjNaWW9hOHZGRGVIUkhKT3lJdUh6MVA5WkVSUHFlakJIVEFYdkdOSUt2SDEwQUx4c3NNdDRCX1MxbUNmM20xdnJKS2U0UVkxcGpQaWpqVGhwQXN4VWdxZERHTUtLTWRXaVE?oc=5",
+     "s": "SuaraGarut.ID · 海外 · 媒体报道",
+     "ts": 1792211607
+    },
+    {
+     "t": "Anthropic pitches AI safety bill to US lawmakers, proposes restrictions on dangerous models",
+     "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcEpqUElNWkRNMkNkQUtSLURwZWZ6OHZ4MzJLSHR2eUhBbGtmOHNtSHk5bjN2VUQyNWt4R1ZROEU3WlFTbXFid0JXOW5Da3Rfb2duWXdHVDh6REYxUE1RZm8xa3pwX0FjSFU5ay1RZ0tjdnpIVy0xZjZLLWxWQWlKdWhaQWFXUzNKNkxuOFlmLTlKLTI4OVJWVHBVbzZJWm5LOTB2NmhjODZmODFsdDZGNjN2SEdpVTJHSWdVOVFCYTNEaEkxd2JCWWZpaURXbkVZU1hYMNIB2gFBVV95cUxQVkhMYzQ0c3BrQ211MVJmcTFUai1RTUJKdnhtcWh5bGhjbFpSUnAzQkZrdVdveDVxOE1UejZVRUtsanRpWjFrT2dHRXVFSnhIRHRXOUgxeld2U0t5NGFWXzNEcm1OWEJWT2ExM25nOGhadGx5NTJJQmhhQy1aaXA4aDhzY1VYcTMybnhWaDdTZ3hiWWRMZ29INUJrSjR1TFd2bUpabTJmaDBDQWo1N0s0d3VGcTNacXV5UmtFb0YtT29yV2FEWlZyS25YdlU0aDhMWVByRE9iQ0JRZw?oc=5",
+     "s": "Storyboard18 · 海外 · 媒体报道",
+     "ts": 1792210861
+    },
+    {
+     "t": "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models",
+     "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUpETGxDdXo5QzRMMEdKUko5cWxsQzJSeDhRUUVZYV94Q2RKc1FjV2JaT1hmTUxBanF2WGN5bGFObkdXVTExVV80WFVpY2NfenEzOWFOUnFGbDRkbHBPcjRvcmJkbk5TYVRTV1U5NXNZajRlYVE5TTRKak1zYXNQNjlIUzNmVEw3?oc=5",
+     "s": "Law Commentary · 海外 · 媒体报道",
+     "ts": 1792205087
+    },
+    {
+     "t": "Anthropic秘密游说国会 推动制定前沿AI监管法案",
+     "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5XRTZoNkFYemFwckJRRVlUN2dUMTI0d1FHM0YzbDNBZEtzcHJNajRCSDBHeFkxd1lBU2FXam9NRV9yZFB4TllqMA?oc=5",
+     "s": "财联社 · 海外 · 媒体报道",
+     "ts": 1792202072
+    },
+    {
+     "t": "Anthropic proposes AI safety bill with strict intervention thresholds - Politico",
+     "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQk5XZTZqTjdUbmZXdnhYcWI0SkZFdVpJcDhnN21PbG8yd3BCbjA0UGJQclBIbkpSZHVwcU95YnJTOFpQWjBobW9WcF92NmV1aDZHUUFsNU84OTZWeEk0SGpaZUJQeW5vQVl2QmR1cXVleVRuUDcxbjFvLVRjZy1oZGR4R2xlNDFGLVE?oc=5",
+     "s": "Yahoo Finance Australia · 海外 · 媒体报道",
+     "ts": 1792193292
+    },
+    {
+     "t": "Anthropic兑现AI安全承诺 外部评估员获“员工级权限”审查模型风险",
+     "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBuTTMzdFJlaDd6NDNkNHhQZWtfcHpkZzJIYURhNzQ1SFg2dW1LRTFfZFYtMkJfVWtzbi12TFZnQWRJOFo2anJzXw?oc=5",
+     "s": "财联社 · 海外 · 媒体报道",
+     "ts": 1792180207
+    },
+    {
+     "t": "Eight State AGs Sue OpenAI Over ChatGPT Safety and Consumer Protection",
+     "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWktGZ0ZpeXl6T01UR0dPXzl2aWM0SmNUZ1FJUjVndXg3LXlXZmlyRFNIREYweVdWMWlSVWpVbmUyZ1dNdFRHYy1yUzlNdUJkVHdoZXR4bm02MVBrR0lQekNFSVZHUFFHMVAyYzJ1ekl6RUc1LU5kN2tBMV9lTkh6R3hiSWl1MHc0UzhLUVpnV1BsVVFrV3FaOFVScWZkLXNRUTN5MXdhN1E2MVNsVENJVmxEWjEyQQ?oc=5",
+     "s": "Regulatory Oversight · 海外 · 媒体报道 · 2家报道",
+     "ts": 1792172604
+    },
+    {
+     "t": "AI safety group pushes for tighter export controls, limits on ‘vastly superhuman AI’",
+     "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2ZlN6eWlXM3h3bGlabWVoT2k5dno4OGYxbzF4VHNhbF9wVEx6OUt6MGQ0dTNPYjdJejNfaDU2Rnk2ajVJZXlmeW01WWpMRThscDdJWEJWRnRpSW13SXBMempnb3NjSGJ2RFhiVExfSF9WLUFfYk9uTFBFek84UdIBfkFVX3lxTFA2ZlN6eWlXM3h3bGlabWVoT2k5dno4OGYxbzF4VHNhbF9wVEx6OUt6MGQ0dTNPYjdJejNfaDU2Rnk2ajVJZXlmeW01WWpMRThscDdJWEJWRnRpSW13SXBMempnb3NjSGJ2RFhiVExfSF9WLUFfYk9uTFBFek84UQ?oc=5",
+     "s": "The Hill · 地区未标注 · 媒体报道",
+     "ts": 1792169911
+    },
+    {
+     "t": "Can the Law Stop AI Hackers?",
+     "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9felpndlppWmNHa3ZPX2F1bmRTNkVoX2tOSFROSlBBSnBYUTByaVpja0YtRVlEU1N1RDNNM3ZDc2w5ZURVSzRrS2tjM1IwZkFxWlJTbFlidTVqUi1nV0lqRHF5aVdUNVk?oc=5",
+     "s": "Just Security · 地区未标注 · 媒体报道",
+     "ts": 1792156825
+    },
+    {
+     "t": "SpaceX will testify before NYC Council on AI safety after defying subpoena",
+     "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUMGdCbDJQajlNdXpYa1p4b19KQWJtSXZJcGdkaVNKcFdXM09BNDM4eS1iX2RlNm5MUEJUdkZ0aS04dFhVUXVkODFEZzgwd3VRdG1VcVNsMzUydk05UWgwX1p0NVRJald4Q3NSSDFsSDVUajhZOGc?oc=5",
+     "s": "Quartz · 地区未标注 · 媒体报道 · 2家报道",
+     "ts": 1792150245
+    },
+    {
+     "t": "Anthropic Discusses AI Safety Testing With MeitY, Calls for Binding Transparency Rules",
+     "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZmFSbDhNTjNmSkNMQWtWVG1kSnBMc2t3aGQ1aHhDZzBHSWVQV1BFWDVLajV6NjFlb2IwX0dvVTlzZERCQXR5VUY0NVJTcHM0cWV6RlQ3VjhtVVFBY2tZMlZ3Qk42M0xSQUs2dWRrZ09NQVJtZWFBWF9oTDQ5MjJwSTh5bDZrUkpaYW56dlhpV0Y2QXZYSVNja1ZDNnF1TjF3SjBLVHhmRVVqZV8xcWo4YkUyeF9sSThKbkRDOQ?oc=5",
+     "s": "Konsulteer · 海外 · 媒体报道",
+     "ts": 1792148193
+    },
+    {
+     "t": "粤港澳大湾区生成式人工智能安全发展联合实验室成果发布会在穗举行",
+     "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBacW1aRHVSSHJvQWtUNk1wNl9ISmpKVUdhUzd3U0lSVWdPT2ZBX2hNYVh2VHdCaDVnLU9DQ1p6Vl9DTG1Da0hPd0tJT1VEMWU4UENjSm5LcUNNVDJIWHhpZVJXdG1VRFlxbFJsWkR0LUg?oc=5",
+     "s": "新浪网 · 地区未标注 · 媒体报道",
+     "ts": 1792145400
+    },
+    {
+     "t": "SpaceX政策主管将就纽约市议会人工智能安全调查出庭作证",
+     "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT3JPQXRhb3A2ZUY5QVRZbTktSkFPZlRQc0VyaS1haHpzNFROcW1oUHBKcVNKazhpcmpTUHBnbzVPOHlDVkx2STlqWmlUU09sRVI1ekJZSnd4NDBUaWtEa0tqRWhnSFYtQnRPUHp4QnNfbEJSYUVRUFBWcC1pQ2g2LXhqN1NuNWc?oc=5",
+     "s": "新浪财经 · 地区未标注 · 媒体报道",
+     "ts": 1792143640
+    },
+    {
+     "t": "DOJ’s Retreat on AI Enforcement Puts Focus on State Regulators",
+     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZkNSRG13NkQyb2wzZFpqYUd3cEZsVGNZNjByN2NPeVBGMU04cEhpMFhNUGdONXEwb3BTY1llZHBEU0pvVXJLLV9EMDV6YkprWkM1YzRsY2ZXbjhyRHJBVzRtZWhiY0xwUGNWbUNHdW9LRkp2dEVzdGo0eGpTVWF5WXIwRDFkSmNNVEotRnJPZko0U1QyVG5wV0JnUFBXd1hLNkMtUnFVcUJfbHFSaWNkS0tBa3VWbmFaU3dGS0JtSzdoc2FrN0tlbjBB?oc=5",
+     "s": "Bloomberg Law News · 地区未标注 · 媒体报道",
+     "ts": 1792139400
+    },
+    {
+     "t": "Regulating advanced AI under the EU AI Act: the old, the new and the practical challenges",
+     "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN1NtY0RrRzAyUHNSRnhCay1zQU80UkllT0N3UkJTcGdTV3QwdGtNUXRTZjdMczgyU0VfdUxELTlBNWpoUG5wRHgtVG9zWEZmTHlsSzc1ck5NTWM0RmJMRW0wNWZpVURWNUZncHJScDdCNVZtUnNwS3l0SUNEMWtCSnM1aW41SEZUN1BXbklRRlVFTE53cEh5N3hnS2Q0ZDhuTjExdDBVc2MyeXBodDZnaTVIVk03UFM4OWtiLWJoeHRhYk1vQzNCdVpyWXMxWjFEa3c?oc=5",
+     "s": "Sciences Po · 地区未标注 · 媒体报道",
+     "ts": 1792137200
+    },
+    {
+     "t": "工业和信息化领域人工智能安全评测框架正式发布",
+     "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aNUV5SExKRkFLWUlpMmZfRFFJU2ZZeVp4UGFNU3ppSFlxMFVYUHVIRnZKWWlQdHlwZDc1OUdCUzBNdW5LSFRKNGtWLTNJOXJlalVYcGJacGdXVTJ0X212bDA5b2NQVk5QbXhQQlR1UGR0Zw?oc=5",
+     "s": "新浪网 · 地区未标注 · 媒体报道",
+     "ts": 1792121580
+    }
+   ]
   }
  ]
 }
