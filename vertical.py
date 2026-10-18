@@ -2,9 +2,10 @@
 # 只做一件事：把「搜索索引里搜不到」的行业站内容抓回来。
 # 独立脚本：失败只影响自己，不碰 data.json，也不影响 fetch.py 主流程。
 #
-# 现在接了两个站（都实测过）：
+# 现在接了三个站（都实测过）：
 #   食品伙伴网 news.foodmate.net  —— 列表页无日期，抓文章页取「时间：YYYY-MM-DD HH:MM」
 #   Foodaily  www.foodaily.com    —— /articles?page=N 分页，列表自带 YYYY.MM.DD
+#   FoodTalks www.foodtalks.cn    —— 官方 JSON 接口，1 个请求 50 条，带封面和摘要
 import json, re, time, html, datetime as dt
 import urllib.request as U
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -16,10 +17,20 @@ NOW = time.time()
 HORIZON = 14 * 86400          # 和 fetch.py 保持一致：只保留近 14 天
 CAT = "行业垂直"
 
-def get(url, timeout=15):
-    """取页面文本。先 utf-8，乱码再退回 gbk。"""
-    r = U.Request(url, headers={"User-Agent": UA, "Accept-Language": "zh-CN,zh;q=0.9"})
-    raw = U.urlopen(r, timeout=timeout).read()
+def get(url, timeout=15, tries=2):
+    """取页面文本。先 utf-8，乱码再退回 gbk。网络截断（IncompleteRead）重试一次。"""
+    raw, last = b"", None
+    for i in range(tries):
+        try:
+            r = U.Request(url, headers={"User-Agent": UA, "Accept-Language": "zh-CN,zh;q=0.9"})
+            raw = U.urlopen(r, timeout=timeout).read()
+            break
+        except Exception as ex:
+            last = ex
+            if i + 1 < tries:
+                time.sleep(2)
+    else:
+        raise last
     try:
         t = raw.decode("utf-8")
         if t.count("\ufffd") > 20:          # 替换符太多，说明其实不是 utf-8
@@ -135,14 +146,80 @@ def foodaily(pages=2):
                 continue
             seen.add(m.group(1))
             who = re.search(r'el-icon-user[^>]*></i>\s*([^<]{1,20})', b)
-            out.append({"t": title, "u": f"https://www.foodaily.com/articles/{m.group(1)}",
-                        "s": clean(who.group(1)) if who else "Foodaily", "ts": ts})
+            x = {"t": title, "u": f"https://www.foodaily.com/articles/{m.group(1)}",
+                 "s": clean(who.group(1)) if who else "Foodaily", "ts": ts}
+            im = re.search(r'https://cdn\.img\.foodaily\.com/images/cover/[^"\s]+', b)
+            if im:
+                x["img"] = im.group(0)
+            out.append(x)
         print(f"  第 {p} 页 +{len(out) - before} 条，累计 {len(out)}")
     out.sort(key=lambda x: -x["ts"])
     return out[:30]
 
+# ---------------------------------------------------------------- FoodTalks
+# 食研汇 / FoodTalks（FBIF 姊妹站）。它的前端调的是一个官方 JSON 接口，
+# 1 个请求就是 50 条，而且自带封面（img）和摘要（d），还聚合了 30 多家行业媒体。
+# 地址是从 RSSHub 的 lib/routes/foodtalks/index.ts 里反查到的。
+FT_API = ("https://api-we.foodtalks.cn/news/news/page"
+          "?current=1&size={}&isLatest=1&language=ZH")
+# 这个接口的 WAF 会校验浏览器指纹：缺 Referer 直接 403，缺 sec-fetch-* 一律 429
+BROWSER = {
+    "User-Agent": UA,
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+}
+
+def get_api(url, tries=2):
+    h = dict(BROWSER)
+    h.update({
+        "Referer": "https://www.foodtalks.cn/", "Origin": "https://www.foodtalks.cn",
+        "Accept": "application/json, text/plain, */*",
+        "sec-fetch-dest": "empty", "sec-fetch-mode": "cors", "sec-fetch-site": "same-site",
+    })
+    last = None
+    for i in range(tries):                 # 短时间连发会 429，退避重试一次就够
+        try:
+            return U.urlopen(U.Request(url, headers=h), timeout=20).read().decode("utf-8", "ignore")
+        except Exception as ex:
+            last = ex
+            print(f"  第 {i + 1} 次请求失败 {getattr(ex, 'code', type(ex).__name__)}")
+            if i + 1 < tries:
+                time.sleep(6)
+    raise last
+
+def foodtalks(size=50):
+    d = json.loads(get_api(FT_API.format(size)))
+    recs = (d.get("data") or {}).get("records") or []
+    out, seen = [], set()
+    for it in recs:
+        t = re.sub(r"\s+", " ", clean(it.get("title") or ""))
+        if len(t) < 6 or t in seen:
+            continue
+        m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})[ T](\d{1,2}):(\d{2})",
+                     (it.get("publishTime") or "").strip())
+        ts = cn_ts(*m.groups()) if m else 0
+        if not ts or ts < NOW - HORIZON:
+            continue
+        seen.add(t)
+        x = {"t": t, "u": f"https://www.foodtalks.cn/news/{it.get('id')}",
+             "s": clean(it.get("sourceName") or it.get("author") or "FoodTalks"), "ts": ts}
+        img = (it.get("coverImg") or "").strip()
+        if img.startswith("http"):          # 阿里云 OSS，实测无防盗链，可直接外链
+            x["img"] = img
+        dsc = re.sub(r"\s+", " ", clean(it.get("summary") or "")).strip()
+        if 6 <= len(dsc) <= 90:
+            x["d"] = dsc
+        out.append(x)
+    out.sort(key=lambda x: -x["ts"])
+    srcs = {i["s"] for i in out}
+    print(f"  接口 {len(recs)} 条 -> 保留 {len(out)} 条，来源 {len(srcs)} 家，"
+          f"带封面 {sum(1 for i in out if i.get('img'))} 条")
+    return out[:50]
+
 # ---------------------------------------------------------------- 主流程
-SITES = [("食品伙伴网", foodmate), ("Foodaily", foodaily)]
+SITES = [("食品伙伴网", foodmate), ("Foodaily", foodaily), ("FoodTalks", foodtalks)]
 
 boards = []
 for name, fn in SITES:
