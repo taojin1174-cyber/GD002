@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # 军事频道 -> mil.json。来源分级 + 多源交叉 + 只留近3天。依赖: feedparser、googlenewsdecoder
-import json, re, time, socket, datetime as dt
+import json, re, time, socket, datetime as dt, calendar
 from collections import Counter
 from urllib.parse import quote
 import feedparser
@@ -73,7 +73,7 @@ def pull(url):
         if " - " in title:
             title, s2 = title.rsplit(" - ", 1)
             src = src or s2
-        ts = int(time.mktime(e.published_parsed)) if e.get("published_parsed") else 0
+        ts = int(calendar.timegm(e.published_parsed)) if e.get("published_parsed") else 0
         out.append({"t": title, "u": e.get("link", ""), "s": src.strip(), "ts": ts})
     return out
 
