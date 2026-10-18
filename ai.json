@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T22:17:23.804714+00:00",
+ "updated": "2026-10-18T00:05:19.729726+00:00",
  "title": "AI 动态 · 全球观察",
  "boards": [
   {
@@ -61,6 +61,18 @@
    "name": "AIBase · 模型与工具",
    "items": [
     {
+     "t": "常见问题",
+     "u": "https://www.aibase.com/zh/faq",
+     "ts": 1792271214,
+     "s": "AIBase"
+    },
+    {
+     "t": "最好的LTX-2.5 AI工具模型_精选LTX-2.5资讯",
+     "u": "https://www.aibase.com/zh/search/LTX-2.5&type=0",
+     "ts": 1792259035,
+     "s": "AIBase"
+    },
+    {
      "t": "最新Ai 免费无水印网站工具和软件推荐_AiBase产品库",
      "u": "https://top.aibase.com/topic/%E5%85%8D%E8%B4%B9%E6%97%A0%E6%B0%B4%E5%8D%B0",
      "ts": 1792201497,
@@ -95,18 +107,6 @@
      "u": "https://top.aibase.com/topic/AI%E6%BC%AB%E5%89%A7",
      "ts": 1792201483,
      "s": "AIBase"
-    },
-    {
-     "t": "最新Ai Lovable网站工具和软件推荐_AiBase产品库",
-     "u": "https://top.aibase.com/topic/Lovable",
-     "ts": 1792201471,
-     "s": "AIBase"
-    },
-    {
-     "t": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争",
-     "u": "https://www.aibase.com/zh/news/31702",
-     "ts": 1792155108,
-     "s": "AIBase"
     }
    ]
   },
@@ -119,6 +119,12 @@
    "cat": "全球新模型发布",
    "name": "全球新模型发布",
    "items": [
+    {
+     "t": "DeepSeek unveils faster, lighter V4.1-Flash-1017",
+     "u": "https://www.digitaltoday.co.kr/en/view/115917/deepseek-unveils-faster-lighter-v41-flash-1017",
+     "s": "디지털투데이 · 国内 · 媒体报道",
+     "ts": 1792277452
+    },
     {
      "t": "Google releases Gemini 4 Argon, its new frontier model: Benchmarks, how to try it, and pricing",
      "u": "https://mashable.com/tech/google-launches-gemini-4-argon",
@@ -138,16 +144,22 @@
      "ts": 1792250700
     },
     {
+     "t": "DeepSeek releases AI model update, opens search APIs to all users",
+     "u": "https://au.finance.yahoo.com/news/deepseek-releases-ai-model-opens-150411542.html",
+     "s": "Yahoo Finance Australia · 国内 · 媒体报道",
+     "ts": 1792249451
+    },
+    {
+     "t": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API，千次调用仅5元",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpsqc7102597.d.html?oid=%F0%9F%95%A5%F0%9F%83%99%EC%9C%A0%EC%8B%AC%EA%B0%9C%ED%86%B5%EC%84%9C%EB%A5%98%20%EC%9E%91%EC%97%85%EB%8C%80%ED%96%89%F0%9F%92%91%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%EC%9D%B8%EC%A6%9D%20%EB%8C%80%ED%96%89%F0%9F%84%A5@kkddyy88%E2%9F%9B%E2%8D%8B%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A6%9D%20%EC%97%85%EC%B2%B4%F0%9F%94%B4%EC%82%AC%EA%B8%B0%EB%B2%94%EC%B0%BE%EA%B8%B0%20%EC%9D%98%EB%A2%B0%F0%9F%83%96%F0%9F%8C%AB&vt=4",
+     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
+     "ts": 1792243259
+    },
+    {
      "t": "Anthropic prepares to release Claude Fable 5.5 next week",
      "u": "https://www.testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners/",
      "s": "TestingCatalog AI News · 海外 · 媒体报道",
      "ts": 1792241871
-    },
-    {
-     "t": "“许愿式”编程能力升级！DeepSeek上新：开放自研搜索API，千次调用仅5元",
-     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpsqc7102597.d.html?oid=%E4%BA%8C%E6%AC%A1%E5%85%83%E7%BE%A4%E4%BB%8B%E7%BB%8D%E6%80%8E%E4%B9%88%E5%86%99%E5%90%B8%E5%BC%95%E4%BA%BA%E2%96%A0%E9%9C%80%E8%A6%81%E8%81%94%E7%B3%BBTG:@HHCH8%E6%92%9E%E5%BA%93%E6%95%B0%E6%8D%AE%E6%B8%97%E9%80%8F%E6%95%B0%E6%8D%AE%E6%B5%B7%E5%A4%96%E6%94%AF%E4%BB%98%E9%80%9A%E9%81%93%E2%96%A0PhIy&vt=4",
-     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
-     "ts": 1792241100
     },
     {
      "t": "DeepSeek releases 4.1 Flash 1017 with MIT weights and shorter outputs",
@@ -202,6 +214,12 @@
      "u": "https://finance.sina.cn/stock/jdts/2026-10-16/detail-inivmpqz6893586.d.html?vt=4&cid=76993&node_id=76993",
      "s": "finance.sina.com.cn · 海外 · 媒体报道",
      "ts": 1792149929
+    },
+    {
+     "t": "谷歌终于发布Gemini 4 Argon模型-模型",
+     "u": "https://www.zhiding.cn/models/2026/1016/3202527.shtml",
+     "s": "至顶网 · 海外 · 媒体报道",
+     "ts": 1792147871
     },
     {
      "t": "可灵AI新一代模型Kling 4.0正式上线专业影像模型“卷”出新高度_行业动态",
@@ -294,22 +312,28 @@
      "ts": 1792249476
     },
     {
+     "t": "DeepSeek V4.1 Flash 1017: Specs, Benchmarks, Pricing and Frontier Rivals",
+     "u": "https://kingy.ai/blog/deepseek-v4-1-flash-1017-specs-benchmarks-pricing/",
+     "s": "Kingy AI · 国内 · 媒体报道",
+     "ts": 1792248004
+    },
+    {
      "t": "DeepSeek V4.1-Flash-1017 Hits 77.0, Opens Search API [2026]",
      "u": "https://tech-insider.org/deepseek-v4-1-flash-1017-deepswe-search-api-2026/",
      "s": "https://tech-insider.org/ · 国内 · 媒体报道 · 3家报道",
      "ts": 1792247846
     },
     {
+     "t": "DeepSeek新模型：更聪明，还更省钱",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpwvx6350743.d.html?oid=Burberry%E5%8D%9A%E6%9F%8F%E5%88%A9%E5%A5%B3%E8%A3%85%E9%AB%98%E4%BB%BF%E5%A4%9A%E5%B0%91%E9%92%B1%E3%80%94%E5%BE%AE%E4%BF%A1198099199%E3%80%95ysfP&vt=4&cid=76993&node_id=76993",
+     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
+     "ts": 1792245134
+    },
+    {
      "t": "Charlebois: Your grocer has AI. Who’s looking out for you?",
      "u": "https://thestarphoenix.com/news/saskatchewan-news/charlebois-your-grocer-has-ai-whos-looking-out-for-you/",
      "s": "Saskatoon StarPhoenix · 地区未标注 · 媒体报道",
      "ts": 1792243800
-    },
-    {
-     "t": "DeepSeek新模型：更聪明，还更省钱",
-     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivpwvx6350743.d.html?oid=800&vt=4&cid=76993&node_id=76993",
-     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
-     "ts": 1792242832
     },
     {
      "t": "DeepSeek Ties Its New V4.1-Flash-1017 Model Tighter to Its Own Harness",
@@ -321,7 +345,7 @@
      "t": "国常会年内再谈人工智能，两次部署有何不同？",
      "u": "https://www.21jingji.com/article/20261017/herald/0c35422ad2758a9778be839f7c56e8b8.html",
      "s": "21财经 · 地区未标注 · 媒体报道",
-     "ts": 1792240789
+     "ts": 1792240740
     },
     {
      "t": "195款备案大模型，藏着广东“AI生态雨林密码”",
@@ -336,12 +360,6 @@
      "ts": 1792240194
     },
     {
-     "t": "DeepSeek新模型登场，用户要给AI付的钱又少了- 产业链",
-     "u": "https://www.c114.net.cn/industry/134496.html",
-     "s": "光通信Pro · 国内 · 媒体报道",
-     "ts": 1792234807
-    },
-    {
      "t": "广东已备案195款大模型",
      "u": "https://xxsb.gz-cmc.com/pages/2026/10/16/33ff2bb2f90041438d3d6d199ffa5627.html",
      "s": "广州日报新花城 · 地区未标注 · 媒体报道 · 3家报道",
@@ -354,22 +372,22 @@
      "ts": 1792233540
     },
     {
-     "t": "Giorgos Tsetis: no one is personally accountable for AI. This must change",
-     "u": "https://fortune.com/2026/10/17/ai-executives-personal-legal-liability/",
-     "s": "Fortune · 地区未标注 · 媒体报道",
-     "ts": 1792233162
-    },
-    {
      "t": "DeepSeek崩完后，上新了",
      "u": "https://m.sohu.com/a/1089058308_122014422?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
      "s": "搜狐 · 国内 · 媒体报道",
      "ts": 1792232686
     },
     {
-     "t": "智谱(02513)_智谱怎么样 - 热门讨论",
-     "u": "https://xueqiu.com/S/02513/hots?page=7",
-     "s": "雪球 · 国内 · 媒体报道",
-     "ts": 1792231700
+     "t": "DeepSeek新模型登场，用户要给AI付的钱又少了",
+     "u": "https://tech.ifeng.com/c/8xIg4YWs1OM",
+     "s": "凤凰网科技 · 国内 · 媒体报道",
+     "ts": 1792231774
+    },
+    {
+     "t": "Giorgos Tsetis: no one is personally accountable for AI. This must change",
+     "u": "https://fortune.com/2026/10/17/ai-executives-personal-legal-liability/",
+     "s": "Fortune · 地区未标注 · 媒体报道",
+     "ts": 1792231362
     },
     {
      "t": "DeepSeek quietly pushed a new model update straight into its live API",
@@ -388,6 +406,12 @@
      "u": "https://k.sina.com.cn/article_5953189932_162d6782c0670516um.html?from=tech",
      "s": "新浪网 · 海外 · 媒体报道",
      "ts": 1792230000
+    },
+    {
+     "t": "DeepSeek再次出现大规模宕机服务稳定性会影响冲刺IPO吗？|Minimax|融资|模型|腾讯|持续",
+     "u": "https://finance.sina.cn/tech/2026-10-16/detail-inivmpqz6915448.d.html?oid=%E4%B8%8A%E6%B5%B7%E5%A4%96%E5%9B%B4%E4%B8%8A%E9%97%A8%E5%AE%89%E6%8E%92%EF%BC%88%E9%AA%8C%E8%AF%81%E4%BF%9D%E7%9C%9F%EF%BC%89%E5%B7%8D%E8%8A%AF%E5%8A%A0%20%EF%BC%881177%E2%91%A7%E2%91%A493%EF%BC%89%E8%A7%81%E9%9D%A2%E4%BB%98%E6%AC%BE%E7%9C%9F%E4%BA%BA%E9%AA%8C%E8%AF%81%E5%AF%B9%E6%AF%94%E6%97%A0%E5%A5%97%E8%B7%AFWFpkcaPwVtDqHI9oOGi3QR0209&vt=4",
+     "s": "finance.sina.com.cn · 国内 · 媒体报道 · 2家报道",
+     "ts": 1792228997
     },
     {
      "t": "Meta Muse vs OpenAI Dots: Should You Trust AI to Handle Everyday Tasks?",
@@ -414,18 +438,6 @@
      "ts": 1792225467
     },
     {
-     "t": "字节跳动重构ToB版图：飞书与豆包将整合 大厂激战“AI工作入口”",
-     "u": "https://www.cls.cn/detail/2441092",
-     "s": "财联社 · 国内 · 媒体报道",
-     "ts": 1792224651
-    },
-    {
-     "t": "Anthropic 宣布 10 月 29 日从模型选项中移除 Claude Haiku 4.5",
-     "u": "https://finance.sina.cn/tech/2026-10-17/detail-inivpnhf7153750.d.html?vt=4&cid=79649&node_id=79649",
-     "s": "finance.sina.com.cn · 海外 · 媒体报道",
-     "ts": 1792223411
-    },
-    {
      "t": "大模型API聚合平台怎么选？性价比之王被我扒出来了",
      "u": "https://www.csdn.net/article/2026-10-17/168245525",
      "s": "CSDN · 地区未标注 · 媒体报道",
@@ -436,6 +448,12 @@
      "u": "https://www.csdn.net/article/2026-10-17/168244876",
      "s": "CSDN · 地区未标注 · 媒体报道",
      "ts": 1792221560
+    },
+    {
+     "t": "国产大模型API哪家强？实测5家平台后我选了它",
+     "u": "https://www.csdn.net/article/2026-10-17/168244100",
+     "s": "CSDN · 地区未标注 · 媒体报道",
+     "ts": 1792220365
     }
    ]
   },
@@ -504,18 +522,6 @@
      "ts": 1792241139
     },
     {
-     "t": "行业首个基于确定性网络的智能体互联平台AXP在南京正式发布",
-     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivnzsi6547523.d.html?oid=800&vt=4",
-     "s": "finance.sina.com.cn · 地区未标注 · 媒体报道",
-     "ts": 1792241100
-    },
-    {
-     "t": "AMD Ross发布：智能体AI重塑嵌入式开发全流程",
-     "u": "https://www.dostor.com/p/101267.html",
-     "s": "存储在线 · 地区未标注 · 媒体报道",
-     "ts": 1792230173
-    },
-    {
      "t": "ServiceNow and NVIDIA to Develop \"AI Passport\" for AI Agent Runtime Permission Control, Launching Q4 2026",
      "u": "https://finance.biggo.com/news/10446f80-7b28-4f34-894d-19dced682f4e",
      "s": "BigGo Finance · 海外 · 媒体报道",
@@ -523,8 +529,8 @@
     },
     {
      "t": "AXP发布：确定性网络接入百万级智能体，AI通信底座开始“换挡”",
-     "u": "https://m.sohu.com/a/1088973041_128075?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
-     "s": "搜狐 · 地区未标注 · 媒体报道",
+     "u": "https://timeline.sohu.com/news/ZaWwB5rRfG?from=news",
+     "s": "搜狐网 · 地区未标注 · 媒体报道 · 2家报道",
      "ts": 1792214760
     },
     {
@@ -534,10 +540,10 @@
      "ts": 1792213560
     },
     {
-     "t": "AI智能体决策层独立化，科技巨头竞相布局专用模型",
-     "u": "https://m.zhiding.cn/article/3202554.htm",
-     "s": "至顶网 · 地区未标注 · 媒体报道",
-     "ts": 1792206028
+     "t": "行业首个基于确定性网络的智能体互联平台AXP在南京正式发布",
+     "u": "https://finance.sina.cn/stock/jdts/2026-10-17/detail-inivnzsi6547523.d.html?oid=3831833718899425&vt=4&cid=76993&node_id=76993",
+     "s": "finance.sina.com.cn · 地区未标注 · 媒体报道",
+     "ts": 1792213213
     },
     {
      "t": "BAND Launches Desktop App to Coordinate Multiple AI Coding Agents",
@@ -570,12 +576,6 @@
      "ts": 1792173144
     },
     {
-     "t": "Workday深化AI布局：发布基于Sana的新界面及自动驾驶智能体-AI应用",
-     "u": "https://www.zhiding.cn/ai-applications/2026/1017/3202547.shtml",
-     "s": "至顶网 · 地区未标注 · 媒体报道",
-     "ts": 1792171994
-    },
-    {
      "t": "Self Labs Launches Agent Vault as Banks Lock AI Agents Out of Accounts",
      "u": "https://startupfortune.com/self-labs-launches-agent-vault-as-banks-lock-ai-agents-out-of-accounts/",
      "s": "Startup Fortune · 地区未标注 · 媒体报道",
@@ -594,12 +594,6 @@
      "ts": 1792165440
     },
     {
-     "t": "面壁智能发布大监督智能体，用AI重新定义行业",
-     "u": "https://www.sohu.com/a/1088755941_104421",
-     "s": "搜狐网 · 地区未标注 · 媒体报道",
-     "ts": 1792161496
-    },
-    {
      "t": "Nvidia Launches RTX Spark AI Agent PC Starting at $2,599",
      "u": "https://finance.biggo.com/news/8b6c6f0c-1d07-4b51-97ce-534f1c3a1593",
      "s": "BigGo Finance · 海外 · 媒体报道",
@@ -610,12 +604,6 @@
      "u": "https://www.secrss.com/articles/94757",
      "s": "安全内参 · 地区未标注 · 媒体报道",
      "ts": 1792156993
-    },
-    {
-     "t": "搭载英伟达RTX Spark N1X！全球首款AI智能体PC华硕ProArt创16开售：35999元起",
-     "u": "https://news.mydrivers.com/1/1158/1158172.htm",
-     "s": "驱动之家 · 海外 · 媒体报道",
-     "ts": 1792153740
     },
     {
      "t": "NVIDIA RTX Spark Laptops Launch Worldwide With Local AI Agent Support",
@@ -658,6 +646,36 @@
      "u": "https://www.thepaper.cn/newsDetail_forward_34262288",
      "s": "ThePaper.cn · 海外 · 媒体报道",
      "ts": 1792133460
+    },
+    {
+     "t": "写代码之后，轮到做视频了：这款国产Agent在海外出圈｜甲子光年",
+     "u": "https://m.sohu.com/a/1088559518_100016644?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+     "s": "搜狐 · 地区未标注 · 媒体报道",
+     "ts": 1792131301
+    },
+    {
+     "t": "为广交会跨境贸易提供AI工具， 蚂蚁国际发布智能体Wyn",
+     "u": "https://www.sohu.com/a/1088582084_100116740",
+     "s": "搜狐网 · 地区未标注 · 媒体报道",
+     "ts": 1792128279
+    },
+    {
+     "t": "一百天后，阶跃智能体手机还是只发布了「一半」",
+     "u": "https://www.sohu.com/a/1088530215_250147",
+     "s": "搜狐网 · 地区未标注 · 媒体报道",
+     "ts": 1792127471
+    },
+    {
+     "t": "Former DingTalk President Ye Jun Launches Enterprise AI Agent Startup Targeting China's Cross-Border E-Commerce",
+     "u": "https://finance.biggo.com/news/5bb3bfde-8235-4be6-9cfe-37c94c6f670e",
+     "s": "BigGo Finance · 地区未标注 · 媒体报道",
+     "ts": 1792124700
+    },
+    {
+     "t": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+     "u": "https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss",
+     "s": "InfoQ-CN · 地区未标注 · 媒体报道",
+     "ts": 1792122937
     }
    ]
   },
@@ -724,6 +742,12 @@
      "u": "https://cn.investing.com/news/company-news/article-3613179",
      "s": "英为财情 Investing.com · 海外 · 媒体报道",
      "ts": 1792202460
+    },
+    {
+     "t": "Anthropic在最新一轮芯片融资中向黑石提供两位数收益率",
+     "u": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivnvkm6549846.shtml?finpagefr=p_108",
+     "s": "新浪财经 · 海外 · 媒体报道",
+     "ts": 1792198355
     },
     {
      "t": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压",
@@ -810,6 +834,12 @@
    "name": "AI政策与安全",
    "items": [
     {
+     "t": "Anthropic向美国国会推介AI监管草案，仅允许出现严重风险时封锁模型",
+     "u": "https://k.sina.com.cn/article_1826017320_6cd6d02802001xr5q.html?from=tech",
+     "s": "新浪网 · 海外 · 媒体报道",
+     "ts": 1792279620
+    },
+    {
      "t": "Nutrafol Co-Founder Urges Personal Liability for AI Safety Risks",
      "u": "https://www.tokenpost.com/news/regulation/34066",
      "s": "TOKENPOST · 地区未标注 · 媒体报道",
@@ -824,7 +854,7 @@
     {
      "t": "粤东首个！粤港澳大湾区生成式人工智能安全发展联合实验室汕头服务中心正式授牌",
      "u": "https://www.21jingji.com/article/20261017/herald/5cd783dd5cdf5e3453649525eeecb0d3.html",
-     "s": "21财经 · 地区未标注 · 媒体报道",
+     "s": "21财经 · 地区未标注 · 媒体报道 · 2家报道",
      "ts": 1792239343
     },
     {
@@ -874,12 +904,6 @@
      "u": "https://www.lawcommentary.com/articles/anthropic-ai-safety-bill-government-powers",
      "s": "Law Commentary · 海外 · 媒体报道",
      "ts": 1792205087
-    },
-    {
-     "t": "Anthropic向美国国会议员介绍前沿AI安全监管法案草案 拟限定政府叫停模型条件",
-     "u": "https://www.huxiu.com/article/4898222.html",
-     "s": "虎嗅网 · 海外 · 媒体报道",
-     "ts": 1792203433
     },
     {
      "t": "Anthropic秘密游说国会 推动制定前沿AI监管法案",
