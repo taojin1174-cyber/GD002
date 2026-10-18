@@ -107,7 +107,21 @@ for a in arch:
         if s <= a["ts"] < s + 7 * 86400:
             for k in a["k"]: ser[k][i] += 1; tot[k] += 1
 top = [k for k in sorted(tot, key=lambda k: -tot[k]) if tot[k]][:6]
-trend = {"weeks": [s.strftime("%m-%d") for s in starts], "series": {k: ser[k] for k in top}}
+
+# ---- 近 14 天日趋势（与周趋势同源，逐日计数）----
+today0 = dt.datetime.now(cn).replace(hour=0, minute=0, second=0, microsecond=0)
+dstart = [today0 - dt.timedelta(days=i) for i in range(13, -1, -1)]
+didx = {d.strftime("%Y-%m-%d"): i for i, d in enumerate(dstart)}
+dser = {k: [0] * 14 for k in top}
+for a in arch:
+    di = didx.get(dt.datetime.fromtimestamp(a["ts"], cn).strftime("%Y-%m-%d"))
+    if di is not None:
+        for k in a["k"]:
+            if k in dser:
+                dser[k][di] += 1
+
+trend = {"weeks": [s.strftime("%m-%d") for s in starts], "series": {k: ser[k] for k in top},
+         "days": [d.strftime("%m-%d") for d in dstart], "daily": dser}
 
 # ---- 每日日报（规则生成，非 AI）----
 def uniq(cats, n):
