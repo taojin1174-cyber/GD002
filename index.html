@@ -108,7 +108,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 <div class="tools">
 <input id="q" type="search" placeholder="搜索标题或来源" title="按 / 快速聚焦，Esc 清空" aria-label="搜索标题或来源" autocomplete="off">
 <button id="theme" title="切换日夜模式" aria-label="切换日夜模式">◐</button>
-<button id="hbtn" title="已删除内容 / 导出日志" aria-label="已删除内容与日志">🗑 <span id="hn">0</span></button>
+<button id="hbtn" title="阅读与删除日志（可导出）" aria-label="阅读与删除日志">🗑 <span id="hn">0</span></button>
 <button id="cfg" title="设置（需密码）" aria-label="设置">⚙</button>
 </div>
 </div>
@@ -156,13 +156,27 @@ function hideItem(k){
   setHide(a);loadHide();render(true);msg("已删除，可点右上角 🗑 恢复或导出日志");
 }
 
+/* ---------- 点击记录：记下你点开过哪些文章，只保存在本浏览器 ---------- */
+const CK="hot-click";
+const clickList=()=>{try{const a=JSON.parse(localStorage.getItem(CK)||"[]");return Array.isArray(a)?a:[]}catch(e){return[]}};
+function trackClick(k){
+  let it=null,bd="",ct="";
+  for(const b of (D?D.boards:[])){const f=(b.items||[]).find(i=>nk(i.t)===k);if(f){it=f;bd=b.name;ct=b.cat;break}}
+  if(!it)return;
+  const a=clickList();
+  a.push({t:it.t,s:it.s||"",u:it.u||"",ch:cur,cat:ct,board:bd,k:k,at:new Date().toISOString()});
+  try{localStorage.setItem(CK,JSON.stringify(a.slice(-2000)))}catch(e){}
+}
+document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a[data-n]");if(a)trackClick(a.dataset.n)},true);
+document.addEventListener("auxclick",e=>{if(e.button===1){const a=e.target.closest&&e.target.closest("a[data-n]");if(a)trackClick(a.dataset.n)}},true);
+
 /* ---------- 展开状态：每次进入/切换频道都默认折叠，只在本页会话内有效 ---------- */
 let EXP=new Set();
 function expSave(){}
 
 /* ---------- 渲染 ---------- */
 const N=8;
-const row=(i,n,f)=>{const k=nk(i.t),th=i.img?`<img class="th" src="${esc(safe(i.img))}" alt="" width="46" height="46" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">`:"";return `<li><em>${n}</em><a class="it" href="${esc(safe(i.u))}" target="_blank" rel="noopener noreferrer"${i.d?` title="${esc(i.d)}"`:""}>${th}<span class="tx">${esc(i.t)}<small data-ts="${i.ts||0}" data-src="${esc(i.s||"")}">${esc(i.s||"")}${i.ts?" · "+ago(i.ts):""}</small></span></a><button class="st${f.has(k)?" on":""}" data-k="${k}" aria-label="收藏 ${esc(i.t).slice(0,40)}" aria-pressed="${f.has(k)}">★</button><button class="dl" data-h="${k}" aria-label="删除这条" title="删除这条（记入日志）">✕</button></li>`};
+const row=(i,n,f)=>{const k=nk(i.t),th=i.img?`<img class="th" src="${esc(safe(i.img))}" alt="" width="46" height="46" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">`:"";return `<li><em>${n}</em><a class="it" data-n="${k}" href="${esc(safe(i.u))}" target="_blank" rel="noopener noreferrer"${i.d?` title="${esc(i.d)}"`:""}>${th}<span class="tx">${esc(i.t)}<small data-ts="${i.ts||0}" data-src="${esc(i.s||"")}">${esc(i.s||"")}${i.ts?" · "+ago(i.ts):""}</small></span></a><button class="st${f.has(k)?" on":""}" data-k="${k}" aria-label="收藏 ${esc(i.t).slice(0,40)}" aria-pressed="${f.has(k)}">★</button><button class="dl" data-h="${k}" aria-label="删除这条" title="删除这条（记入日志）">✕</button></li>`};
 function card(key,name,tag,items,f){
   const open=EXP.has(key),show=open?items:items.slice(0,N);
   const more=items.length>N?`<button class="more" data-x="${esc(key)}">${open?"收起":`展开全部 ${items.length} 条`}</button>`:"";
@@ -327,31 +341,37 @@ modal.addEventListener("click",async e=>{const t=e.target;
 document.addEventListener("keydown",e=>{if(e.key=="Enter"&&document.getElementById("ok")&&modal.classList.contains("on"))document.getElementById("ok").click()});
 </script>
 <script>
-/* ---- 已删除列表 / 导出日志 ---- */
-const logText=()=>{const a=hideList();return JSON.stringify({exported:new Date().toISOString(),site:location.host,channel_now:cur,count:a.length,items:a},null,1)};
+/* ---- 阅读 / 删除日志面板 ---- */
+const logText=()=>{const a=hideList(),c=clickList();return JSON.stringify({exported:new Date().toISOString(),site:location.host,channel_now:cur,click_count:c.length,deleted_count:a.length,clicks:c,deleted:a},null,1)};
+const srcOf=s=>{const p=String(s||"").split(" · ");return(["官方","媒体","专业","未分级"].includes(p[0])&&p[1])?p[1]:p[0]};
+const topOf=(arr,f)=>{const m={};arr.forEach(x=>{const v=f(x);if(v)m[v]=(m[v]||0)+1});return Object.entries(m).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([k,v])=>esc(k)+"("+v+")").join("、")||"暂无"};
 function hpanel(){
-  const a=hideList();
-  box.innerHTML='<b>已删除 '+a.length+' 条</b><p><small>删除记录只保存在本浏览器。导出或复制日志发给助手，就能据此完善过滤规则。</small></p>'
-   +'<p><button id="hx">导出日志文件</button> <button id="hy">复制日志</button> <button id="hc">全部恢复</button> <button id="no">关闭</button></p>'
-   +'<div style="max-height:40vh;overflow:auto;font-size:12px">'
+  const a=hideList(),c=clickList();
+  box.innerHTML='<b>阅读与删除日志</b><p><small>只保存在本浏览器。导出或复制后发给助手，就能据此调整抓取内容和过滤规则。</small></p>'
+   +'<p>已点开 <b>'+c.length+'</b> 次 · 已删除 <b>'+a.length+'</b> 条</p>'
+   +'<p><small>常点来源：'+topOf(c,x=>srcOf(x.s))+'<br>常点版块：'+topOf(c,x=>x.board)+'</small></p>'
+   +'<p><button id="hx">导出日志文件</button> <button id="hy">复制日志</button> <button id="no">关闭</button></p>'
+   +'<p><button id="hk">清空点击记录</button> <button id="hc">全部恢复已删除</button></p>'
+   +(a.length?'<div style="max-height:34vh;overflow:auto;font-size:12px"><b>已删除</b>'
    +a.slice().reverse().slice(0,30).map(x=>'<div style="padding:4px 0;border-top:1px solid var(--line)">'+esc(x.t||"（无标题）")+'<br><small>'+esc(x.ch||"")+' · '+esc(x.board||"")+' · '+esc(x.s||"")+'</small> <button data-r="'+esc(x.k||nk(x.t))+'">恢复</button></div>').join("")
-   +(a.length>30?'<p><small>仅显示最近 30 条，日志里是全部。</small></p>':"")+'</div>';
+   +(a.length>30?'<p><small>仅显示最近 30 条，日志里是全部。</small></p>':"")+'</div>':"");
   modal.classList.add("on");
 }
 document.addEventListener("click",e=>{
-  const t=e.target.closest("#hbtn,#hx,#hy,#hc,[data-r]");
+  const t=e.target.closest&&e.target.closest("#hbtn,#hx,#hy,#hc,#hk,[data-r]");
   if(!t)return;
   if(t.id==="hbtn")return void hpanel();
   if(t.dataset.r){const k=t.dataset.r;setHide(hideList().filter(x=>(x.k||nk(x.t))!==k));loadHide();render(true);hpanel();return}
   if(t.id==="hx"){
     const l=document.createElement("a");
     l.href=URL.createObjectURL(new Blob([logText()],{type:"application/json"}));
-    l.download="hot-delete-log-"+new Date().toISOString().slice(0,10)+".json";
+    l.download="hot-log-"+new Date().toISOString().slice(0,10)+".json";
     document.body.appendChild(l);l.click();l.remove();
     setTimeout(()=>URL.revokeObjectURL(l.href),2000);return;
   }
   if(t.id==="hy"){navigator.clipboard.writeText(logText()).then(()=>{t.textContent="已复制"},()=>{t.textContent="复制失败，请用导出文件"});return}
-  if(t.id==="hc"){if(confirm("恢复全部已删除内容？日志也会一起清空。")){setHide([]);loadHide();render(true);hpanel()}return}
+  if(t.id==="hk"){if(confirm("清空全部点击记录？已删除的内容不受影响。")){try{localStorage.removeItem(CK)}catch(e){}hpanel()}return}
+  if(t.id==="hc"){if(confirm("恢复全部已删除内容？")){setHide([]);loadHide();render(true);hpanel()}return}
 });
 </script>
 </body></html>
