@@ -50,6 +50,7 @@ jobs:
           }
           task "食品榜单" python fetch.py
           task "原料专题" python extra.py
+          task "火爆分类" python queue.py
           task "AI 频道" python ai.py
           task "重点来源" python focus.py
           task "经济频道" python eco.py
@@ -78,7 +79,7 @@ jobs:
 
       - name: 提交数据
         run: |
-          FILES="data.json archive.json links.json archive2.json links2.json links3.json links4.json links5.json links6.json ai.json eco.json mil.json meta.json translate_cache.json highlights.json"
+          FILES="data.json archive.json links.json archive2.json links2.json links3.json links4.json links5.json links6.json links7.json queue_archive.json ai.json eco.json mil.json meta.json translate_cache.json highlights.json"
           # 这些缓存文件可能还不存在，先建空对象，避免每轮翻译/要点都从零开始（有 API key 时才真正产生成本）
           [ -f translate_cache.json ] || echo '{}' > translate_cache.json
           [ -f highlights.json ] || echo '{}' > highlights.json
