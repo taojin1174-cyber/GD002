@@ -388,7 +388,7 @@
       "status": "collected",
       "note": "已读取公开商品页的标题、挂牌起报价、单位、产地、起订量和部分规格；报价日期未公开，不代表成交价。",
       "checkedAt": "2026-11-07T17:15:55.473Z",
-      "recordCount": 46
+      "recordCount": 44
     },
     {
       "id": "1688",
@@ -538,7 +538,7 @@
       "formIds": [
         "frozen"
       ],
-      "cut": "whole",
+      "cut": "cut",
       "price": 7.5,
       "unit": "斤",
       "pricePerJin": 7.5,
@@ -682,39 +682,6 @@
       "notes": [
         "平台未明确报价日期",
         "挂牌起报价，以具体规格与起订量为准"
-      ]
-    },
-    {
-      "id": "cnhnb-6522411",
-      "sourceId": "cnhnb",
-      "sourceName": "惠农网",
-      "priceType": "供应商挂牌价",
-      "url": "https://www.cnhnb.com/gongying/6522411/",
-      "title": "太湖猪  原种带窝太湖母猪扎头多，奶水分泌好，产仔多，母性强",
-      "category": "pig",
-      "breedIds": [
-        "other"
-      ],
-      "formIds": [
-        "unknown"
-      ],
-      "cut": "whole",
-      "price": 1450,
-      "unit": "头",
-      "pricePerJin": null,
-      "packNetJin": null,
-      "spec": "重量：120斤-140斤；用途：作种；公母：母猪；品种名：太湖猪",
-      "supplier": "黄曙光",
-      "origin": "江苏省连云港市灌南县",
-      "moq": "2头起批",
-      "freight": "运费待确认",
-      "quoteDate": null,
-      "checkedAt": "2026-11-07T17:15:04.982Z",
-      "active": true,
-      "notes": [
-        "平台未明确报价日期",
-        "挂牌起报价，以具体规格与起订量为准",
-        "缺少明确净重或均重，暂不折算"
       ]
     },
     {
@@ -864,7 +831,7 @@
       "formIds": [
         "frozen"
       ],
-      "cut": "whole",
+      "cut": "cut",
       "price": 4.5,
       "unit": "斤",
       "pricePerJin": 4.5,
@@ -1340,39 +1307,6 @@
       "freight": "运费待确认",
       "quoteDate": null,
       "checkedAt": "2026-11-07T17:15:31.325Z",
-      "active": true,
-      "notes": [
-        "平台未明确报价日期",
-        "挂牌起报价，以具体规格与起订量为准",
-        "缺少明确净重或均重，暂不折算"
-      ]
-    },
-    {
-      "id": "cnhnb-7669840",
-      "sourceId": "cnhnb",
-      "sourceName": "惠农网",
-      "priceType": "供应商挂牌价",
-      "url": "https://www.cnhnb.com/gongying/7669840/",
-      "title": "汕头澄海狮头鹅狮头鹅特大纯种潮汕巨型双下巴狮子头鹅活体",
-      "category": "goose",
-      "breedIds": [
-        "shitou"
-      ],
-      "formIds": [
-        "live"
-      ],
-      "cut": "whole",
-      "price": 29.9,
-      "unit": "只",
-      "pricePerJin": null,
-      "packNetJin": null,
-      "spec": "鹅分类：脱温鹅；生长环境：半圈养半散养；单只重：0.5-1；公母：公母混合；品种名：狮头鹅",
-      "supplier": "江乙坝",
-      "origin": "广东省汕头市澄海区",
-      "moq": "10只起批",
-      "freight": "运费待确认",
-      "quoteDate": null,
-      "checkedAt": "2026-11-07T17:15:33.383Z",
       "active": true,
       "notes": [
         "平台未明确报价日期",
@@ -2250,40 +2184,6 @@
       "latestCheckFailed": false
     },
     {
-      "id": "cnhnb-4848985",
-      "sourceId": "cnhnb",
-      "sourceName": "惠农网",
-      "priceType": "供应商挂牌价",
-      "url": "https://www.cnhnb.com/gongying/4848985/",
-      "title": "大鹅 (农村散养大鹅) 活体  速冻白条",
-      "category": "goose",
-      "breedIds": [
-        "white"
-      ],
-      "formIds": [
-        "unknown"
-      ],
-      "cut": "whole",
-      "price": 110,
-      "unit": "只",
-      "pricePerJin": null,
-      "packNetJin": null,
-      "spec": "鹅分类：种鹅；生长环境：全散养；单只重：10-12斤；公母：公母混合；品种名：白鹅",
-      "supplier": "刘海龙",
-      "origin": "黑龙江省大庆市肇源县",
-      "moq": "1只起批",
-      "freight": "运费待确认",
-      "quoteDate": null,
-      "checkedAt": "2026-11-07T14:37:57.870Z",
-      "active": true,
-      "notes": [
-        "平台未明确报价日期",
-        "挂牌起报价，以具体规格与起订量为准",
-        "缺少明确净重或均重，暂不折算"
-      ],
-      "latestCheckFailed": false
-    },
-    {
       "id": "cnhnb-8258249",
       "sourceId": "cnhnb",
       "sourceName": "惠农网",
@@ -2321,7 +2221,7 @@
     "scope": "公开列表首页的限量样本，并非全平台全部商品",
     "discovered": 158,
     "attempted": 60,
-    "collected": 46
+    "collected": 44
   },
   "diagnostics": [
     {

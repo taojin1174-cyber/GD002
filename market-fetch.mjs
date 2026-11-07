@@ -33,6 +33,7 @@ export function parseProduct(html,url,category,checkedAt=new Date().toISOString(
   if(key&&value)attributes[key]=value;
  }
  const spec=Object.entries(attributes).filter(([k])=>!/电话|联系|微信/.test(k)).map(([k,v])=>`${k}：${v}`).join('；');
+ if(excludeProduct(p.name,spec))throw Error('商品规格表明是苗种或育种用途');
  const breedText=String(p.brand?.name||'')+' '+spec;
  const classification=classify(category,p.name,breedText);
  // 不把斤重范围、毛重或“十只一箱”擅自当成整箱净重。
@@ -68,9 +69,9 @@ export async function collect(){
  }
  for(const item of chosen){seenDetails.add(item.url);try{const r=parseProduct(await get(item.url),item.url,item.category,new Date().toISOString());records.push(r);console.log(`商品成功 ${item.category}: ${r.title} ${r.price}元/${r.unit}`);}catch(e){failedDetails.add(item.url);diagnostics.push({url:item.url,ok:false,error:e.message});console.log(`商品跳过 ${item.url}: ${e.message}`);}}
  // 未抽样到的旧报价保留原核查时间；确认下架的条目不继续展示。
- const invalidUrls=new Set(diagnostics.filter(d=>/下架|失效|不存在|删除|无货/.test(d.error||'')).map(d=>d.url));
+ const invalidUrls=new Set(diagnostics.filter(d=>/下架|失效|不存在|删除|无货|苗种|育种/.test(d.error||'')).map(d=>d.url));
  const merged=new Map(records.map(r=>[r.id,r]));
- for(const r of old.records||[]){if(!merged.has(r.id)&&!excludeProduct(r.title)&&!invalidUrls.has(r.url)&&Date.now()-Date.parse(r.checkedAt)<30*86400000)merged.set(r.id,{...r,latestCheckFailed:failedDetails.has(r.url)||(!seenDetails.has(r.url)&&r.latestCheckFailed)||false});}
+ for(const r of old.records||[]){if(!merged.has(r.id)&&!excludeProduct(r.title,r.spec)&&!invalidUrls.has(r.url)&&Date.now()-Date.parse(r.checkedAt)<30*86400000)merged.set(r.id,{...r,latestCheckFailed:failedDetails.has(r.url)||(!seenDetails.has(r.url)&&r.latestCheckFailed)||false});}
  const sources=[];
  for(const original of config.sources){const source={...original,checkedAt:new Date().toISOString()};
   if(source.id==='cnhnb'){source.status=records.length?'collected':'failed';source.recordCount=records.length;source.note=records.length?'已读取公开商品页的标题、挂牌起报价、单位、产地、起订量和部分规格；报价日期未公开，不代表成交价。':'本轮未取得商品报价；如有旧记录，仍保留原核查时间。';}

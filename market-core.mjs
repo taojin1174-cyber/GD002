@@ -19,8 +19,8 @@ export function classify(category,title,attributes='') {
  if(forms.length>1)return {breedIds:breeds.length?breeds:['other'],formIds:['unknown']};
  return {breedIds:breeds.length?breeds:['other'],formIds:forms.length?forms:['unknown']};
 }
-export function excludeProduct(title){return /鸡苗|鸭苗|鹅苗|猪苗|仔猪|猪仔|种猪|种公猪|种母猪|育种|种蛋|受精蛋|孵化|宠物|观赏|野生|活苗|一斤苗|二斤苗|脱温|小苗|熟食|全熟|即食|酱香|烤乳猪|脆皮乳猪|腊肉|卤味|盐焗|香肠/.test(title);}
-export function productCut(category,title){if(category==='egg')return 'egg';return /鸡翅|鸭翅|鹅翅|鸡腿|鸭腿|鹅腿|鸡胸|鸭胸|鹅胸|鸡爪|鸭掌|鹅掌|鸡脖|鸭脖|鹅脖|鸡肝|鸭肝|鹅肝|鸡肠|鸭肠|鹅肠|鸡胗|鸭胗|鹅胗|鸡肾|鸭肾|鹅肾|鸡心|鸭心|鹅心|鸭舌|鸡头|鸭头|鹅头|猪头|猪骨|猪肚|猪蹄|排骨|五花|里脊|瘦肉|肥肉|板油|猪皮|分割|副产品|半片|切块/.test(title)?'cut':'whole';}
+export function excludeProduct(title,spec=''){return /鸡苗|鸭苗|鹅苗|猪苗|仔猪|猪仔|种猪|种公猪|种母猪|育种|种蛋|受精蛋|孵化|宠物|观赏|野生|活苗|一斤苗|二斤苗|脱温|小苗|带窝|奶水分泌|产仔多|熟食|全熟|即食|酱香|烤乳猪|脆皮乳猪|腊肉|卤味|盐焗|香肠/.test(title)||/脱温|用途[:：]\s*(?:作种|育种|繁殖)|鹅分类[:：]\s*种鹅/.test(spec);}
+export function productCut(category,title){if(category==='egg')return 'egg';return /鸡翅|鸭翅|鹅翅|鸡腿|鸭腿|鹅腿|鸡边腿|鸡上腿|鸡胸|小胸|大胸|鸭胸|鹅胸|鸡爪|鸭掌|鹅掌|鸡脖|鸭脖|鹅脖|鸡肝|鸭肝|鹅肝|鸡肠|鸭肠|鹅肠|鸡胗|鸭胗|鹅胗|鸡肾|鸭肾|鹅肾|鸡心|鸭心|鹅心|鸭舌|鸡头|鸭头|鹅头|猪头|猪骨|猪肚|猪蹄|排骨|五花|里脊|瘦肉|肥肉|板油|猪皮|分割|副产品|半片|二分体|切块/.test(title)?'cut':'whole';}
 export function normalizePrice(price,unit,packNetJin=null,avgWeightJin=null){
  if(!Number.isFinite(Number(price))||Number(price)<=0)return null;
  const p=Number(price);if(unit==='斤')return p;if(['公斤','千克','kg'].includes(unit))return p/2;if(unit==='吨')return p/2000;
