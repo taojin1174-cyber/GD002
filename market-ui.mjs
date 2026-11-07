@@ -4,6 +4,8 @@ const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,
 const decimal=n=>Number(n).toFixed(2),option=(v,t,selected=false)=>`<option value="${esc(v)}"${selected?' selected':''}>${esc(t)}</option>`;
 const date=s=>s?new Date(s).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false}):'未公开';
 let data={records:[],sources:[]},page=1,tableView=false,historyData=null;
+// 页面只展示确实有报价记录的平台，未接入的平台不占用展示位置。
+const availableSources=()=>data.sources.filter(s=>data.records.some(r=>r.sourceId===s.id));
 const size=24;
 function filters(){return Object.fromEntries(['category','form','breed','source','region','cut','q','kind'].map(k=>[k,$(k).value]).concat([['pricedOnly',$('pricedOnly').checked]]));}
 function updateCascade(){
@@ -39,7 +41,7 @@ function render(){
 }
 function renderSources(){
  const labels={collected:'已采集报价',login:'需要登录／验证',entry:'仅查价入口',failed:'本次未接通',pending:'待核查',unverified:'待验证入口'};
- $('sources').innerHTML=data.sources.map(s=>`<article class="panel source"><h3>${esc(s.name)}</h3><div class="chips" style="margin-top:8px"><span class="badge ${s.status==='collected'?'green':'orange'}">${esc(labels[s.status]||'待核查')}</span><span class="badge">${esc(s.kind)}</span></div><p>${esc(s.note)}${s.error?`（${esc(s.error)}）`:''}</p><time>${s.checkedAt?'核查：'+esc(date(s.checkedAt)):'尚未取得可验证的公开价目'}</time><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${s.id==='kuailehou'?'美团官网':'前往平台'} ↗</a></article>`).join('');
+ $('sources').innerHTML=availableSources().map(s=>`<article class="panel source"><h3>${esc(s.name)}</h3><div class="chips" style="margin-top:8px"><span class="badge ${s.status==='collected'?'green':'orange'}">${esc(labels[s.status]||'待核查')}</span><span class="badge">${esc(s.kind)}</span></div><p>${esc(s.note)}${s.error?`（${esc(s.error)}）`:''}</p><time>${s.checkedAt?'核查：'+esc(date(s.checkedAt)):'尚未取得可验证的公开价目'}</time><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">前往平台 ↗</a></article>`).join('');
 }
 async function showHistory(id){
  const record=data.records.find(r=>r.id===id);$('historyTitle').textContent=record.title+' · 价格观察记录';$('historyBody').textContent='正在读取…';$('history').showModal();
@@ -55,10 +57,10 @@ $('view').onclick=()=>{tableView=!tableView;$('view').textContent=tableView?'卡
 $('reset').onclick=()=>{for(const k of ['category','form','breed','source','region','cut','q','kind'])$(k).value='';$('kind').value='offer';$('pricedOnly').checked=false;$('sort').value='checked';page=1;updateCascade();render();};
 try{
  const res=await fetch('market.json',{cache:'no-cache'});if(!res.ok)throw Error(`HTTP ${res.status}`);data=await res.json();if(!Array.isArray(data.records)||!Array.isArray(data.sources))throw Error('数据结构无效');
- $('updated').textContent=date(data.updated);$('statRecords').textContent=data.records.length;$('statSources').textContent=data.sources.filter(s=>s.status==='collected').length;
+ $('updated').textContent=date(data.updated);$('statRecords').textContent=data.records.length;$('statSources').textContent=availableSources().length;
  $('categories').innerHTML=taxonomy.map(c=>`<button class="category" data-category="${c.id}" aria-pressed="false"><span class="icon" aria-hidden="true">${c.icon}</span><span class="label">${c.name}</span><small>${data.records.filter(r=>r.category===c.id).length} 条货源</small></button>`).join('');
  document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{$('category').value=b.dataset.category;$('form').value='';$('breed').value='';$('cut').value='';page=1;updateCascade();render();});
- $('source').innerHTML=option('','全部平台')+data.sources.map(s=>option(s.id,s.name+(s.status==='collected'?'':'（暂无报价）'))).join('');
+ $('source').innerHTML=option('','全部平台')+availableSources().map(s=>option(s.id,s.name)).join('');
  const regions=[...new Set(data.records.map(r=>r.origin.match(/^(.+?[省市区])/u)?.[1]||r.origin).filter(Boolean))].sort();$('region').innerHTML=option('','全国')+regions.map(r=>option(r,r)).join('');
  const params=new URLSearchParams(location.search);for(const k of ['category','source','region','cut','q','kind'])if(params.has(k))$(k).value=params.get(k);updateCascade();if(params.has('form'))$('form').value=params.get('form');updateCascade();if(params.has('breed'))$('breed').value=params.get('breed');$('pricedOnly').checked=params.get('pricedOnly')==='1';if(params.has('sort'))$('sort').value=params.get('sort');
  renderSources();render();
