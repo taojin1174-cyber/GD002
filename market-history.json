@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-07T17:29:19.281Z",
+  "updated": "2026-11-07T17:33:54.358Z",
   "observations": [
     {
       "id": "cnhnb-4134398",
@@ -340,7 +340,7 @@
     },
     {
       "id": "cnhnb-4134398",
-      "checkedAt": "2026-11-07T17:14:49.084Z",
+      "checkedAt": "2026-11-07T17:34:03.701Z",
       "price": 7.6,
       "unit": "斤",
       "pricePerJin": 7.6,
@@ -348,7 +348,7 @@
     },
     {
       "id": "cnhnb-6061764",
-      "checkedAt": "2026-11-07T17:14:51.273Z",
+      "checkedAt": "2026-11-07T17:34:04.635Z",
       "price": 17,
       "unit": "斤",
       "pricePerJin": 17,
@@ -356,7 +356,7 @@
     },
     {
       "id": "cnhnb-8837455",
-      "checkedAt": "2026-11-07T17:14:53.513Z",
+      "checkedAt": "2026-11-07T17:34:05.579Z",
       "price": 7.5,
       "unit": "斤",
       "pricePerJin": 7.5,
@@ -364,7 +364,7 @@
     },
     {
       "id": "cnhnb-8512896",
-      "checkedAt": "2026-11-07T17:14:57.025Z",
+      "checkedAt": "2026-11-07T17:34:08.134Z",
       "price": 4.5,
       "unit": "斤",
       "pricePerJin": 4.5,
@@ -372,7 +372,7 @@
     },
     {
       "id": "cnhnb-6049853",
-      "checkedAt": "2026-11-07T17:14:57.838Z",
+      "checkedAt": "2026-11-07T17:34:09.007Z",
       "price": 15,
       "unit": "斤",
       "pricePerJin": 15,
@@ -380,7 +380,7 @@
     },
     {
       "id": "cnhnb-6764067",
-      "checkedAt": "2026-11-07T17:15:01.604Z",
+      "checkedAt": "2026-11-07T17:34:10.736Z",
       "price": 4,
       "unit": "斤",
       "pricePerJin": 4,
@@ -388,7 +388,7 @@
     },
     {
       "id": "cnhnb-6243994",
-      "checkedAt": "2026-11-07T17:15:02.458Z",
+      "checkedAt": "2026-11-07T17:34:11.603Z",
       "price": 5.5,
       "unit": "斤",
       "pricePerJin": 5.5,
@@ -396,7 +396,7 @@
     },
     {
       "id": "cnhnb-8655724",
-      "checkedAt": "2026-11-07T17:15:05.789Z",
+      "checkedAt": "2026-11-07T17:34:14.123Z",
       "price": 11.8,
       "unit": "斤",
       "pricePerJin": 11.8,
@@ -404,7 +404,7 @@
     },
     {
       "id": "cnhnb-8723760",
-      "checkedAt": "2026-11-07T17:15:06.599Z",
+      "checkedAt": "2026-11-07T17:34:14.954Z",
       "price": 65,
       "unit": "只",
       "pricePerJin": null,
@@ -412,7 +412,7 @@
     },
     {
       "id": "cnhnb-8511793",
-      "checkedAt": "2026-11-07T17:15:07.414Z",
+      "checkedAt": "2026-11-07T17:34:15.809Z",
       "price": 22,
       "unit": "斤",
       "pricePerJin": 22,
@@ -420,7 +420,7 @@
     },
     {
       "id": "cnhnb-7391877",
-      "checkedAt": "2026-11-07T17:15:08.667Z",
+      "checkedAt": "2026-11-07T17:34:16.659Z",
       "price": 70,
       "unit": "只",
       "pricePerJin": null,
@@ -428,7 +428,7 @@
     },
     {
       "id": "cnhnb-8788629",
-      "checkedAt": "2026-11-07T17:15:10.294Z",
+      "checkedAt": "2026-11-07T17:34:17.723Z",
       "price": 4.5,
       "unit": "斤",
       "pricePerJin": 4.5,
@@ -436,7 +436,7 @@
     },
     {
       "id": "cnhnb-7576594",
-      "checkedAt": "2026-11-07T17:15:11.127Z",
+      "checkedAt": "2026-11-07T17:34:18.578Z",
       "price": 92,
       "unit": "件",
       "pricePerJin": null,
@@ -444,7 +444,7 @@
     },
     {
       "id": "cnhnb-8664686",
-      "checkedAt": "2026-11-07T17:15:11.937Z",
+      "checkedAt": "2026-11-07T17:34:19.428Z",
       "price": 93,
       "unit": "件",
       "pricePerJin": null,
@@ -452,7 +452,7 @@
     },
     {
       "id": "cnhnb-7576621",
-      "checkedAt": "2026-11-07T17:15:12.712Z",
+      "checkedAt": "2026-11-07T17:34:20.252Z",
       "price": 67,
       "unit": "件",
       "pricePerJin": null,
@@ -460,7 +460,7 @@
     },
     {
       "id": "cnhnb-8006556",
-      "checkedAt": "2026-11-07T17:15:13.560Z",
+      "checkedAt": "2026-11-07T17:34:21.156Z",
       "price": 47,
       "unit": "只",
       "pricePerJin": null,
@@ -468,7 +468,7 @@
     },
     {
       "id": "cnhnb-7507623",
-      "checkedAt": "2026-11-07T17:15:15.882Z",
+      "checkedAt": "2026-11-07T17:34:22.007Z",
       "price": 10,
       "unit": "斤",
       "pricePerJin": 10,
@@ -476,7 +476,7 @@
     },
     {
       "id": "cnhnb-7107983",
-      "checkedAt": "2026-11-07T17:15:16.741Z",
+      "checkedAt": "2026-11-07T17:34:22.915Z",
       "price": 42,
       "unit": "个",
       "pricePerJin": null,
@@ -484,7 +484,7 @@
     },
     {
       "id": "cnhnb-8892744",
-      "checkedAt": "2026-11-07T17:15:19.964Z",
+      "checkedAt": "2026-11-07T17:34:26.976Z",
       "price": 70,
       "unit": "只",
       "pricePerJin": null,
@@ -492,7 +492,7 @@
     },
     {
       "id": "cnhnb-6683126",
-      "checkedAt": "2026-11-07T17:15:23.502Z",
+      "checkedAt": "2026-11-07T17:34:32.658Z",
       "price": 105,
       "unit": "只",
       "pricePerJin": null,
@@ -500,7 +500,7 @@
     },
     {
       "id": "cnhnb-7770658",
-      "checkedAt": "2026-11-07T17:15:24.730Z",
+      "checkedAt": "2026-11-07T17:34:33.693Z",
       "price": 8.5,
       "unit": "斤",
       "pricePerJin": 8.5,
@@ -508,7 +508,7 @@
     },
     {
       "id": "cnhnb-8890049",
-      "checkedAt": "2026-11-07T17:15:26.875Z",
+      "checkedAt": "2026-11-07T17:34:38.143Z",
       "price": 9.5,
       "unit": "斤",
       "pricePerJin": 9.5,
@@ -516,7 +516,7 @@
     },
     {
       "id": "cnhnb-6708469",
-      "checkedAt": "2026-11-07T17:15:27.706Z",
+      "checkedAt": "2026-11-07T17:34:38.984Z",
       "price": 230,
       "unit": "箱",
       "pricePerJin": null,
@@ -524,7 +524,7 @@
     },
     {
       "id": "cnhnb-8722081",
-      "checkedAt": "2026-11-07T17:15:28.506Z",
+      "checkedAt": "2026-11-07T17:34:39.875Z",
       "price": 5.6,
       "unit": "斤",
       "pricePerJin": 5.6,
@@ -532,7 +532,7 @@
     },
     {
       "id": "cnhnb-7583842",
-      "checkedAt": "2026-11-07T17:15:30.516Z",
+      "checkedAt": "2026-11-07T17:34:44.050Z",
       "price": 210,
       "unit": "箱",
       "pricePerJin": null,
@@ -540,7 +540,7 @@
     },
     {
       "id": "cnhnb-7710857",
-      "checkedAt": "2026-11-07T17:15:31.325Z",
+      "checkedAt": "2026-11-07T17:34:44.902Z",
       "price": 20,
       "unit": "只",
       "pricePerJin": null,
@@ -548,7 +548,7 @@
     },
     {
       "id": "cnhnb-8865502",
-      "checkedAt": "2026-11-07T17:15:34.169Z",
+      "checkedAt": "2026-11-07T17:34:48.512Z",
       "price": 8.2,
       "unit": "斤",
       "pricePerJin": 8.2,
@@ -556,7 +556,7 @@
     },
     {
       "id": "cnhnb-2401851",
-      "checkedAt": "2026-11-07T17:15:35.011Z",
+      "checkedAt": "2026-11-07T17:34:49.357Z",
       "price": 12.8,
       "unit": "斤",
       "pricePerJin": 12.8,
@@ -564,7 +564,7 @@
     },
     {
       "id": "cnhnb-2307377",
-      "checkedAt": "2026-11-07T17:15:35.824Z",
+      "checkedAt": "2026-11-07T17:34:50.173Z",
       "price": 12.2,
       "unit": "斤",
       "pricePerJin": 12.2,
@@ -572,7 +572,7 @@
     },
     {
       "id": "cnhnb-6683132",
-      "checkedAt": "2026-11-07T17:15:36.653Z",
+      "checkedAt": "2026-11-07T17:34:51.020Z",
       "price": 113,
       "unit": "只",
       "pricePerJin": null,
@@ -580,7 +580,7 @@
     },
     {
       "id": "cnhnb-6228845",
-      "checkedAt": "2026-11-07T17:15:42.320Z",
+      "checkedAt": "2026-11-07T17:34:59.591Z",
       "price": 11,
       "unit": "斤",
       "pricePerJin": 11,
@@ -588,7 +588,7 @@
     },
     {
       "id": "cnhnb-4541833",
-      "checkedAt": "2026-11-07T17:15:43.139Z",
+      "checkedAt": "2026-11-07T17:35:00.469Z",
       "price": 115,
       "unit": "只",
       "pricePerJin": null,
@@ -596,7 +596,7 @@
     },
     {
       "id": "cnhnb-8343570",
-      "checkedAt": "2026-11-07T17:15:46.021Z",
+      "checkedAt": "2026-11-07T17:35:02.675Z",
       "price": 180,
       "unit": "件",
       "pricePerJin": null,
@@ -604,7 +604,7 @@
     },
     {
       "id": "cnhnb-5435351",
-      "checkedAt": "2026-11-07T17:15:47.149Z",
+      "checkedAt": "2026-11-07T17:35:03.525Z",
       "price": 275,
       "unit": "箱",
       "pricePerJin": null,
@@ -612,7 +612,7 @@
     },
     {
       "id": "cnhnb-2381760",
-      "checkedAt": "2026-11-07T17:15:48.008Z",
+      "checkedAt": "2026-11-07T17:35:04.391Z",
       "price": 250,
       "unit": "箱",
       "pricePerJin": null,
@@ -620,7 +620,7 @@
     },
     {
       "id": "cnhnb-6709345",
-      "checkedAt": "2026-11-07T17:15:48.832Z",
+      "checkedAt": "2026-11-07T17:35:05.235Z",
       "price": 265,
       "unit": "箱",
       "pricePerJin": null,
@@ -628,7 +628,7 @@
     },
     {
       "id": "cnhnb-5281586",
-      "checkedAt": "2026-11-07T17:15:49.620Z",
+      "checkedAt": "2026-11-07T17:35:06.109Z",
       "price": 188,
       "unit": "箱",
       "pricePerJin": null,
@@ -636,7 +636,7 @@
     },
     {
       "id": "cnhnb-5784658",
-      "checkedAt": "2026-11-07T17:15:50.474Z",
+      "checkedAt": "2026-11-07T17:35:07.015Z",
       "price": 315,
       "unit": "箱",
       "pricePerJin": null,
@@ -644,7 +644,7 @@
     },
     {
       "id": "cnhnb-6906813",
-      "checkedAt": "2026-11-07T17:15:51.285Z",
+      "checkedAt": "2026-11-07T17:35:07.882Z",
       "price": 185,
       "unit": "件",
       "pricePerJin": null,
@@ -652,7 +652,7 @@
     },
     {
       "id": "cnhnb-5437484",
-      "checkedAt": "2026-11-07T17:15:52.064Z",
+      "checkedAt": "2026-11-07T17:35:08.811Z",
       "price": 7.5,
       "unit": "斤",
       "pricePerJin": 7.5,
@@ -660,7 +660,7 @@
     },
     {
       "id": "cnhnb-7745090",
-      "checkedAt": "2026-11-07T17:15:52.939Z",
+      "checkedAt": "2026-11-07T17:35:09.725Z",
       "price": 184,
       "unit": "件",
       "pricePerJin": null,
@@ -668,7 +668,7 @@
     },
     {
       "id": "cnhnb-7391498",
-      "checkedAt": "2026-11-07T17:15:53.813Z",
+      "checkedAt": "2026-11-07T17:35:10.616Z",
       "price": 180,
       "unit": "件",
       "pricePerJin": null,
@@ -676,7 +676,7 @@
     },
     {
       "id": "cnhnb-3321486",
-      "checkedAt": "2026-11-07T17:15:54.671Z",
+      "checkedAt": "2026-11-07T17:35:11.519Z",
       "price": 255,
       "unit": "箱",
       "pricePerJin": null,
@@ -684,7 +684,7 @@
     },
     {
       "id": "cnhnb-6149120",
-      "checkedAt": "2026-11-07T17:15:55.472Z",
+      "checkedAt": "2026-11-07T17:35:12.365Z",
       "price": 190,
       "unit": "箱",
       "pricePerJin": null,
@@ -692,7 +692,7 @@
     },
     {
       "id": "roujiaosuo-1428231",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 6.5,
       "unit": "公斤",
       "pricePerJin": 3.25,
@@ -700,7 +700,7 @@
     },
     {
       "id": "roujiaosuo-1408889",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 13,
       "unit": "公斤",
       "pricePerJin": 6.5,
@@ -708,7 +708,7 @@
     },
     {
       "id": "roujiaosuo-1577932",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 9,
       "unit": "公斤",
       "pricePerJin": 4.5,
@@ -716,7 +716,7 @@
     },
     {
       "id": "roujiaosuo-1577929",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 7,
       "unit": "公斤",
       "pricePerJin": 3.5,
@@ -724,7 +724,7 @@
     },
     {
       "id": "roujiaosuo-1577942",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 10.5,
       "unit": "公斤",
       "pricePerJin": 5.25,
@@ -732,7 +732,7 @@
     },
     {
       "id": "roujiaosuo-1915263",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 37,
       "unit": "公斤",
       "pricePerJin": 18.5,
@@ -740,7 +740,7 @@
     },
     {
       "id": "roujiaosuo-1915262",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 38,
       "unit": "公斤",
       "pricePerJin": 19,
@@ -748,7 +748,7 @@
     },
     {
       "id": "roujiaosuo-1538897",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 33,
       "unit": "公斤",
       "pricePerJin": 16.5,
@@ -756,7 +756,7 @@
     },
     {
       "id": "roujiaosuo-1924834",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 30,
       "unit": "公斤",
       "pricePerJin": 15,
@@ -764,7 +764,7 @@
     },
     {
       "id": "roujiaosuo-1921045",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 30,
       "unit": "公斤",
       "pricePerJin": 15,
@@ -772,7 +772,7 @@
     },
     {
       "id": "roujiaosuo-1920808",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 30,
       "unit": "公斤",
       "pricePerJin": 15,
@@ -780,7 +780,7 @@
     },
     {
       "id": "roujiaosuo-1932480",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 18,
       "unit": "公斤",
       "pricePerJin": 9,
@@ -788,7 +788,7 @@
     },
     {
       "id": "roujiaosuo-1931516",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 10.5,
       "unit": "公斤",
       "pricePerJin": 5.25,
@@ -796,7 +796,7 @@
     },
     {
       "id": "roujiaosuo-1808267",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 6,
       "unit": "公斤",
       "pricePerJin": 3,
@@ -804,7 +804,7 @@
     },
     {
       "id": "roujiaosuo-1932891",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 24.5,
       "unit": "公斤",
       "pricePerJin": 12.25,
@@ -812,7 +812,7 @@
     },
     {
       "id": "roujiaosuo-823155",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 7,
       "unit": "公斤",
       "pricePerJin": 3.5,
@@ -820,7 +820,7 @@
     },
     {
       "id": "roujiaosuo-1831747",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 4.2,
       "unit": "公斤",
       "pricePerJin": 2.1,
@@ -828,7 +828,7 @@
     },
     {
       "id": "roujiaosuo-1932883",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 2.3,
       "unit": "公斤",
       "pricePerJin": 1.15,
@@ -836,7 +836,7 @@
     },
     {
       "id": "roujiaosuo-1932882",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 8,
       "unit": "公斤",
       "pricePerJin": 4,
@@ -844,7 +844,7 @@
     },
     {
       "id": "roujiaosuo-1603377",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 14,
       "unit": "公斤",
       "pricePerJin": 7,
@@ -852,7 +852,7 @@
     },
     {
       "id": "roujiaosuo-1320700",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 10.5,
       "unit": "公斤",
       "pricePerJin": 5.25,
@@ -860,7 +860,7 @@
     },
     {
       "id": "roujiaosuo-1320007",
-      "checkedAt": "2026-11-07T17:29:18.370Z",
+      "checkedAt": "2026-11-07T17:35:12.366Z",
       "price": 10.5,
       "unit": "公斤",
       "pricePerJin": 5.25,
@@ -868,7 +868,7 @@
     },
     {
       "id": "21food-1006-763",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 9.21,
       "unit": "公斤",
       "pricePerJin": 4.605,
@@ -876,7 +876,7 @@
     },
     {
       "id": "21food-1006-1256",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 13,
       "unit": "公斤",
       "pricePerJin": 6.5,
@@ -884,7 +884,7 @@
     },
     {
       "id": "21food-1006-234",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 6.5,
       "unit": "公斤",
       "pricePerJin": 3.25,
@@ -892,7 +892,7 @@
     },
     {
       "id": "21food-1006-826",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 2.5,
       "unit": "公斤",
       "pricePerJin": 1.25,
@@ -900,7 +900,7 @@
     },
     {
       "id": "21food-1006-150",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 10.5,
       "unit": "公斤",
       "pricePerJin": 5.25,
@@ -908,7 +908,7 @@
     },
     {
       "id": "21food-1006-1747",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 8.5,
       "unit": "公斤",
       "pricePerJin": 4.25,
@@ -916,7 +916,7 @@
     },
     {
       "id": "21food-1006-1310",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 30,
       "unit": "公斤",
       "pricePerJin": 15,
@@ -924,7 +924,7 @@
     },
     {
       "id": "21food-1006-306",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 16,
       "unit": "公斤",
       "pricePerJin": 8,
@@ -932,7 +932,7 @@
     },
     {
       "id": "21food-1006-1395",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 11,
       "unit": "公斤",
       "pricePerJin": 5.5,
@@ -940,7 +940,7 @@
     },
     {
       "id": "21food-1006-1015",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 11,
       "unit": "公斤",
       "pricePerJin": 5.5,
@@ -948,11 +948,75 @@
     },
     {
       "id": "21food-1006-41",
-      "checkedAt": "2026-11-07T17:29:19.032Z",
+      "checkedAt": "2026-11-07T17:35:14.386Z",
       "price": 11.35,
       "unit": "公斤",
       "pricePerJin": 5.675,
       "spec": "市场：北京新发地农副产品批发市场信息中心；展示渠道：食品商务网；非特定供应商成交报价"
+    },
+    {
+      "id": "cnhnb-5943316",
+      "checkedAt": "2026-11-07T17:34:26.134Z",
+      "price": 8,
+      "unit": "斤",
+      "pricePerJin": 8,
+      "spec": "鸡肉状态：白条鸡；货品类别：冰鲜鸡肉；低温存储：是"
+    },
+    {
+      "id": "cnhnb-8819830",
+      "checkedAt": "2026-11-07T17:34:28.737Z",
+      "price": 8.5,
+      "unit": "斤",
+      "pricePerJin": 8.5,
+      "spec": "用途：肉鸭；生长环境：全散养；单只重：4-5斤；品种名：麻鸭；类型：公母混合"
+    },
+    {
+      "id": "cnhnb-5457042",
+      "checkedAt": "2026-11-07T17:34:31.777Z",
+      "price": 4.5,
+      "unit": "斤",
+      "pricePerJin": 4.5,
+      "spec": "用途：肉鸭；生长环境：半圈养半散养；单只重：5-6斤；品种名：麻鸭；类型：公母混合"
+    },
+    {
+      "id": "cnhnb-4342244",
+      "checkedAt": "2026-11-07T17:34:37.269Z",
+      "price": 110,
+      "unit": "只",
+      "pricePerJin": null,
+      "spec": "主要用途：肉鸭；生长环境：全散养；单只重：4-5斤；品种名：土鸭；类型：公母混合"
+    },
+    {
+      "id": "cnhnb-6816137",
+      "checkedAt": "2026-11-07T17:34:41.952Z",
+      "price": 520,
+      "unit": "箱",
+      "pricePerJin": null,
+      "spec": "鸭肉状态：白条鸭；真空包装：否；保质期：18-24个月；品种名：白条鸭；货品类别：冰冻鸭肉"
+    },
+    {
+      "id": "cnhnb-8816948",
+      "checkedAt": "2026-11-07T17:34:46.819Z",
+      "price": 6.8,
+      "unit": "斤",
+      "pricePerJin": 6.8,
+      "spec": "鹅分类：商品鹅（肉鹅）；生长环境：全散养；公母：公母混合；单只重：8-10斤；品种名：三花鹅"
+    },
+    {
+      "id": "cnhnb-7869664",
+      "checkedAt": "2026-11-07T17:34:53.481Z",
+      "price": 90,
+      "unit": "只",
+      "pricePerJin": null,
+      "spec": "鹅分类：商品鹅（肉鹅）；生长环境：全散养；公母：公母混合；单只重：4-6斤；品种名：雁鹅"
+    },
+    {
+      "id": "cnhnb-6244153",
+      "checkedAt": "2026-11-07T17:34:56.200Z",
+      "price": 15,
+      "unit": "斤",
+      "pricePerJin": 15,
+      "spec": "真空包装：否；保质期：1个月；包装方式：散装（食用农产品）；货品类别：新鲜；低温存储：冷冻"
     }
   ]
 }
