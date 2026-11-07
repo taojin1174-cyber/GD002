@@ -1,0 +1,2014 @@
+{
+  "version": 1,
+  "title": "行情跳动",
+  "updated": "2026-11-07T14:37:10.799Z",
+  "taxonomy": [
+    {
+      "id": "pig",
+      "name": "猪",
+      "icon": "🐖",
+      "forms": [
+        "fresh",
+        "frozen",
+        "live",
+        "unknown"
+      ],
+      "breeds": [
+        [
+          "black",
+          "黑猪",
+          [
+            "黑猪",
+            "黑毛猪",
+            "黑土猪"
+          ]
+        ],
+        [
+          "white",
+          "白猪",
+          [
+            "白猪",
+            "大白猪",
+            "长白猪"
+          ]
+        ],
+        [
+          "local",
+          "土猪／土杂猪",
+          [
+            "土猪",
+            "土杂猪"
+          ]
+        ],
+        [
+          "xiang",
+          "香猪",
+          [
+            "香猪"
+          ]
+        ],
+        [
+          "other",
+          "其他／未注明",
+          []
+        ]
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "鸡",
+      "icon": "🐔",
+      "forms": [
+        "fresh",
+        "frozen",
+        "live",
+        "unknown"
+      ],
+      "breeds": [
+        [
+          "qingyuan",
+          "清远鸡",
+          [
+            "清远鸡",
+            "清远麻鸡",
+            "清远肉鸡"
+          ]
+        ],
+        [
+          "ma",
+          "麻鸡",
+          [
+            "麻鸡",
+            "黄麻鸡"
+          ]
+        ],
+        [
+          "sanhuang",
+          "三黄鸡",
+          [
+            "三黄鸡",
+            "三黄肉鸡"
+          ]
+        ],
+        [
+          "local",
+          "土鸡／走地鸡",
+          [
+            "土鸡",
+            "走地鸡",
+            "跑山鸡"
+          ]
+        ],
+        [
+          "black",
+          "乌鸡",
+          [
+            "乌鸡",
+            "乌骨鸡"
+          ]
+        ],
+        [
+          "white",
+          "白羽肉鸡",
+          [
+            "白羽鸡",
+            "白羽肉鸡"
+          ]
+        ],
+        [
+          "wenchang",
+          "文昌鸡",
+          [
+            "文昌鸡"
+          ]
+        ],
+        [
+          "old",
+          "老母鸡／淘汰鸡",
+          [
+            "老母鸡",
+            "淘汰鸡",
+            "老鸡"
+          ]
+        ],
+        [
+          "other",
+          "其他／未注明",
+          []
+        ]
+      ]
+    },
+    {
+      "id": "duck",
+      "name": "鸭",
+      "icon": "🦆",
+      "forms": [
+        "fresh",
+        "frozen",
+        "live",
+        "unknown"
+      ],
+      "breeds": [
+        [
+          "qingtou",
+          "青头鸭",
+          [
+            "青头鸭",
+            "青头麻鸭"
+          ]
+        ],
+        [
+          "ma",
+          "麻鸭",
+          [
+            "麻鸭",
+            "草鸭"
+          ]
+        ],
+        [
+          "fan",
+          "番鸭",
+          [
+            "番鸭",
+            "正番鸭",
+            "红脸鸭",
+            "瘤头鸭"
+          ]
+        ],
+        [
+          "half",
+          "半番鸭",
+          [
+            "半番鸭",
+            "半翻鸭"
+          ]
+        ],
+        [
+          "cherry",
+          "樱桃谷鸭／白鸭",
+          [
+            "樱桃谷鸭",
+            "白鸭"
+          ]
+        ],
+        [
+          "local",
+          "土鸭",
+          [
+            "土鸭"
+          ]
+        ],
+        [
+          "old",
+          "老鸭",
+          [
+            "老鸭",
+            "老种鸭"
+          ]
+        ],
+        [
+          "other",
+          "其他／未注明",
+          []
+        ]
+      ]
+    },
+    {
+      "id": "goose",
+      "name": "鹅",
+      "icon": "🪿",
+      "forms": [
+        "fresh",
+        "frozen",
+        "live",
+        "unknown"
+      ],
+      "breeds": [
+        [
+          "shitou",
+          "狮头鹅",
+          [
+            "狮头鹅"
+          ]
+        ],
+        [
+          "magang",
+          "马岗鹅",
+          [
+            "马岗鹅"
+          ]
+        ],
+        [
+          "black",
+          "黑棕鹅／清远鹅",
+          [
+            "黑棕鹅",
+            "黑鬃鹅",
+            "清远鹅"
+          ]
+        ],
+        [
+          "wanxi",
+          "皖西白鹅",
+          [
+            "皖西白鹅"
+          ]
+        ],
+        [
+          "zhedong",
+          "浙东白鹅",
+          [
+            "浙东白鹅"
+          ]
+        ],
+        [
+          "sanhua",
+          "三花鹅",
+          [
+            "三花鹅"
+          ]
+        ],
+        [
+          "white",
+          "白鹅",
+          [
+            "白鹅"
+          ]
+        ],
+        [
+          "grey",
+          "灰鹅",
+          [
+            "灰鹅"
+          ]
+        ],
+        [
+          "other",
+          "其他／未注明",
+          []
+        ]
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "鸡蛋",
+      "icon": "🥚",
+      "forms": [
+        "ambient",
+        "chilled",
+        "unknown"
+      ],
+      "breeds": [
+        [
+          "white",
+          "白壳蛋",
+          [
+            "白壳蛋",
+            "白鸡蛋"
+          ]
+        ],
+        [
+          "pink",
+          "粉壳蛋",
+          [
+            "粉壳蛋",
+            "粉蛋"
+          ]
+        ],
+        [
+          "red",
+          "红壳蛋",
+          [
+            "红壳蛋",
+            "红皮蛋",
+            "褐壳蛋"
+          ]
+        ],
+        [
+          "local",
+          "土鸡蛋",
+          [
+            "土鸡蛋",
+            "柴鸡蛋",
+            "农家蛋"
+          ]
+        ],
+        [
+          "black",
+          "乌鸡蛋",
+          [
+            "乌鸡蛋"
+          ]
+        ],
+        [
+          "green",
+          "绿壳蛋",
+          [
+            "绿壳蛋"
+          ]
+        ],
+        [
+          "selenium",
+          "富硒蛋",
+          [
+            "富硒蛋",
+            "富硒鸡蛋"
+          ]
+        ],
+        [
+          "ordinary",
+          "普通鸡蛋",
+          [
+            "普通鸡蛋",
+            "洋鸡蛋"
+          ]
+        ],
+        [
+          "other",
+          "其他／未注明",
+          []
+        ]
+      ]
+    }
+  ],
+  "formNames": {
+    "fresh": "鲜品／冰鲜",
+    "frozen": "冻品",
+    "live": "活禽／生猪",
+    "ambient": "常温蛋",
+    "chilled": "冷藏蛋",
+    "unknown": "状态待核实"
+  },
+  "sources": [
+    {
+      "id": "cnhnb",
+      "name": "惠农网",
+      "url": "https://www.cnhnb.com/",
+      "kind": "供应商挂牌价",
+      "status": "collected",
+      "note": "已读取公开商品页的标题、挂牌起报价、单位、产地、起订量和部分规格；报价日期未公开，不代表成交价。",
+      "checkedAt": "2026-11-07T14:37:10.799Z",
+      "recordCount": 43
+    },
+    {
+      "id": "1688",
+      "name": "阿里巴巴 1688",
+      "url": "https://www.1688.com/",
+      "kind": "批发平台",
+      "status": "login",
+      "note": "匿名搜索实测返回登录跳转页，尚未取得商品报价。",
+      "checkedAt": "2026-11-07T14:37:10.799Z",
+      "error": "需要登录或访问验证"
+    },
+    {
+      "id": "chuanwei",
+      "name": "川为冻品",
+      "url": "https://www.chuanweidp.com/",
+      "kind": "餐饮采购平台",
+      "status": "entry",
+      "note": "官网介绍鸡鸭猪牛羊等品类，商品采购入口为 App／小程序；尚未取得公开价目。",
+      "checkedAt": "2026-11-07T14:37:10.799Z",
+      "pageTitle": "川为冻品 - 您的冻品采购好搭档"
+    },
+    {
+      "id": "meicai",
+      "name": "美菜网",
+      "url": "https://m.meicai.cn/",
+      "kind": "餐饮采购平台",
+      "status": "entry",
+      "note": "官网和客户端入口可查；尚未取得公开商品报价，城市、账号价格需另核查。",
+      "checkedAt": "2026-11-07T14:37:10.799Z",
+      "pageTitle": "美菜网-生鲜移动电商平台"
+    },
+    {
+      "id": "kuailehou",
+      "name": "快乐猴",
+      "url": "https://www.meituan.com/",
+      "kind": "终端零售参考",
+      "status": "unverified",
+      "note": "尚未确认独立公开商品价目入口；不把新闻中的促销价当作批发报价。此链接为美团官网。",
+      "checkedAt": null
+    },
+    {
+      "id": "dpdaojia",
+      "name": "冻品到家",
+      "url": "https://www.dpdaojia.com/",
+      "kind": "餐饮采购平台",
+      "status": "failed",
+      "note": "本次访问遇到证书过期，尚未取得公开报价。",
+      "checkedAt": "2026-11-07T14:37:10.799Z",
+      "error": "CERT_HAS_EXPIRED"
+    },
+    {
+      "id": "xiaocan",
+      "name": "晓餐冻品网",
+      "url": "https://www.xiaocan.com.cn/",
+      "kind": "餐饮采购平台",
+      "status": "entry",
+      "note": "官网和小程序入口可查，尚未取得公开商品报价。",
+      "checkedAt": "2026-11-07T14:37:10.799Z",
+      "pageTitle": "晓餐冻品网 - 冻品批发电商平台"
+    },
+    {
+      "id": "21food",
+      "name": "食品商务网",
+      "url": "https://www.21food.cn/",
+      "kind": "供应信息／市场行情",
+      "status": "unverified",
+      "note": "候选来源，商品有效性及采集规则尚待逐项验证。",
+      "checkedAt": null
+    }
+  ],
+  "records": [
+    {
+      "id": "cnhnb-4134398",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/4134398/",
+      "title": "生扒猪头肉（卤菜好食材）",
+      "category": "pig",
+      "breedIds": [
+        "other"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "cut",
+      "price": 7.6,
+      "unit": "斤",
+      "pricePerJin": 7.6,
+      "packNetJin": null,
+      "spec": "保存状态：冻肉；真空包装：是；保质期：12-18个月；猪肉部位：整头猪；包装方式：包装（预包装食品）",
+      "supplier": "何耀军",
+      "origin": "河南省漯河市召陵区",
+      "moq": "200斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:17.764Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-6061764",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6061764/",
+      "title": "香猪肉，新鲜活杀，全国包邮，送货上门，基地考察，一手货源",
+      "category": "pig",
+      "breedIds": [
+        "xiang"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 17,
+      "unit": "斤",
+      "pricePerJin": 17,
+      "packNetJin": null,
+      "spec": "保存状态：冻肉；真空包装：否；保质期：3-6个月；猪肉部位：部位自选；品种名：香猪肉",
+      "supplier": "钟祖丞",
+      "origin": "广西壮族自治区桂林市叠彩区",
+      "moq": "20斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:18.448Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-8421480",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8421480/",
+      "title": "贵州大山里跑山黑土猪肉",
+      "category": "pig",
+      "breedIds": [
+        "black",
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "whole",
+      "price": 18,
+      "unit": "斤",
+      "pricePerJin": 18,
+      "packNetJin": null,
+      "spec": "品种名：土猪肉",
+      "supplier": "刘合邦",
+      "origin": "贵州省黔南布依族苗族自治州都匀市",
+      "moq": "500斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:25.780Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-6049853",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6049853/",
+      "title": "香猪肉  现杀。低脂肪。味美。",
+      "category": "pig",
+      "breedIds": [
+        "xiang"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 15,
+      "unit": "斤",
+      "pricePerJin": 15,
+      "packNetJin": null,
+      "spec": "品种名：香猪肉",
+      "supplier": "唐春明",
+      "origin": "广西壮族自治区桂林市象山区",
+      "moq": "20斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:27.334Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-5651055",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/5651055/",
+      "title": "前夹排骨生肉",
+      "category": "pig",
+      "breedIds": [
+        "other"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "cut",
+      "price": 10,
+      "unit": "斤",
+      "pricePerJin": 10,
+      "packNetJin": null,
+      "spec": "冷鲜肉：冷鲜猪肉；保存状态：冻鲜猪前排骨；猪肉部位：前夹排骨；品种名：五花肉",
+      "supplier": "向宗北",
+      "origin": "云南省普洱市景东彝族自治县",
+      "moq": "2000斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:30.632Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-6243994",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6243994/",
+      "title": "新鲜五花肉，物美价廉，用处多，卖的多",
+      "category": "pig",
+      "breedIds": [
+        "other"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "cut",
+      "price": 5.5,
+      "unit": "斤",
+      "pricePerJin": 5.5,
+      "packNetJin": null,
+      "spec": "保存状态：冰鲜；真空包装：否；保质期：12-18个月；猪肉部位：五花肉；品种名：五花肉；包装方式：散装（食用农产品）",
+      "supplier": "卢强",
+      "origin": "重庆市重庆市九龙坡区",
+      "moq": "2000斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:31.737Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-8655724",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8655724/",
+      "title": "清远鸡，1级货，可发货到门店",
+      "category": "chicken",
+      "breedIds": [
+        "qingyuan",
+        "ma"
+      ],
+      "formIds": [
+        "live"
+      ],
+      "cut": "whole",
+      "price": 11.8,
+      "unit": "斤",
+      "pricePerJin": 11.8,
+      "packNetJin": null,
+      "spec": "用途：肉鸡；生长期：6月以下；活体发货：活体发货；生长环境：全散养；单只重：3-4斤；品种名：麻鸡；类型：母鸡",
+      "supplier": "房瑶祥",
+      "origin": "广东省清远市清城区",
+      "moq": "100斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:37.295Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-8723760",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8723760/",
+      "title": "清远麻鸡当天发货 广东农家散养土鸡 鲜嫩可口 精选优质货源",
+      "category": "chicken",
+      "breedIds": [
+        "qingyuan",
+        "ma",
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "whole",
+      "price": 65,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "品种名：麻鸡",
+      "supplier": "彭叶嫦",
+      "origin": "广东省清远市清城区",
+      "moq": "1只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:37.933Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-2569578",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/2569578/",
+      "title": "土鸡公鸡土公鸡散养青脚黄脚纯粮食喂养整鸡【活鸡现杀】新鲜",
+      "category": "chicken",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "whole",
+      "price": 79.8,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "用途：肉鸡；生长期：6~9月；活体发货：现杀现发；生长环境：全散养；单只重：5-6斤；品种名：肉鸡；类型：公鸡",
+      "supplier": "郭金霞",
+      "origin": "山东省临沂市兰山区",
+      "moq": "1只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:38.603Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-8511793",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8511793/",
+      "title": "清远新鲜土鸡整鸡销售支持批量采购适合餐饮酒店鸡档批发",
+      "category": "chicken",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 22,
+      "unit": "斤",
+      "pricePerJin": 22,
+      "packNetJin": null,
+      "spec": "品种名：土鸡",
+      "supplier": "彭叶嫦",
+      "origin": "广东省清远市清城区",
+      "moq": "1斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:39.235Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-7391877",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7391877/",
+      "title": "京山散养土鸡基地直供，现杀现发",
+      "category": "chicken",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 70,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "真空包装：是；保质期：3-6个月；包装方式：包装（预包装食品）；货品类别：冰鲜鸡肉；低温存储：冷冻",
+      "supplier": "刘小军",
+      "origin": "湖北省武汉市蔡甸区",
+      "moq": "1只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:41.045Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-5982040",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/5982040/",
+      "title": "白条鸡  包邮皖南黄脚土鸡现杀真空包装生鲜老母鸡包黄油口感佳",
+      "category": "chicken",
+      "breedIds": [
+        "local",
+        "old"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 30,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "真空包装：是；保质期：1个月；品种名：白条鸡；货品类别：冰鲜鸡肉；低温存储：冷冻",
+      "supplier": "丁静平",
+      "origin": "安徽省铜陵市郊区",
+      "moq": "2只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:41.699Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-6791446",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6791446/",
+      "title": "顺丰空运包邮8个月海南文昌鸡椰子鸡走地土鸡",
+      "category": "chicken",
+      "breedIds": [
+        "local",
+        "wenchang"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 137,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "真空包装：是；保质期：3-6个月；包装方式：散装（食用农产品）；货品类别：现杀冷冻；低温存储：冷冻",
+      "supplier": "刘威",
+      "origin": "海南省海口市秀英区",
+      "moq": "1箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:43.186Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-7563244",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7563244/",
+      "title": "顺丰包邮～安徽九华山散养跑山土鸡老母鸡童子鸡",
+      "category": "chicken",
+      "breedIds": [
+        "local",
+        "old"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "whole",
+      "price": 69,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "真空包装：是；保质期：3-6个月；品种名：白条鸡；包装方式：包装（预包装食品）；货品类别：下单现杀；低温存储：冷冻",
+      "supplier": "刘威",
+      "origin": "安徽省池州市青阳县",
+      "moq": "1箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:43.835Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-7576594",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7576594/",
+      "title": "新鲜冷冻一级三黄鸡土鸡白条鸡童子鸡9.5公斤7-15只箱装",
+      "category": "chicken",
+      "breedIds": [
+        "sanhuang",
+        "local"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 92,
+      "unit": "件",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "真空包装：否；保质期：12-18个月；品种名：白条鸡；包装方式：包装（预包装食品）；货品类别：冰冻鸡肉；低温存储：冷冻",
+      "supplier": "王俊慧",
+      "origin": "山东省德州市禹城市",
+      "moq": "500件起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:44.452Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-8664686",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8664686/",
+      "title": "新鲜冷冻三黄鸡 直脚三黄鸡9只10只童子鸡整鸡商用批发",
+      "category": "chicken",
+      "breedIds": [
+        "sanhuang"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 93,
+      "unit": "件",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "真空包装：否；保质期：12-18个月；品种名：白条鸡；包装方式：包装（预包装食品）；货品类别：冰冻鸡肉；低温存储：冷冻",
+      "supplier": "王俊慧",
+      "origin": "山东省德州市禹城市",
+      "moq": "1000件起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:45.111Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-7576621",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7576621/",
+      "title": "生鲜冷冻三黄鸡二级残鸡散养鸡土鸡9.5公斤9-16只箱装",
+      "category": "chicken",
+      "breedIds": [
+        "sanhuang",
+        "local"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 67,
+      "unit": "件",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "真空包装：否；保质期：12-18个月；品种名：白条鸡；包装方式：包装（预包装食品）；货品类别：冰冻鸡肉；低温存储：冷冻",
+      "supplier": "王俊慧",
+      "origin": "山东省德州市禹城市",
+      "moq": "1000件起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:45.743Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-8892744",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8892744/",
+      "title": "广东肇庆青头鸭活禽",
+      "category": "duck",
+      "breedIds": [
+        "qingtou"
+      ],
+      "formIds": [
+        "live"
+      ],
+      "cut": "whole",
+      "price": 70,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "用途：肉鸭；生长环境：全散养；单只重：7-8斤；品种名：绿头鸭",
+      "supplier": "陈伟超",
+      "origin": "广东省肇庆市端州区",
+      "moq": "500只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:46.375Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-6683126",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6683126/",
+      "title": "土鸭【5年老鸭】农村散养麻鸭笨鸭新鲜鸭子肉整只现宰现发",
+      "category": "duck",
+      "breedIds": [
+        "ma",
+        "local",
+        "old"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 105,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "用途：肉鸭；生长环境：全散养；单只重：5-6斤；品种名：土鸭；类型：公母混合",
+      "supplier": "郭金霞",
+      "origin": "山东省临沂市兰山区",
+      "moq": "1只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:48.829Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-7770658",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7770658/",
+      "title": "黑嘴麻鸭 整鸭切块真空包装 厂家冻品直销支持电商代发",
+      "category": "duck",
+      "breedIds": [
+        "ma"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "cut",
+      "price": 8.5,
+      "unit": "斤",
+      "pricePerJin": 8.5,
+      "packNetJin": null,
+      "spec": "用途：肉鸭；生长环境：半圈养半散养；品种名：麻鸭；类型：公母混合",
+      "supplier": "徐从鹏",
+      "origin": "山东省临沂市沂南县",
+      "moq": "2000斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:49.501Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-8890049",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8890049/",
+      "title": "番鸭散养老鸭红脸正番鸭姜母鸭炖汤老鸭子豚鸭肉白切鸭批发",
+      "category": "duck",
+      "breedIds": [
+        "fan",
+        "old"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 9.5,
+      "unit": "斤",
+      "pricePerJin": 9.5,
+      "packNetJin": null,
+      "spec": "鸭肉状态：白条鸭；保质期：保鲜发货；品种名：白条鸭；包装方式：散装（食用农产品）；货品类别：热鲜鸭肉",
+      "supplier": "何家致",
+      "origin": "广东省佛山市南海区",
+      "moq": "50斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:51.071Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-6708469",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6708469/",
+      "title": "番鸭  鸭肉类—工厂直发非洲雁，老番鸭红嘴雁，洋鸭",
+      "category": "duck",
+      "breedIds": [
+        "fan"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 230,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "鸭肉状态：白条鸭；真空包装：否；保质期：18-24个月；品种名：白条鸭；货品类别：冰冻鸭肉",
+      "supplier": "黄求国",
+      "origin": "江苏省苏州市昆山市",
+      "moq": "10箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:51.738Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-8722081",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8722081/",
+      "title": "鸭肉类 新鲜光鸭净膛5—6斤，烧鸭专用优质食材， 量大从优",
+      "category": "duck",
+      "breedIds": [
+        "other"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 5.6,
+      "unit": "斤",
+      "pricePerJin": 5.6,
+      "packNetJin": null,
+      "spec": "鸭肉状态：白条鸭；品种名：白条鸭；货品类别：冰鲜鸭肉",
+      "supplier": "黄柏威",
+      "origin": "广东省佛山市南海区",
+      "moq": "100斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:52.378Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-6816137",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6816137/",
+      "title": "老麻鸭  冷冻老麻鸭-掏肚老鸭，量大优惠",
+      "category": "duck",
+      "breedIds": [
+        "ma",
+        "old"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 520,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "鸭肉状态：白条鸭；真空包装：否；保质期：18-24个月；品种名：白条鸭；货品类别：冰冻鸭肉",
+      "supplier": "黄求国",
+      "origin": "江苏省苏州市昆山市",
+      "moq": "5箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:53.017Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-7583842",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7583842/",
+      "title": "老鸭 白条鸭 老种鸭",
+      "category": "duck",
+      "breedIds": [
+        "old"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 210,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "鸭肉状态：白条鸭；真空包装：否；保质期：18-24个月；包装方式：包装（预包装食品）；货品类别：冰冻鸭肉",
+      "supplier": "黄四化",
+      "origin": "山东省济南市历城区",
+      "moq": "1箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:53.659Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-7710857",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7710857/",
+      "title": "1只起批农家散养土鸭鸭肉嫩鸭子草鸭白条鸭麻鸭新鲜现杀鸭血",
+      "category": "duck",
+      "breedIds": [
+        "ma",
+        "local"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 20,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "品种名：土鸭",
+      "supplier": "施泽展",
+      "origin": "安徽省合肥市巢湖市",
+      "moq": "2只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:54.308Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-8401595",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8401595/",
+      "title": "广东黑棕鹅 鲜速冻发货",
+      "category": "goose",
+      "breedIds": [
+        "black"
+      ],
+      "formIds": [
+        "frozen"
+      ],
+      "cut": "whole",
+      "price": 12.5,
+      "unit": "斤",
+      "pricePerJin": 12.5,
+      "packNetJin": null,
+      "spec": "鹅分类：商品鹅（肉鹅）；生长环境：半圈养半散养；单只重：5-11斤；公母：公母混合；品种名：黑棕鹅",
+      "supplier": "林金水",
+      "origin": "广东省佛山市南海区",
+      "moq": "100斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:56.478Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-4848985",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/4848985/",
+      "title": "大鹅 (农村散养大鹅) 活体  速冻白条",
+      "category": "goose",
+      "breedIds": [
+        "white"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "whole",
+      "price": 110,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "鹅分类：种鹅；生长环境：全散养；单只重：10-12斤；公母：公母混合；品种名：白鹅",
+      "supplier": "刘海龙",
+      "origin": "黑龙江省大庆市肇源县",
+      "moq": "1只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:57.870Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-8258249",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8258249/",
+      "title": "广东清远黑棕鹅新鲜速冻乌棕鹅棚鹅茶餐厅酒店烧腊烧鹅原材料",
+      "category": "goose",
+      "breedIds": [
+        "black"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "whole",
+      "price": 12.8,
+      "unit": "斤",
+      "pricePerJin": 12.8,
+      "packNetJin": null,
+      "spec": "鹅分类：整只鹅；生长环境：棚鹅；单只重：4-6斤；公母：公母混合；品种名：黑棕鹅",
+      "supplier": "林思慧",
+      "origin": "广东省佛山市南海区",
+      "moq": "30斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:58.804Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-2401851",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/2401851/",
+      "title": "杂交鹅  泰州白鹅 三花杂交 大三花鹅批发，厂家直销",
+      "category": "goose",
+      "breedIds": [
+        "sanhua",
+        "white"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "whole",
+      "price": 12.8,
+      "unit": "斤",
+      "pricePerJin": 12.8,
+      "packNetJin": null,
+      "spec": "生长环境：全圈养；单只重：8-10斤；品种名：杂交鹅",
+      "supplier": "杜凤杰",
+      "origin": "河南省濮阳市濮阳县",
+      "moq": "18000斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:37:59.421Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-2307377",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/2307377/",
+      "title": "大种特大散养白鹅，四季鹅大白鹅灰鹅，三花鹅厂家直销",
+      "category": "goose",
+      "breedIds": [
+        "sanhua",
+        "white",
+        "grey"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "whole",
+      "price": 12.2,
+      "unit": "斤",
+      "pricePerJin": 12.2,
+      "packNetJin": null,
+      "spec": "生长环境：半圈养半散养；单只重：8-10斤；品种名：肉鹅",
+      "supplier": "杜凤杰",
+      "origin": "河南省濮阳市濮阳县",
+      "moq": "12000斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:00.072Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-6683132",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6683132/",
+      "title": "鹅新鲜土鹅白鹅雁鹅整只鹅净重6～7斤农家散养现宰现发",
+      "category": "goose",
+      "breedIds": [
+        "white"
+      ],
+      "formIds": [
+        "fresh"
+      ],
+      "cut": "whole",
+      "price": 113,
+      "unit": "只",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "鹅分类：商品鹅（肉鹅）；生长环境：全散养；单只重：6-8斤；公母：公母混合；品种名：白鹅",
+      "supplier": "郭金霞",
+      "origin": "山东省临沂市兰山区",
+      "moq": "1只起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:00.758Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-8343570",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/8343570/",
+      "title": "湖北恩施（散养）土鸡蛋，山林养殖，杂粮喂养无中间商基地直供",
+      "category": "egg",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 180,
+      "unit": "件",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：40~50g；蛋种类：土鸡蛋；蛋黄颜色：散养土鸡蛋蛋黄颜色深浅都有；蛋重等级：中码蛋；品种名：土鸡蛋",
+      "supplier": "廖海清",
+      "origin": "湖北省武汉市蔡甸区",
+      "moq": "1件起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:04.267Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-5435351",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/5435351/",
+      "title": "绿壳蛋",
+      "category": "egg",
+      "breedIds": [
+        "green"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 275,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：30g以下；品种名：初生蛋",
+      "supplier": "刘兵",
+      "origin": "湖北省荆门市京山市",
+      "moq": "5箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:04.913Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-2381760",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/2381760/",
+      "title": "湖北随州  新杨绿 10.5个 一斤",
+      "category": "egg",
+      "breedIds": [
+        "green"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 250,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：30-40g；蛋种类：笼养江汉土鸡；蛋黄颜色：黄心蛋黄；蛋重等级：小码蛋；品种名：绿壳蛋",
+      "supplier": "裴超文",
+      "origin": "湖北省随州市曾都区",
+      "moq": "1箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:05.640Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-6709345",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6709345/",
+      "title": "湖北武汉 双色大码绿壳蛋 新扬绿 宝强绿 翡翠绿 10个一斤",
+      "category": "egg",
+      "breedIds": [
+        "local",
+        "green"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 265,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：40~50g；蛋种类：土鸡蛋；蛋黄颜色：红心蛋黄；蛋重等级：大码蛋；品种名：绿壳蛋",
+      "supplier": "辜红霞",
+      "origin": "湖北省武汉市硚口区",
+      "moq": "10箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:06.284Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-5281586",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/5281586/",
+      "title": "180-360枚京山散养土鸡蛋基地直供，现捡现发",
+      "category": "egg",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 188,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：40~50g；蛋种类：土鸡蛋；蛋黄颜色：散养土鸡蛋蛋黄颜色深浅都有；蛋重等级：中码蛋；品种名：土鸡蛋",
+      "supplier": "刘小军",
+      "origin": "湖北省武汉市蔡甸区",
+      "moq": "1箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:06.922Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-6906813",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6906813/",
+      "title": "360枚京山散养绿壳土鸡蛋基地直供，现捡现发。",
+      "category": "egg",
+      "breedIds": [
+        "local",
+        "black"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 185,
+      "unit": "件",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：40~50g；蛋种类：土鸡蛋；蛋黄颜色：散养土鸡蛋蛋黄颜色深浅都有；蛋重等级：中码蛋；品种名：乌鸡蛋",
+      "supplier": "刘小军",
+      "origin": "湖北省武汉市蔡甸区",
+      "moq": "1件起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:08.960Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-5437484",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/5437484/",
+      "title": "土鸡蛋初生蛋420枚粉绿组合装",
+      "category": "egg",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 7.5,
+      "unit": "斤",
+      "pricePerJin": 7.5,
+      "packNetJin": null,
+      "spec": "单颗重：30g以下；蛋种类：土鸡蛋；蛋黄颜色：黄心蛋黄；蛋重等级：小码蛋；品种名：初生蛋",
+      "supplier": "刘兵",
+      "origin": "湖北省荆门市京山市",
+      "moq": "100斤起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:09.619Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准"
+      ]
+    },
+    {
+      "id": "cnhnb-7745090",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7745090/",
+      "title": "360枚京山散养土鸡蛋基地直供，现捡现发",
+      "category": "egg",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 184,
+      "unit": "件",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：30-40g；蛋种类：土鸡蛋；蛋黄颜色：散养土鸡蛋蛋黄颜色深浅都有；蛋重等级：初生蛋；品种名：初生蛋",
+      "supplier": "刘小军",
+      "origin": "湖北省武汉市蔡甸区",
+      "moq": "1件起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:10.283Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-7391498",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/7391498/",
+      "title": "湖北恩施（散养）土鸡蛋，山林养殖，杂粮喂养无中间商基地直供",
+      "category": "egg",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 180,
+      "unit": "件",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：40~50g；蛋种类：土鸡蛋；土鸡蛋：高品质；蛋黄颜色：土鸡是散养，蛋黄是金黄色；蛋重等级：散养土鸡蛋；品种名：土鸡蛋",
+      "supplier": "廖海清",
+      "origin": "湖北省武汉市蔡甸区",
+      "moq": "1件起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:10.980Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-3321486",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/3321486/",
+      "title": "湖北随州 土鸡蛋   新杨绿  苏禽 12.5个一斤",
+      "category": "egg",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 255,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：30-40g；蛋种类：土鸡蛋；蛋黄颜色：红心蛋黄；蛋重等级：小码蛋；品种名：初生蛋",
+      "supplier": "裴超文",
+      "origin": "湖北省随州市曾都区",
+      "moq": "1箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:11.612Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    },
+    {
+      "id": "cnhnb-6149120",
+      "sourceId": "cnhnb",
+      "sourceName": "惠农网",
+      "priceType": "供应商挂牌价",
+      "url": "https://www.cnhnb.com/gongying/6149120/",
+      "title": "农家散养土鸡土鸡蛋",
+      "category": "egg",
+      "breedIds": [
+        "local"
+      ],
+      "formIds": [
+        "unknown"
+      ],
+      "cut": "egg",
+      "price": 190,
+      "unit": "箱",
+      "pricePerJin": null,
+      "packNetJin": null,
+      "spec": "单颗重：30g以下；蛋种类：土鸡蛋；蛋黄颜色：双色蛋黄；蛋重等级：中码蛋；品种名：土鸡蛋",
+      "supplier": "陈林军",
+      "origin": "湖北省潜江市潜江市",
+      "moq": "3箱起批",
+      "freight": "运费待确认",
+      "quoteDate": null,
+      "checkedAt": "2026-11-07T14:38:12.246Z",
+      "active": true,
+      "notes": [
+        "平台未明确报价日期",
+        "挂牌起报价，以具体规格与起订量为准",
+        "缺少明确净重或均重，暂不折算"
+      ]
+    }
+  ],
+  "coverage": {
+    "scope": "公开列表首页的限量样本，并非全平台全部商品",
+    "discovered": 164,
+    "attempted": 60,
+    "collected": 43
+  },
+  "diagnostics": [
+    {
+      "url": "https://www.cnhnb.com/p/zhurou/",
+      "ok": true,
+      "count": 12
+    },
+    {
+      "url": "https://www.cnhnb.com/p/shengzhu/",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "url": "https://www.cnhnb.com/p/ji/",
+      "ok": true,
+      "count": 19
+    },
+    {
+      "url": "https://www.cnhnb.com/p/jirou/",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "url": "https://www.cnhnb.com/p/ya/",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "url": "https://www.cnhnb.com/p/yarou/",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "url": "https://www.cnhnb.com/p/e/",
+      "ok": true,
+      "count": 19
+    },
+    {
+      "url": "https://www.cnhnb.com/p/erou/",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "url": "https://www.cnhnb.com/p/jidan/",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8239922/",
+      "ok": false,
+      "error": "无法确定报价单位"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/7010623/",
+      "ok": false,
+      "error": "无法确定报价单位"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8750292/",
+      "ok": false,
+      "error": "无法确定报价单位"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/7015215/",
+      "ok": false,
+      "error": "无法确定报价单位"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/4652304/",
+      "ok": false,
+      "error": "无法确定报价单位"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8788629/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8819830/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/5457042/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/4342244/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8816948/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8865502/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8692234/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8485960/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/8480363/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    },
+    {
+      "url": "https://www.cnhnb.com/gongying/5784658/",
+      "ok": false,
+      "error": "非食材商品或没有有效商品结构"
+    }
+  ]
+}

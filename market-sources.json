@@ -1,0 +1,29 @@
+{
+ "sources":[
+  {"id":"cnhnb","name":"惠农网","url":"https://www.cnhnb.com/","kind":"供应商挂牌价","status":"pending","note":"采集公开供应列表和商品页；不使用搜索摘要充当实时报价。"},
+  {"id":"1688","name":"阿里巴巴 1688","url":"https://www.1688.com/","probeUrl":"https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%9D%92%E5%A4%B4%E9%B8%AD","kind":"批发平台","status":"pending","note":"匿名搜索实测返回登录跳转页，尚未取得商品报价。"},
+  {"id":"chuanwei","name":"川为冻品","url":"https://www.chuanweidp.com/","kind":"餐饮采购平台","status":"pending","note":"官网介绍鸡鸭猪牛羊等品类，商品采购入口为 App／小程序；尚未取得公开价目。"},
+  {"id":"meicai","name":"美菜网","url":"https://m.meicai.cn/","kind":"餐饮采购平台","status":"pending","note":"官网和客户端入口可查；尚未取得公开商品报价，城市、账号价格需另核查。"},
+  {"id":"kuailehou","name":"快乐猴","url":"https://www.meituan.com/","kind":"终端零售参考","status":"unverified","note":"尚未确认独立公开商品价目入口；不把新闻中的促销价当作批发报价。此链接为美团官网。"},
+  {"id":"dpdaojia","name":"冻品到家","url":"https://www.dpdaojia.com/","kind":"餐饮采购平台","status":"pending","note":"本次访问遇到证书过期，尚未取得公开报价。"},
+  {"id":"xiaocan","name":"晓餐冻品网","url":"https://www.xiaocan.com.cn/","kind":"餐饮采购平台","status":"pending","note":"官网和小程序入口可查，尚未取得公开商品报价。"},
+  {"id":"21food","name":"食品商务网","url":"https://www.21food.cn/","kind":"供应信息／市场行情","status":"unverified","note":"候选来源，商品有效性及采集规则尚待逐项验证。"}
+ ],
+ "lists":[
+  {"category":"pig","url":"https://www.cnhnb.com/p/zhurou/"},
+  {"category":"pig","url":"https://www.cnhnb.com/p/shengzhu/"},
+  {"category":"chicken","url":"https://www.cnhnb.com/p/ji/"},
+  {"category":"chicken","url":"https://www.cnhnb.com/p/jirou/"},
+  {"category":"duck","url":"https://www.cnhnb.com/p/ya/"},
+  {"category":"duck","url":"https://www.cnhnb.com/p/yarou/"},
+  {"category":"goose","url":"https://www.cnhnb.com/p/e/"},
+  {"category":"goose","url":"https://www.cnhnb.com/p/erou/"},
+  {"category":"egg","url":"https://www.cnhnb.com/p/jidan/"}
+ ],
+ "seeds":[
+  {"category":"duck","url":"https://www.cnhnb.com/gongying/8892744/"},
+  {"category":"duck","url":"https://www.cnhnb.com/gongying/7583842/"},
+  {"category":"chicken","url":"https://www.cnhnb.com/gongying/8655724/"},
+  {"category":"chicken","url":"https://www.cnhnb.com/gongying/5943316/"}
+ ]
+}

@@ -4,7 +4,7 @@
 import json, os, re, hashlib, difflib, urllib.request
 from datetime import datetime, timezone, timedelta
 
-FILES = {"food": "data.json", "ai": "ai.json", "eco": "eco.json", "mil": "mil.json"}
+FILES = {"food": "data.json", "ai": "ai.json", "eco": "eco.json"}
 TITLE_KEYS = ("title", "t", "name")
 URL_KEYS = ("url", "link", "href")
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-5-5")

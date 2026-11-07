@@ -102,7 +102,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 <div class="row">
 <h1>热点<b>观察</b><span id="chan"></span></h1>
 <div class="chans">
-<a class="ch f" href="./" data-d="food">🍱 食品</a><a class="ch a" href="?d=ai" data-d="ai">🤖 AI</a><a class="ch e" href="?d=eco" data-d="eco">🌐 经济</a><a class="ch m" href="?d=mil" data-d="mil">🛡 军事</a>
+<a class="ch f" href="./" data-d="food">🍱 食品</a><a class="ch a" href="?d=ai" data-d="ai">🤖 AI</a><a class="ch e" href="?d=eco" data-d="eco">🌐 经济</a><a class="ch m" href="market.html">📈 行情跳动</a>
 </div>
 <span class="sp"></span>
 <div class="tools">
@@ -121,8 +121,10 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 <script>
 "use strict";
 const $=s=>document.querySelector(s);
-const CH={food:{f:"data",t:"预制菜 · 食品热点观察"},ai:{f:"ai",t:"AI 动态 · 全球观察"},eco:{f:"eco",t:"经济 · 政策与宏观"},mil:{f:"mil",t:"军事 · 动态观察"}};
+const CH={food:{f:"data",t:"预制菜 · 食品热点观察"},ai:{f:"ai",t:"AI 动态 · 全球观察"},eco:{f:"eco",t:"经济 · 政策与宏观"}};
 const QQ=(location.search.match(/[?&]d=([^&]*)/)||[])[1]||"";
+// 保留旧军事入口和频道式链接的可达性。
+if(QQ==="mil"||QQ==="market")location.replace("market.html");
 const cur=CH[QQ]?QQ:"food";
 const FK="food-hot-fav",EK="theme";
 let D=null,cat="全部",kw="",sig="";

@@ -54,7 +54,7 @@ jobs:
           task "AI 频道" python ai.py
           task "重点来源" python focus.py
           task "经济频道" python eco.py
-          task "军事频道" python mil.py
+          # 行情在独立工作流中每日限量采集，避免每小时重复访问批发平台。
 
       # 清洗是纯本地逻辑，失败说明有真 bug：宁可这次不发布，也不发布脏数据
       - name: 清洗 · 去重 · 压缩
@@ -66,7 +66,7 @@ jobs:
           import json
           print("| 频道 | 榜单数 | 条目数 | 更新时间 |")
           print("|---|---|---|---|")
-          for name, f in [("食品", "data.json"), ("AI", "ai.json"), ("经济", "eco.json"), ("军事", "mil.json")]:
+          for name, f in [("食品", "data.json"), ("AI", "ai.json"), ("经济", "eco.json")]:
               try:
                   d = json.load(open(f, encoding="utf-8"))
                   b = d.get("boards", [])
@@ -79,7 +79,7 @@ jobs:
 
       - name: 提交数据
         run: |
-          FILES="data.json archive.json links.json archive2.json links2.json links3.json links4.json links5.json links6.json links7.json queue_archive.json ai.json eco.json mil.json meta.json translate_cache.json highlights.json"
+          FILES="data.json archive.json links.json archive2.json links2.json links3.json links4.json links5.json links6.json links7.json queue_archive.json ai.json eco.json meta.json translate_cache.json highlights.json"
           # 这些缓存文件可能还不存在，先建空对象，避免每轮翻译/要点都从零开始（有 API key 时才真正产生成本）
           [ -f translate_cache.json ] || echo '{}' > translate_cache.json
           [ -f highlights.json ] || echo '{}' > highlights.json
