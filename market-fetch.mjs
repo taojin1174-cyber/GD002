@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {taxonomy,formNames,classify,excludeProduct,normalizePrice,productCut} from './market-core.mjs';
+import {collectExtra} from './market-extra.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const read=async(name,fallback)=>{try{return JSON.parse(await fs.readFile(path.join(root,name),'utf8'));}catch{return fallback;}};
 export function text(html=''){return String(html).replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/\s+/g,' ').trim();}
@@ -70,11 +71,13 @@ export async function collect(){
  for(const item of chosen){seenDetails.add(item.url);try{const r=parseProduct(await get(item.url),item.url,item.category,new Date().toISOString());records.push(r);console.log(`商品成功 ${item.category}: ${r.title} ${r.price}元/${r.unit}`);}catch(e){failedDetails.add(item.url);diagnostics.push({url:item.url,ok:false,error:e.message});console.log(`商品跳过 ${item.url}: ${e.message}`);}}
  // 未抽样到的旧报价保留原核查时间；确认下架的条目不继续展示。
  const invalidUrls=new Set(diagnostics.filter(d=>/下架|失效|不存在|删除|无货|苗种|育种/.test(d.error||'')).map(d=>d.url));
+ const extra=await collectExtra(get);records.push(...extra.records);
  const merged=new Map(records.map(r=>[r.id,r]));
  for(const r of old.records||[]){if(!merged.has(r.id)&&!excludeProduct(r.title,r.spec)&&!invalidUrls.has(r.url)&&Date.now()-Date.parse(r.checkedAt)<30*86400000)merged.set(r.id,{...r,latestCheckFailed:failedDetails.has(r.url)||(!seenDetails.has(r.url)&&r.latestCheckFailed)||false});}
- const sources=[];
+ const sources=[...extra.sources];
  for(const original of config.sources){const source={...original,checkedAt:new Date().toISOString()};
-  if(source.id==='cnhnb'){source.status=records.length?'collected':'failed';source.recordCount=records.length;source.note=records.length?'已读取公开商品页的标题、挂牌起报价、单位、产地、起订量和部分规格；报价日期未公开，不代表成交价。':'本轮未取得商品报价；如有旧记录，仍保留原核查时间。';}
+  if(extra.sources.some(s=>s.id===source.id))continue;
+  if(source.id==='cnhnb'){const count=records.filter(r=>r.sourceId==='cnhnb').length;source.status=count?'collected':'failed';source.recordCount=count;source.note=count?'已读取公开商品页的标题、挂牌起报价、单位、产地、起订量和部分规格；报价日期未公开，不代表成交价。':'本轮未取得商品报价；如有旧记录，仍保留原核查时间。';}
   else if(source.status==='unverified'){source.checkedAt=null;}
   else {try{const html=await get(source.probeUrl||source.url);source.status='entry';source.note=source.id==='1688'?'返回入口页面，尚未取得可解析的商品报价。':source.note;source.pageTitle=text(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]);}catch(e){source.status=/登录|验证/.test(e.message)?'login':'failed';source.error=e.cause?.code||e.message;}}
   delete source.probeUrl;sources.push(source);

@@ -17,14 +17,15 @@
 <header><div class="topbar"><a href="./" class="brand">热点<b>观察</b></a><nav aria-label="主导航"><a href="./">食品</a><a href="./?d=ai">AI</a><a href="./?d=eco">经济</a><a href="market.html" class="active" aria-current="page">行情跳动</a></nav><button id="theme" aria-label="切换深色模式">◐</button></div></header>
 <main>
 <div class="intro"><div><div class="eyebrow">批发货源 · 采购参考</div><h1>行情跳动</h1><p>从猪禽蛋到具体品种，集中查阅公开报价与货源。每条价格，都能回到原网站核实。</p></div><div class="time"><span class="dot"></span>公开页面核查<br><span id="updated">正在加载…</span></div></div>
-<div class="stats"><div class="stat"><b id="statRecords">—</b><span>条公开商品样本</span></div><div class="stat"><b id="statCategories">5</b><span>个猪禽蛋大类</span></div><div class="stat"><b id="statSources">—</b><span>个平台已取得报价</span></div></div>
-<p class="notice">这里展示供应商公开挂牌起报价，非成交价、非到厂价，也不代表全国最低价。采集时间与报价日期分别标注；无法确认鲜冻状态的商品归入“状态待核实”。</p>
+<div class="stats"><div class="stat"><b id="statRecords">—</b><span>条公开报价记录</span></div><div class="stat"><b id="statCategories">5</b><span>个猪禽蛋大类</span></div><div class="stat"><b id="statSources">—</b><span>个平台已取得报价</span></div></div>
+<p class="notice">默认展示供应商公开挂牌报价；市场参考价请切换“报价口径”查看。两者非成交价、非到厂价，也不代表全国最低价。采集时间与报价日期分别标注；无法确认鲜冻状态的商品归入“状态待核实”。</p>
 <div class="workspace">
 <aside class="panel" aria-label="商品筛选"><h2>逐级查找</h2>
 <label>01 · 大类<select id="category" aria-label="大类"></select></label>
 <label>02 · 鲜冻状态<select id="form" aria-label="鲜冻状态"></select></label>
 <label>03 · 品种<select id="breed" aria-label="品种"></select></label>
 <label>商品部位<select id="cut"><option value="">全部部位</option><option value="whole">整只／整猪／未注明部位</option><option value="cut">分割品／副产品</option><option value="egg">蛋类</option></select></label>
+<label>报价口径<select id="kind"><option value="offer">供应商挂牌报价</option><option value="market">批发市场参考价</option><option value="">全部口径（谨慎比较）</option></select></label>
 <label>来源平台<select id="source"><option value="">全部平台</option></select></label>
 <label>发货地<select id="region"><option value="">全国</option></select></label>
 <label>关键词<input id="q" type="search" placeholder="品种、规格、供应商" autocomplete="off"></label>

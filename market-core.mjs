@@ -32,5 +32,5 @@ export function safeUrl(value){try{const u=new URL(value);return ['https:','http
 export function stale(record,now=Date.now()){return !record.checkedAt||now-Date.parse(record.checkedAt)>7*86400000;}
 export function selectRecords(records,filters={}){
  const q=(filters.q||'').trim().toLowerCase();
- return records.filter(r=>(!filters.category||r.category===filters.category)&&(!filters.form||r.formIds.includes(filters.form))&&(!filters.breed||r.breedIds.includes(filters.breed))&&(!filters.source||r.sourceId===filters.source)&&(!filters.region||String(r.origin).includes(filters.region))&&(!filters.cut||r.cut===filters.cut)&&(!filters.pricedOnly||r.pricePerJin!==null)&&(!q||[r.title,r.supplier,r.origin,r.spec,r.sourceName].join(' ').toLowerCase().includes(q)));
+ return records.filter(r=>(!filters.kind||(r.recordKind||'offer')===filters.kind)&&(!filters.category||r.category===filters.category)&&(!filters.form||r.formIds.includes(filters.form))&&(!filters.breed||r.breedIds.includes(filters.breed))&&(!filters.source||r.sourceId===filters.source)&&(!filters.region||String(r.origin).includes(filters.region))&&(!filters.cut||r.cut===filters.cut)&&(!filters.pricedOnly||r.pricePerJin!==null)&&(!q||[r.title,r.supplier,r.origin,r.spec,r.sourceName].join(' ').toLowerCase().includes(q)));
 }
